@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: The Cooperative Computing Lab # the website title (if blank, full name will be used instead)
+first_name: FN_PLACEHOLDER
+middle_name: MN_PLACEHOLDER
+last_name: LN_PLACEHOLDER
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -47,7 +47,7 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
@@ -192,6 +192,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/cv.md
 keep_files:
   - CNAME
   - .nojekyll
