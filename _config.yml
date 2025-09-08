@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🖥️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/) #TODO_CCL: Replace icon with ND Logo
 
 url: https://alshedivat.github.io # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: CCL Blog # blog_name will be displayed in your blog page
+blog_description: news, updates, and articles from the CCL team
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -193,6 +193,8 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/cv.md
+  - _pages/teaching.md
+  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll

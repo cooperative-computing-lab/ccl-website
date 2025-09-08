@@ -64,6 +64,15 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+        <!-- Community highlights -->
+    {% if page.community_highlights %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">community highlights</a>
+      </h2>
+      {% comment %} {% include community_highlights.liquid %} {% endcomment %}
+    {% endif %}
+
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
