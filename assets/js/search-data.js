@@ -4,75 +4,131 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/al-folio/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "dropdown-papers",
+              title: "Papers",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/publications/";
+              },
+            },{id: "dropdown-projects",
+              title: "Projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/projects/";
+              },
+            },{id: "dropdown-people",
+              title: "People",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/people/";
+              },
+            },{id: "dropdown-jobs",
+              title: "Jobs",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/jobs/";
+              },
+            },{id: "dropdown-all-softwares",
+              title: "All Softwares",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/Softwares/";
+              },
+            },{id: "dropdown-manuals",
+              title: "Manuals",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://cctools.readthedocs.io/en/stable/";
+              },
+            },{id: "dropdown-install",
+              title: "Install",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/install/";
+              },
+            },{id: "dropdown-repositories",
+              title: "Repositories",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/repositories/";
+              },
+            },{id: "dropdown-getting-help",
+              title: "Getting Help",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/help/";
+              },
+            },{id: "dropdown-workshops",
+              title: "Workshops",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/workshops/";
+              },
+            },{id: "dropdown-highlights",
+              title: "Highlights",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/highlights/";
+              },
+            },{id: "dropdown-for-developers",
+              title: "For Developers",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/developers/";
+              },
+            },{id: "dropdown-condor-display",
+              title: "Condor Display",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "http://condor.cse.nd.edu/condor_matrix.cgi";
+              },
+            },{id: "dropdown-condor-pool",
+              title: "Condor Pool",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/condor/";
+              },
+            },{id: "dropdown-condor-log-analyzer",
+              title: "Condor Log Analyzer",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://condorlog.cse.nd.edu/";
+              },
+            },{id: "dropdown-internal-docs",
+              title: "Internal Docs",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://github.com/cooperative-computing-lab/ccl-internal-docs/blob/master/docs/index.md";
+              },
+            },{id: "nav-blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/blog/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "publications by categories in reversed chronological order. generated by jekyll-scholar.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/publications/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/al-folio/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/al-folio/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
