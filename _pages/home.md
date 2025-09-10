@@ -30,3 +30,5 @@ community_highlights:
 ---
 
 We design [software](#) that enables our [collaborators](#) to easily harness [large scale distributed systems](#) such as clusters, clouds, and grids. We perform fundamental [computer science research]() that enables new discoveries through computing in fields such as physics, chemistry, bioinformatics, biometrics, and data mining.
+
+All of our softwares are open source and available on [GitHub](). We are always eager to welcome new collaborators—whether you want to explore our software, contribute to development, or receive support. Explore our [tools]() to see how they can power your distributed computing needs, and visit the [getting help]() section if you need assistance.

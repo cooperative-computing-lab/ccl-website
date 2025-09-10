@@ -217,7 +217,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 35%;
 
     .address {
       p {
@@ -1455,12 +1455,12 @@ figure.cover {
     background-color: var(--global-card-bg-color);
     border-radius: 0.75rem;
     padding: 1.5rem;
-    margin: 0 1rem;
+    margin: 0 0.25rem;
     box-shadow:
       0 0.15rem 0.5rem rgba(0, 0, 0, 0.08),
       0 0.05rem 0.15rem rgba(0, 0, 0, 0.05);
     transition: all 0.25s ease-in-out;
-    width: calc(100% - 2rem);
+    width: calc(100% - 0.5rem);
     max-width: none;
     height: 180px;
     display: flex;
@@ -1486,6 +1486,7 @@ figure.cover {
         0 0.5rem 1.25rem rgba(0, 0, 0, 0.12),
         0 0.15rem 0.5rem rgba(0, 0, 0, 0.08);
       transform: translateY(-0.125rem);
+      border-radius: 0.75rem;
     }
 
     a {
@@ -1587,8 +1588,8 @@ figure.cover {
       flex-direction: column;
       height: auto;
       padding: 1.5rem;
-      margin: 0 0.5rem;
-      width: calc(100% - 1rem);
+      margin: 0 0.25rem;
+      width: calc(100% - 0.5rem);
 
       a {
         flex-direction: column;
