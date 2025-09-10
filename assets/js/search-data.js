@@ -3,46 +3,46 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/ccl-website/";
     },
   },{id: "dropdown-papers",
               title: "Papers",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/publications/";
+                window.location.href = "/ccl-website/publications/";
               },
             },{id: "dropdown-projects",
               title: "Projects",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/projects/";
+                window.location.href = "/ccl-website/projects/";
               },
             },{id: "dropdown-people",
               title: "People",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/people/";
+                window.location.href = "/ccl-website/people/";
               },
             },{id: "dropdown-jobs",
               title: "Jobs",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/jobs/";
+                window.location.href = "/ccl-website/jobs/";
               },
             },{id: "dropdown-all-softwares",
               title: "All Softwares",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/Softwares/";
+                window.location.href = "/ccl-website/Softwares/";
               },
             },{id: "dropdown-manuals",
               title: "Manuals",
@@ -56,42 +56,42 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/install/";
+                window.location.href = "/ccl-website/install/";
               },
             },{id: "dropdown-repositories",
               title: "Repositories",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/repositories/";
+                window.location.href = "/ccl-website/repositories/";
               },
             },{id: "dropdown-getting-help",
               title: "Getting Help",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/help/";
+                window.location.href = "/ccl-website/help/";
               },
             },{id: "dropdown-workshops",
               title: "Workshops",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/workshops/";
+                window.location.href = "/ccl-website/workshops/";
               },
             },{id: "dropdown-highlights",
               title: "Highlights",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/highlights/";
+                window.location.href = "/ccl-website/highlights/";
               },
             },{id: "dropdown-for-developers",
               title: "For Developers",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/developers/";
+                window.location.href = "/ccl-website/developers/";
               },
             },{id: "dropdown-condor-display",
               title: "Condor Display",
@@ -105,7 +105,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/al-folio/condor/";
+                window.location.href = "/ccl-website/condor/";
               },
             },{id: "dropdown-condor-log-analyzer",
               title: "Condor Log Analyzer",
@@ -126,7 +126,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/blog/";
+            window.location.href = "/ccl-website/blog/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -136,7 +136,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2025/plotly/";
+            window.location.href = "/ccl-website/blog/2025/plotly/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -147,7 +147,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/photo-gallery/";
+            window.location.href = "/ccl-website/blog/2024/photo-gallery/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -169,7 +169,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/tabs/";
+            window.location.href = "/ccl-website/blog/2024/tabs/";
           
         },
       },{id: "post-a-post-with-typograms",
@@ -180,7 +180,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/typograms/";
+            window.location.href = "/ccl-website/blog/2024/typograms/";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -191,7 +191,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/post-citation/";
+            window.location.href = "/ccl-website/blog/2024/post-citation/";
           
         },
       },{id: "post-a-post-with-pseudo-code",
@@ -202,7 +202,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/pseudocode/";
+            window.location.href = "/ccl-website/blog/2024/pseudocode/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -213,7 +213,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/code-diff/";
+            window.location.href = "/ccl-website/blog/2024/code-diff/";
           
         },
       },{id: "post-a-post-with-advanced-image-components",
@@ -224,7 +224,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/advanced-images/";
+            window.location.href = "/ccl-website/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -235,7 +235,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/vega-lite/";
+            window.location.href = "/ccl-website/blog/2024/vega-lite/";
           
         },
       },{id: "post-a-post-with-geojson",
@@ -246,7 +246,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/geojson-map/";
+            window.location.href = "/ccl-website/blog/2024/geojson-map/";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -257,7 +257,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/echarts/";
+            window.location.href = "/ccl-website/blog/2024/echarts/";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -268,7 +268,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2024/chartjs/";
+            window.location.href = "/ccl-website/blog/2024/chartjs/";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -279,7 +279,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2023/tikzjax/";
+            window.location.href = "/ccl-website/blog/2023/tikzjax/";
           
         },
       },{id: "post-a-post-with-bibliography",
@@ -290,7 +290,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2023/post-bibliography/";
+            window.location.href = "/ccl-website/blog/2023/post-bibliography/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -301,7 +301,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2023/jupyter-notebook/";
+            window.location.href = "/ccl-website/blog/2023/jupyter-notebook/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -312,7 +312,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2023/custom-blockquotes/";
+            window.location.href = "/ccl-website/blog/2023/custom-blockquotes/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -323,7 +323,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2023/sidebar-table-of-contents/";
+            window.location.href = "/ccl-website/blog/2023/sidebar-table-of-contents/";
           
         },
       },{id: "post-a-post-with-audios",
@@ -334,7 +334,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2023/audios/";
+            window.location.href = "/ccl-website/blog/2023/audios/";
           
         },
       },{id: "post-a-post-with-videos",
@@ -345,7 +345,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2023/videos/";
+            window.location.href = "/ccl-website/blog/2023/videos/";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -356,7 +356,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2023/tables/";
+            window.location.href = "/ccl-website/blog/2023/tables/";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -367,7 +367,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2023/table-of-contents/";
+            window.location.href = "/ccl-website/blog/2023/table-of-contents/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
@@ -378,7 +378,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2022/giscus-comments/";
+            window.location.href = "/ccl-website/blog/2022/giscus-comments/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -400,7 +400,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/assets/pdf/example_pdf.pdf";
+            window.location.href = "/ccl-website/assets/pdf/example_pdf.pdf";
           
         },
       },{id: "post-a-post-with-diagrams",
@@ -411,7 +411,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2021/diagrams/";
+            window.location.href = "/ccl-website/blog/2021/diagrams/";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -422,7 +422,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2021/distill/";
+            window.location.href = "/ccl-website/blog/2021/distill/";
           
         },
       },{id: "post-a-post-with-twitter",
@@ -433,7 +433,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2020/twitter/";
+            window.location.href = "/ccl-website/blog/2020/twitter/";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -444,7 +444,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2015/disqus-comments/";
+            window.location.href = "/ccl-website/blog/2015/disqus-comments/";
           
         },
       },{id: "post-a-post-with-math",
@@ -455,7 +455,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2015/math/";
+            window.location.href = "/ccl-website/blog/2015/math/";
           
         },
       },{id: "post-a-post-with-code",
@@ -466,7 +466,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2015/code/";
+            window.location.href = "/ccl-website/blog/2015/code/";
           
         },
       },{id: "post-a-post-with-images",
@@ -477,7 +477,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2015/images/";
+            window.location.href = "/ccl-website/blog/2015/images/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -488,14 +488,24 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/al-folio/blog/2015/formatting-and-links/";
+            window.location.href = "/ccl-website/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/al-folio/books/the_godfather/";
+              window.location.href = "/ccl-website/books/the_godfather/";
+            },},{id: "highlights-community-outreach-program",
+          title: 'Community Outreach Program',
+          description: "Expanding access to high-performance computing education in underserved communities",
+          section: "Highlights",handler: () => {
+              window.location.href = "/ccl-website/highlights/community-outreach/";
+            },},{id: "highlights-research-excellence-award",
+          title: 'Research Excellence Award',
+          description: "Our lab received the prestigious Research Excellence Award for innovative computing solutions",
+          section: "Highlights",handler: () => {
+              window.location.href = "/ccl-website/highlights/research-award/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -503,7 +513,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/al-folio/news/announcement_2/";
+              window.location.href = "/ccl-website/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -511,47 +521,57 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/1_project/";
+              window.location.href = "/ccl-website/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_project/";
+              window.location.href = "/ccl-website/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/3_project/";
+              window.location.href = "/ccl-website/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/4_project/";
+              window.location.href = "/ccl-website/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/5_project/";
+              window.location.href = "/ccl-website/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/6_project/";
+              window.location.href = "/ccl-website/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/7_project/";
+              window.location.href = "/ccl-website/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/8_project/";
+              window.location.href = "/ccl-website/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/9_project/";
+              window.location.href = "/ccl-website/projects/9_project/";
+            },},{id: "softwares-floability",
+          title: 'Floability',
+          description: "A workflow management system for scientific computing",
+          section: "Softwares",handler: () => {
+              window.location.href = "/ccl-website/softwares/floability/";
+            },},{id: "softwares-taskvine",
+          title: 'Taskvine',
+          description: "A distributed computing framework for high-throughput computing",
+          section: "Softwares",handler: () => {
+              window.location.href = "/ccl-website/softwares/taskvine/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -571,7 +591,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/al-folio/feed.xml", "_blank");
+          window.open("/ccl-website/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
