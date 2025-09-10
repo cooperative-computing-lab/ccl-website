@@ -1428,27 +1428,14 @@ figure.cover {
 .lab-carousel {
   width: 100%;
   margin-bottom: 3rem;
-  padding: 1.5rem;
-  background: linear-gradient(135deg, rgba(var(--global-theme-color-rgb), 0.02) 0%, transparent 100%);
-  border-radius: 1rem;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
 
   h2 {
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    position: relative;
-
-    // Add a subtle underline accent
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: -0.5rem;
-      left: 0;
-      width: 60px;
-      height: 3px;
-      background: linear-gradient(90deg, var(--global-theme-color) 0%, rgba(var(--global-theme-color-rgb), 0.3) 100%);
-      border-radius: 2px;
-    }
   }
 
   .carousel {
@@ -1461,19 +1448,19 @@ figure.cover {
 
   .carousel-item {
     width: 100%;
-    padding: 0 15px;
+    padding: 0;
   }
 
   .carousel-card {
     background-color: var(--global-card-bg-color);
     border-radius: 0.75rem;
-    padding: 1rem;
-    margin: 0;
+    padding: 1.5rem;
+    margin: 0 1rem;
     box-shadow:
       0 0.15rem 0.5rem rgba(0, 0, 0, 0.08),
       0 0.05rem 0.15rem rgba(0, 0, 0, 0.05);
     transition: all 0.25s ease-in-out;
-    width: 100%;
+    width: calc(100% - 2rem);
     max-width: none;
     height: 180px;
     display: flex;
@@ -1482,23 +1469,22 @@ figure.cover {
     position: relative;
     overflow: hidden;
 
-    // Add a subtle gradient overlay
+    // Add a subtle gradient overlay with theme colors
     &::before {
       content: "";
       position: absolute;
       top: 0;
-      left: 0;
       right: 0;
-      bottom: 0;
-      background: linear-gradient(135deg, rgba(var(--global-theme-color-rgb), 0.015) 0%, transparent 50%);
+      width: 100px;
+      height: 100%;
+      background: linear-gradient(90deg, transparent 0%, rgba(var(--global-theme-color-rgb), 0.03) 100%);
       pointer-events: none;
     }
 
     &:hover {
       box-shadow:
         0 0.5rem 1.25rem rgba(0, 0, 0, 0.12),
-        0 0.15rem 0.5rem rgba(0, 0, 0, 0.08),
-        0 0 0 1px rgba(var(--global-theme-color-rgb), 0.1);
+        0 0.15rem 0.5rem rgba(0, 0, 0, 0.08);
       transform: translateY(-0.125rem);
     }
 
@@ -1507,7 +1493,7 @@ figure.cover {
       text-decoration: none !important;
       display: flex;
       flex-direction: row;
-      align-items: center;
+      align-items: stretch;
       width: 100%;
       height: 100%;
       position: relative;
@@ -1523,15 +1509,19 @@ figure.cover {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgba(var(--global-theme-color-rgb), 0.05);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(var(--global-theme-color-rgb), 0.1);
   }
 
   .carousel-image {
-    max-height: 140px;
-    max-width: 200px;
+    max-height: 120px;
+    max-width: 180px;
     height: auto;
     width: auto;
     object-fit: contain;
     border-radius: 0.25rem;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
   }
 
   .carousel-content {
@@ -1541,6 +1531,7 @@ figure.cover {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    min-height: 140px;
   }
 
   .carousel-title {
@@ -1548,6 +1539,7 @@ figure.cover {
     margin-bottom: 0.5rem;
     font-weight: 600;
     font-size: 1.25rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   }
 
   .carousel-description {
@@ -1560,6 +1552,7 @@ figure.cover {
     -webkit-line-clamp: 3;
     line-clamp: 3;
     -webkit-box-orient: vertical;
+    opacity: 0.85;
   }
 
   .carousel-control-prev,
@@ -1593,7 +1586,9 @@ figure.cover {
     .carousel-card {
       flex-direction: column;
       height: auto;
-      padding: 1rem;
+      padding: 1.5rem;
+      margin: 0 0.5rem;
+      width: calc(100% - 1rem);
 
       a {
         flex-direction: column;
@@ -1609,6 +1604,21 @@ figure.cover {
 
     .carousel-content {
       text-align: center;
+    }
+  }
+}
+
+// Home page section headers styling
+.post article h2 {
+  color: var(--global-text-color);
+  text-transform: capitalize;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: inherit;
     }
   }
 }
