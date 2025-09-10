@@ -40,6 +40,35 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Lab Carousels -->
+    <div class="lab-carousels my-5">
+      <!-- Software Carousel -->
+      {%
+        include carousel.liquid
+        id="softwareCarousel"
+        title="Softwares"
+        auto_advance=true
+        items=site.softwares
+      %}
+
+      <!-- Projects Carousel with auto-advance -->
+      {%
+        include carousel.liquid
+        id="projectsCarousel"
+        title="Projects"
+        items=site.projects
+        interval=5000
+      %}
+
+      <!-- Community Highlights Carousel -->
+      {%
+        include carousel.liquid
+        id="highlightsCarousel"
+        title="Community Highlights"
+        items=site.highlights
+      %}
+    </div>
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -62,14 +91,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Community highlights -->
-    {% if page.community_highlights %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">community highlights</a>
-      </h2>
-      {% comment %} {% include community_highlights.liquid %} {% endcomment %}
     {% endif %}
 
     <!-- Social -->
