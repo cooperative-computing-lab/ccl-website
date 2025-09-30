@@ -496,16 +496,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/ccl-website/books/the_godfather/";
-            },},{id: "highlights-community-outreach-program",
-          title: 'Community Outreach Program',
-          description: "Expanding access to high-performance computing education in underserved communities",
+            },},{id: "highlights-workshop-on-harmonizing-python-workflows-at-ieee-e-science-2025",
+          title: 'Workshop on Harmonizing Python Workflows at IEEE e-Science 2025',
+          description: "We helped host the Workshop on Harmonizing Python Workflows at IEEE International Conference on e-Science on Monday, 15 Sep 2025.",
           section: "Highlights",handler: () => {
-              window.location.href = "/ccl-website/highlights/community-outreach/";
-            },},{id: "highlights-research-excellence-award",
-          title: 'Research Excellence Award',
-          description: "Our lab received the prestigious Research Excellence Award for innovative computing solutions",
-          section: "Highlights",handler: () => {
-              window.location.href = "/ccl-website/highlights/research-award/";
+              window.location.href = "/ccl-website/highlights/harmony/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -517,61 +512,51 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-nbflow-from-notebook-to-workflow-and-back-again-cssi-framework",
+          title: 'NBFlow: From Notebook to Workflow and Back Again (CSSI Framework)',
+          description: "NBFlow brings together interactive notebook technologies (Jupyter), reproducibility tools (SciUnit), and distributed workflows (TaskVine) to enable easy execution of large-scale notebook workflows on heterogeneous HPC clusters.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/ccl-website/projects/nbflow/";
+            },},{id: "projects-pledge-accelerating-data-intensive-scientific-workflows-with-consistency-contracts",
+          title: 'Pledge: Accelerating Data Intensive Scientific Workflows with Consistency Contracts',
+          description: "Expresses workflow I/O intentions using consistency contracts to enable efficient, cluster-wide storage and execution optimizations.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/ccl-website/projects/pledge/";
+            },},{id: "projects-sade-a-safety-aware-ecosystem-of-reputable-suas",
+          title: 'SADE: A Safety-Aware Ecosystem of Reputable sUAS',
+          description: "The overall goal of the project is to develop technology for safety zones that permit only trusted drones to operate in congested or sensitive airspace.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/ccl-website/projects/sade/";
+            },},{id: "projects-taskvine-a-user-level-framework-for-data-intensive-scientific-applications-cssi-element",
+          title: 'TaskVine: A User Level Framework for Data Intensive Scientific Applications (CSSI Element)',
+          description: "TaskVine is open source software for building large scale data intensive dynamic workflows that run on HPC clusters, GPU clusters, and commercial clouds.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/ccl-website/projects/taskvine/";
+            },},{id: "projects-xgfabric-coupling-sensor-networks-and-hpc-facilities-with-advanced-wireless-networks-for-near-real-time-simulation-of-digital-agriculture-doe-ascr",
+          title: 'XGFabric : Coupling Sensor Networks and HPC Facilities with Advanced Wireless Networks for...',
+          description: "This project will explore the design of systems for connecting remote wireless sensor networks with high performance computing systems.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/9_project/";
+              window.location.href = "/ccl-website/projects/xgfabric/";
             },},{id: "softwares-floability",
           title: 'Floability',
-          description: "A workflow management system for scientific computing",
+          description: "Floability is an NSF funded research project to enable the rapid and portable deployment of notebooks expressing complex scientific workflows across a wide range of cyberinfrastructure.",
           section: "Softwares",handler: () => {
               window.location.href = "/ccl-website/softwares/floability/";
+            },},{id: "softwares-makeflow",
+          title: 'Makeflow',
+          description: "Makeflow is a workflow system for executing large complex workflows on clusters, clouds, and grids.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/ccl-website/softwares/makeflow/";
             },},{id: "softwares-taskvine",
-          title: 'Taskvine',
-          description: "A distributed computing framework for high-throughput computing",
+          title: 'TaskVine',
+          description: "TaskVine is our third-generation workflow system for building scalable data intensive applications that run on HPC clusters, cloud services, and other clusters.",
           section: "Softwares",handler: () => {
               window.location.href = "/ccl-website/softwares/taskvine/";
+            },},{id: "softwares-work-queue",
+          title: 'Work Queue',
+          description: "Work Queue is an application framework for creating and managing dynamic manager-worker style programs that scale up to tens of thousands of machines on clusters, clouds, and grids.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/ccl-website/softwares/workqueue/";
             },},{
         id: 'social-email',
         title: 'email',
