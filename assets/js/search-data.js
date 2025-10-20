@@ -7,42 +7,42 @@ ninja.data = [{
     title: "Home",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/ccl-website/";
+      window.location.href = "/";
     },
   },{id: "dropdown-papers",
               title: "Papers",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/publications/";
+                window.location.href = "/publications/";
               },
             },{id: "dropdown-projects",
               title: "Projects",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/projects/";
+                window.location.href = "/projects/";
               },
             },{id: "dropdown-people",
               title: "People",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/people/";
+                window.location.href = "/people/";
               },
             },{id: "dropdown-jobs",
               title: "Jobs",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/jobs/";
+                window.location.href = "/jobs/";
               },
             },{id: "dropdown-all-softwares",
               title: "All Softwares",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/Softwares/";
+                window.location.href = "/softwares/";
               },
             },{id: "dropdown-manuals",
               title: "Manuals",
@@ -56,42 +56,42 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/install/";
+                window.location.href = "/install/";
               },
             },{id: "dropdown-repositories",
               title: "Repositories",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/repositories/";
+                window.location.href = "/repositories/";
               },
             },{id: "dropdown-getting-help",
               title: "Getting Help",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/help/";
+                window.location.href = "/help/";
               },
             },{id: "dropdown-workshops",
               title: "Workshops",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/workshops/";
+                window.location.href = "/workshops/";
               },
             },{id: "dropdown-highlights",
               title: "Highlights",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/highlights/";
+                window.location.href = "/highlights/";
               },
             },{id: "dropdown-for-developers",
               title: "For Developers",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/developers/";
+                window.location.href = "/developers/";
               },
             },{id: "dropdown-condor-display",
               title: "Condor Display",
@@ -105,7 +105,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/condor/";
+                window.location.href = "/condor/";
               },
             },{id: "dropdown-condor-log-analyzer",
               title: "Condor Log Analyzer",
@@ -126,9 +126,53 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/ccl-website/blog/";
+            window.location.href = "/blog/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-workshop-on-harmonizing-python-workflows-at-ieee-e-science-2025",
+        
+          title: "Workshop on Harmonizing Python Workflows at IEEE e-Science 2025",
+        
+        description: "We helped host the Workshop on Harmonizing Python Workflows at IEEE International Conference on e-Science on Monday, 15 Sep 2025. This workshop is one compon…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/workshop-on-harmonizing-python/";
+          
+        },
+      },{id: "post-welcome-back-colin",
+        
+          title: "Welcome Back, Colin!",
+        
+        description: "This past summer, 4th year PhD student Colin Thomas completed an internship at the National Energy Research Scientific Computing Center (NERSC) located at th…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/welcome-back-colin/";
+          
+        },
+      },{id: "post-new-semester-new-faces",
+        
+          title: "New Semester, New Faces",
+        
+        description: "The new semester is here, and we’re excited to welcome three new colleagues and roll out a clear plan for the months ahead. New faces. Lax joins as a first-y…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/new-semester-new-faces/";
+          
+        },
+      },{id: "post-ccl-team-at-gcasr-2025",
+        
+          title: "CCL Team at GCASR 2025",
+        
+        description: "Members of the CCL team traveled to Chicago, Illinois on May 8 to attend GCASR 2025 (12th Greater Chicago Area Systems Research Workshop). CCL team members p…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ccl-team-at-gcasr/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -136,7 +180,40 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/plotly/";
+            window.location.href = "/blog/2025/plotly/";
+          
+        },
+      },{id: "post-reshaping-high-energy-physics-applications-using-taskvine-sc24",
+        
+          title: "Reshaping High Energy Physics Applications Using TaskVine  @ SC24",
+        
+        description: "Barry Sly-Delgado presented our paper titled: &quot; Reshaping High Energy Physics Applications for Near-Interactive Execution Using TaskVine &quot; at the 2024 Superc…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/reshaping-high-energy-physics/";
+          
+        },
+      },{id: "post-shepherd-paper-at-works-sc-2024",
+        
+          title: "Shepherd Paper at WORKS/SC 2024",
+        
+        description: "Grad student Saiful Islam presented our paper on Shepherd at the 19th Workshop on Workflows in Support of Large-Scale Science at Supercomputing 2024 in Atlan…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/shepherd-paper-at-works/";
+          
+        },
+      },{id: "post-data-pruning-mechanism-in-daskvine",
+        
+          title: "Data Pruning Mechanism in Daskvine",
+        
+        description: "In our recent work, we introduced a file pruning technique into DaskVine to address challenges in managing intermediate files in DAG-based task graphs. This …",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/data-pruning-mechanism-in/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -147,7 +224,73 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/photo-gallery/";
+            window.location.href = "/blog/2024/photo-gallery/";
+          
+        },
+      },{id: "post-taskvine-parsl-integration",
+        
+          title: "TaskVine + Parsl Integration",
+        
+        description: "The Cooperative Computing Lab team has an ongoing collaboration with the Parsl Project , maintaining the TaskVine Executor for use with the Parsl workflow sy…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/taskvine-parsl-integration/";
+          
+        },
+      },{id: "post-accelerating-function-centric-applications-via-reusable-function-context-in-workflow-systems",
+        
+          title: "Accelerating Function-Centric Applications via Reusable Function Context in Workflow Systems",
+        
+        description: "Modern applications are increasingly being written in high-level programming languages (e.g., Python) via popular parallel frameworks (e.g., Parsl, TaskVine,…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/accelerating-function-centric-applications/";
+          
+        },
+      },{id: "post-a-new-visualization-tool-for-taskvine-released",
+        
+          title: "A New Visualization Tool for TaskVine Released",
+        
+        description: "We released a web-based tool to visualize runtime logs produced by TaskVine, available on Github . Using this tool involves two main steps. First, the requir…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/a-new-visualization-tool/";
+          
+        },
+      },{id: "post-integrating-taskvine-with-merlin",
+        
+          title: "Integrating TaskVine with Merlin",
+        
+        description: "Graduate student, Barry Sly-Delgado , completed a summer internship onsite at Lawrence Livermore National Laboratory where he worked on integrating TaskVine …",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/integrating-taskvine-with-merlin/";
+          
+        },
+      },{id: "post-introducing-shepherd-simplifying-integration-of-service-workflows-into-task-based-workflows",
+        
+          title: "Introducing Shepherd: Simplifying Integration of Service Workflows into Task-Based Workflows",
+        
+        description: "We are pleased to announce the release of Shepherd , an open-source tool designed to streamline the integration of service workflows into task-based workflow…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/introducing-shepherd-simplifying-integration/";
+          
+        },
+      },{id: "post-taskvine-at-parslfest-2024",
+        
+          title: "TaskVine at ParslFest 2024",
+        
+        description: "On September 26-27 members of the CCL team attended ParslFest 2024 in Chicago, Illinois to speak about TaskVine and connect with our ongoing collaborators at…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/taskvine-at-parslfest-2024/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -169,7 +312,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/tabs/";
+            window.location.href = "/blog/2024/tabs/";
           
         },
       },{id: "post-a-post-with-typograms",
@@ -180,7 +323,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/typograms/";
+            window.location.href = "/blog/2024/typograms/";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -191,7 +334,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/post-citation/";
+            window.location.href = "/blog/2024/post-citation/";
           
         },
       },{id: "post-a-post-with-pseudo-code",
@@ -202,7 +345,40 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/pseudocode/";
+            window.location.href = "/blog/2024/pseudocode/";
+          
+        },
+      },{id: "post-predicting-resources-of-tasks-in-dynamic-workflows-with-bucketing-algorithms-at-ipdps-2024",
+        
+          title: "Predicting Resources of Tasks in Dynamic Workflows with Bucketing Algorithms at IPDPS 2024...",
+        
+        description: "Thanh Son Phung will present Adaptive Task-Oriented Resource Allocation for Large Dynamic Workflows on Opportunistic Resources at the International Parallel …",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/predicting-resources-of-tasks/";
+          
+        },
+      },{id: "post-taskvine-at-the-hep-analysis-grand-challenge",
+        
+          title: "TaskVine at the HEP Analysis Grand Challenge",
+        
+        description: "Barry Sly-Delgado and Ben Tovar recently presented our work on transforming high energy physics data analysis applications into near-interactive execution at…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/taskvine-at-the-hep/";
+          
+        },
+      },{id: "post-cctools-7-8-0-released",
+        
+          title: "CCTools 7.8.0 released",
+        
+        description: "We are pleased to announce the release of version 7.8.0 of the Cooperative Computing Tools from the University of Notre Dame, including TaskVine, Work Queu…",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/cctools-7-8-0/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -213,7 +389,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/code-diff/";
+            window.location.href = "/blog/2024/code-diff/";
           
         },
       },{id: "post-a-post-with-advanced-image-components",
@@ -224,7 +400,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/advanced-images/";
+            window.location.href = "/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -235,7 +411,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/vega-lite/";
+            window.location.href = "/blog/2024/vega-lite/";
           
         },
       },{id: "post-a-post-with-geojson",
@@ -246,7 +422,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/geojson-map/";
+            window.location.href = "/blog/2024/geojson-map/";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -257,7 +433,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/echarts/";
+            window.location.href = "/blog/2024/echarts/";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -268,7 +444,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/chartjs/";
+            window.location.href = "/blog/2024/chartjs/";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -279,7 +455,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/tikzjax/";
+            window.location.href = "/blog/2023/tikzjax/";
           
         },
       },{id: "post-a-post-with-bibliography",
@@ -290,7 +466,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/post-bibliography/";
+            window.location.href = "/blog/2023/post-bibliography/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -301,7 +477,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/jupyter-notebook/";
+            window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -312,7 +488,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/custom-blockquotes/";
+            window.location.href = "/blog/2023/custom-blockquotes/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -323,7 +499,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/sidebar-table-of-contents/";
+            window.location.href = "/blog/2023/sidebar-table-of-contents/";
           
         },
       },{id: "post-a-post-with-audios",
@@ -334,7 +510,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/audios/";
+            window.location.href = "/blog/2023/audios/";
           
         },
       },{id: "post-a-post-with-videos",
@@ -345,7 +521,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/videos/";
+            window.location.href = "/blog/2023/videos/";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -356,7 +532,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/tables/";
+            window.location.href = "/blog/2023/tables/";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -367,7 +543,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/table-of-contents/";
+            window.location.href = "/blog/2023/table-of-contents/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
@@ -378,7 +554,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/giscus-comments/";
+            window.location.href = "/blog/2022/giscus-comments/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -400,7 +576,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/assets/pdf/example_pdf.pdf";
+            window.location.href = "/assets/pdf/example_pdf.pdf";
           
         },
       },{id: "post-a-post-with-diagrams",
@@ -411,7 +587,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/diagrams/";
+            window.location.href = "/blog/2021/diagrams/";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -422,7 +598,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/distill/";
+            window.location.href = "/blog/2021/distill/";
           
         },
       },{id: "post-a-post-with-twitter",
@@ -433,7 +609,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/twitter/";
+            window.location.href = "/blog/2020/twitter/";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -444,7 +620,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/disqus-comments/";
+            window.location.href = "/blog/2015/disqus-comments/";
           
         },
       },{id: "post-a-post-with-math",
@@ -455,7 +631,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/math/";
+            window.location.href = "/blog/2015/math/";
           
         },
       },{id: "post-a-post-with-code",
@@ -466,7 +642,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/code/";
+            window.location.href = "/blog/2015/code/";
           
         },
       },{id: "post-a-post-with-images",
@@ -477,7 +653,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/images/";
+            window.location.href = "/blog/2015/images/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -488,19 +664,19 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/formatting-and-links/";
+            window.location.href = "/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/ccl-website/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "highlights-workshop-on-harmonizing-python-workflows-at-ieee-e-science-2025",
           title: 'Workshop on Harmonizing Python Workflows at IEEE e-Science 2025',
           description: "We helped host the Workshop on Harmonizing Python Workflows at IEEE International Conference on e-Science on Monday, 15 Sep 2025.",
           section: "Highlights",handler: () => {
-              window.location.href = "/ccl-website/highlights/harmony/";
+              window.location.href = "/highlights/harmony/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -508,7 +684,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/ccl-website/news/announcement_2/";
+              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -516,81 +692,81 @@ ninja.data = [{
           title: 'NBFlow: From Notebook to Workflow and Back Again (CSSI Framework)',
           description: "NBFlow brings together interactive notebook technologies (Jupyter), reproducibility tools (SciUnit), and distributed workflows (TaskVine) to enable easy execution of large-scale notebook workflows on heterogeneous HPC clusters.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/nbflow/";
+              window.location.href = "/projects/nbflow/";
             },},{id: "projects-pledge-accelerating-data-intensive-scientific-workflows-with-consistency-contracts",
           title: 'Pledge: Accelerating Data Intensive Scientific Workflows with Consistency Contracts',
           description: "Expresses workflow I/O intentions using consistency contracts to enable efficient, cluster-wide storage and execution optimizations.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/pledge/";
+              window.location.href = "/projects/pledge/";
             },},{id: "projects-sade-a-safety-aware-ecosystem-of-reputable-suas",
           title: 'SADE: A Safety-Aware Ecosystem of Reputable sUAS',
           description: "The overall goal of the project is to develop technology for safety zones that permit only trusted drones to operate in congested or sensitive airspace.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/sade/";
+              window.location.href = "/projects/sade/";
             },},{id: "projects-taskvine-a-user-level-framework-for-data-intensive-scientific-applications-cssi-element",
           title: 'TaskVine: A User Level Framework for Data Intensive Scientific Applications (CSSI Element)',
           description: "TaskVine is open source software for building large scale data intensive dynamic workflows that run on HPC clusters, GPU clusters, and commercial clouds.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/taskvine/";
+              window.location.href = "/projects/taskvine/";
             },},{id: "projects-xgfabric-coupling-sensor-networks-and-hpc-facilities-with-advanced-wireless-networks-for-near-real-time-simulation-of-digital-agriculture-doe-ascr",
           title: 'XGFabric : Coupling Sensor Networks and HPC Facilities with Advanced Wireless Networks for...',
           description: "This project will explore the design of systems for connecting remote wireless sensor networks with high performance computing systems.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/xgfabric/";
+              window.location.href = "/projects/xgfabric/";
             },},{id: "softwares-floability",
           title: 'Floability',
           description: "Floability is an NSF funded research project to enable the rapid and portable deployment of notebooks expressing complex scientific workflows across a wide range of cyberinfrastructure.",
           section: "Softwares",handler: () => {
-              window.location.href = "/ccl-website/softwares/floability/";
+              window.location.href = "/softwares/floability/";
             },},{id: "softwares-makeflow",
           title: 'Makeflow',
           description: "Makeflow is a workflow system for executing large complex workflows on clusters, clouds, and grids.",
           section: "Softwares",handler: () => {
-              window.location.href = "/ccl-website/softwares/makeflow/";
+              window.location.href = "/softwares/makeflow/";
             },},{id: "softwares-taskvine",
           title: 'TaskVine',
           description: "TaskVine is our third-generation workflow system for building scalable data intensive applications that run on HPC clusters, cloud services, and other clusters.",
           section: "Softwares",handler: () => {
-              window.location.href = "/ccl-website/softwares/taskvine/";
+              window.location.href = "/softwares/taskvine/";
             },},{id: "softwares-work-queue",
           title: 'Work Queue',
           description: "Work Queue is an application framework for creating and managing dynamic manager-worker style programs that scale up to tens of thousands of machines on clusters, clouds, and grids.",
           section: "Softwares",handler: () => {
-              window.location.href = "/ccl-website/softwares/workqueue/";
+              window.location.href = "/softwares/workqueue/";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%64%74%68%61%69%6E@%6E%64.%65%64%75", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/cooperative-computing-lab", "_blank");
+        },
+      },{
+        id: 'social-linkedin_company',
+        title: 'Linkedin_company',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
+        },
+      },{
+        id: 'social-read_the_docs',
+        title: 'Read_the_docs',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/ccl-website/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
