@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alshedivat.github.io/sitemap.xml
+Sitemap: cooperative-computing-lab.github.ioccl-website/sitemap.xml
