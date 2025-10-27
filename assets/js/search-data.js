@@ -693,6 +693,11 @@ ninja.data = [{
           description: "NBFlow brings together interactive notebook technologies (Jupyter), reproducibility tools (SciUnit), and distributed workflows (TaskVine) to enable easy execution of large-scale notebook workflows on heterogeneous HPC clusters.",
           section: "Projects",handler: () => {
               window.location.href = "/ccl-website/projects/nbflow/";
+            },},{id: "projects-template-page",
+          title: 'Template Page',
+          description: "Expresses workflow I/O intentions using consistency contracts to enable efficient, cluster-wide storage and execution optimizations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/ccl-website/projects/pledge%20copy/";
             },},{id: "projects-pledge-accelerating-data-intensive-scientific-workflows-with-consistency-contracts",
           title: 'Pledge: Accelerating Data Intensive Scientific Workflows with Consistency Contracts',
           description: "Expresses workflow I/O intentions using consistency contracts to enable efficient, cluster-wide storage and execution optimizations.",
