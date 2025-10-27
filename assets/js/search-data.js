@@ -9,8 +9,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/ccl-website/";
     },
-  },{id: "dropdown-papers",
-              title: "Papers",
+  },{id: "dropdown-publications",
+              title: "Publications",
               description: "",
               section: "Dropdown",
               handler: () => {
