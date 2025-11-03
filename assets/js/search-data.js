@@ -667,7 +667,17 @@ ninja.data = [{
             window.location.href = "/ccl-website/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "alt-makeflow",
+          title: 'Makeflow',
+          description: "Makeflow is a workflow system for executing large complex workflows on clusters, clouds, and grids.",
+          section: "Alt",handler: () => {
+              window.location.href = "/ccl-website/alt/makeflow/";
+            },},{id: "alt-taskvine",
+          title: 'TaskVine',
+          description: "TaskVine is our third-generation workflow system for building scalable data intensive applications that run on HPC clusters, cloud services, and other clusters.",
+          section: "Alt",handler: () => {
+              window.location.href = "/ccl-website/alt/taskvine/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
