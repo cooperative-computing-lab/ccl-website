@@ -37,8 +37,8 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/ccl-website/jobs/";
               },
-            },{id: "dropdown-all-softwares",
-              title: "All Softwares",
+            },{id: "dropdown-all-software",
+              title: "All Software",
               description: "",
               section: "Dropdown",
               handler: () => {
@@ -63,7 +63,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/repositories/";
+                window.location.href = "https://github.com/cooperative-computing-lab";
               },
             },{id: "dropdown-getting-help",
               title: "Getting Help",
