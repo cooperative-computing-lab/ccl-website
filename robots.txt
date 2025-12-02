@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cooperative-computing-lab.github.io/ccl-website/sitemap.xml
+Sitemap: https://ccl-dev.cse.nd.edu/sitemap.xml

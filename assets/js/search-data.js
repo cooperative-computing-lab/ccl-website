@@ -7,42 +7,42 @@ ninja.data = [{
     title: "Home",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/ccl-website/";
+      window.location.href = "/";
     },
   },{id: "dropdown-publications",
               title: "Publications",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/publications/";
+                window.location.href = "/publications/";
               },
             },{id: "dropdown-projects",
               title: "Projects",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/projects/";
+                window.location.href = "/projects/";
               },
             },{id: "dropdown-people",
               title: "People",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/people/";
+                window.location.href = "/people/";
               },
             },{id: "dropdown-jobs",
               title: "Jobs",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/jobs/";
+                window.location.href = "/jobs/";
               },
             },{id: "dropdown-all-software",
               title: "All Software",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/softwares/";
+                window.location.href = "/softwares/";
               },
             },{id: "dropdown-manuals",
               title: "Manuals",
@@ -56,7 +56,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/install/";
+                window.location.href = "/install/";
               },
             },{id: "dropdown-repositories",
               title: "Repositories",
@@ -70,28 +70,28 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/help/";
+                window.location.href = "/help/";
               },
             },{id: "dropdown-workshops",
               title: "Workshops",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/workshops/";
+                window.location.href = "/workshops/";
               },
             },{id: "dropdown-highlights",
               title: "Highlights",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/highlights/";
+                window.location.href = "/highlights/";
               },
             },{id: "dropdown-for-developers",
               title: "For Developers",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/developers/";
+                window.location.href = "/developers/";
               },
             },{id: "dropdown-condor-display",
               title: "Condor Display",
@@ -105,7 +105,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/ccl-website/condor/";
+                window.location.href = "/condor/";
               },
             },{id: "dropdown-condor-log-analyzer",
               title: "Condor Log Analyzer",
@@ -126,7 +126,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/ccl-website/blog/";
+            window.location.href = "/blog/";
           },
         },{id: "post-scaling-sade-safety-aware-drone-ecosystem-a-hybrid-uav-simulation-system-for-high-fidelity-research",
         
@@ -136,7 +136,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/scaling-sade-safety-aware-drone-ecosystem-a-hybrid-uav-simulation-system-for-hig/";
+            window.location.href = "/blog/2025/scaling-sade-safety-aware-drone-ecosystem-a-hybrid-uav-simulation-system-for-hig/";
           
         },
       },{id: "post-wrangling-massive-tasks-graphs-with-dynamic-hierarchical-composition",
@@ -147,7 +147,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/wrangling-massive-tasks-graphs-with-dynamic-hierarchical-composition/";
+            window.location.href = "/blog/2025/wrangling-massive-tasks-graphs-with-dynamic-hierarchical-composition/";
           
         },
       },{id: "post-taskvine-insights-storage-management-disk-load-shifting",
@@ -158,7 +158,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/taskvine-insights-storage-management-disk-load-shifting/";
+            window.location.href = "/blog/2025/taskvine-insights-storage-management-disk-load-shifting/";
           
         },
       },{id: "post-simulating-digital-agriculture-in-near-real-time-with-xgfabric",
@@ -169,7 +169,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/simulating-digital-agriculture-in-near-real-time-with-xgfabric/";
+            window.location.href = "/blog/2025/simulating-digital-agriculture-in-near-real-time-with-xgfabric/";
           
         },
       },{id: "post-undergraduate-researcher-showcases-pledge-project-at-apanac-2025-in-panama",
@@ -180,7 +180,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/undergraduate-researcher-showcases-pledge-project-at-apanac-2025-in-panama/";
+            window.location.href = "/blog/2025/undergraduate-researcher-showcases-pledge-project-at-apanac-2025-in-panama/";
           
         },
       },{id: "post-reducing-overhead-of-llm-integrated-applications-on-gpu-clusters-with-parsl-taskvine",
@@ -191,7 +191,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/reducing-overhead-of-llm-integrated-applications-on-gpu-clusters-with-parsltaskv/";
+            window.location.href = "/blog/2025/reducing-overhead-of-llm-integrated-applications-on-gpu-clusters-with-parsltaskv/";
           
         },
       },{id: "post-taskvine-insights-storage-management-pfs-vs-nls",
@@ -202,7 +202,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/taskvine-insights-storage-management-pfs-vs-nls/";
+            window.location.href = "/blog/2025/taskvine-insights-storage-management-pfs-vs-nls/";
           
         },
       },{id: "post-escience-2025-liberating-the-data-aware-scheduler-to-achieve-locality-in-layered-scientific-workflow-systems",
@@ -213,7 +213,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/escience-2025-liberating-the-data-aware-scheduler-to-achieve-locality-in-layered/";
+            window.location.href = "/blog/2025/escience-2025-liberating-the-data-aware-scheduler-to-achieve-locality-in-layered/";
           
         },
       },{id: "post-floability-at-escience-2025-making-notebooks-portable-with-backpacks-across-hpc-clusters",
@@ -224,7 +224,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/floability-at-escience-2025-making-notebooks-portable-with-backpacks-across-hpc/";
+            window.location.href = "/blog/2025/floability-at-escience-2025-making-notebooks-portable-with-backpacks-across-hpc/";
           
         },
       },{id: "post-workshop-on-harmonizing-python-workflows-at-ieee-e-science-2025",
@@ -235,7 +235,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/workshop-on-harmonizing-python-workflows-at-ieee-e-science-2025/";
+            window.location.href = "/blog/2025/workshop-on-harmonizing-python-workflows-at-ieee-e-science-2025/";
           
         },
       },{id: "post-welcome-back-colin",
@@ -246,7 +246,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/welcome-back-colin/";
+            window.location.href = "/blog/2025/welcome-back-colin/";
           
         },
       },{id: "post-new-semester-new-faces",
@@ -257,7 +257,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/new-semester-new-faces/";
+            window.location.href = "/blog/2025/new-semester-new-faces/";
           
         },
       },{id: "post-ccl-team-at-gcasr-2025",
@@ -268,7 +268,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/ccl-team-at-gcasr-2025/";
+            window.location.href = "/blog/2025/ccl-team-at-gcasr-2025/";
           
         },
       },{id: "post-a-post-with-plotly-js",
@@ -279,7 +279,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/plotly/";
+            window.location.href = "/blog/2025/plotly/";
           
         },
       },{id: "post-reshaping-high-energy-physics-applications-using-taskvine-sc24",
@@ -290,7 +290,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/reshaping-high-energy-physics-applications-using-taskvine-sc24/";
+            window.location.href = "/blog/2025/reshaping-high-energy-physics-applications-using-taskvine-sc24/";
           
         },
       },{id: "post-shepherd-paper-at-works-sc-2024",
@@ -301,7 +301,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2025/shepherd-paper-at-workssc-2024/";
+            window.location.href = "/blog/2025/shepherd-paper-at-workssc-2024/";
           
         },
       },{id: "post-data-pruning-mechanism-in-daskvine",
@@ -312,7 +312,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/data-pruning-mechanism-in-daskvine/";
+            window.location.href = "/blog/2024/data-pruning-mechanism-in-daskvine/";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -323,7 +323,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/photo-gallery/";
+            window.location.href = "/blog/2024/photo-gallery/";
           
         },
       },{id: "post-taskvine-parsl-integration",
@@ -334,7 +334,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/taskvine-parsl-integration/";
+            window.location.href = "/blog/2024/taskvine-parsl-integration/";
           
         },
       },{id: "post-accelerating-function-centric-applications-via-reusable-function-context-in-workflow-systems",
@@ -345,7 +345,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/accelerating-function-centric-applications-via-reusable-function-context-in-work/";
+            window.location.href = "/blog/2024/accelerating-function-centric-applications-via-reusable-function-context-in-work/";
           
         },
       },{id: "post-a-new-visualization-tool-for-taskvine-released",
@@ -356,7 +356,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/a-new-visualization-tool-for-taskvine-released/";
+            window.location.href = "/blog/2024/a-new-visualization-tool-for-taskvine-released/";
           
         },
       },{id: "post-integrating-taskvine-with-merlin",
@@ -367,7 +367,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/integrating-taskvine-with-merlin/";
+            window.location.href = "/blog/2024/integrating-taskvine-with-merlin/";
           
         },
       },{id: "post-introducing-shepherd-simplifying-integration-of-service-workflows-into-task-based-workflows",
@@ -378,7 +378,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/introducing-shepherd-simplifying-integration-of-service-workflows-into-task-base/";
+            window.location.href = "/blog/2024/introducing-shepherd-simplifying-integration-of-service-workflows-into-task-base/";
           
         },
       },{id: "post-taskvine-at-parslfest-2024",
@@ -389,7 +389,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/taskvine-at-parslfest-2024/";
+            window.location.href = "/blog/2024/taskvine-at-parslfest-2024/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -411,7 +411,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/tabs/";
+            window.location.href = "/blog/2024/tabs/";
           
         },
       },{id: "post-a-post-with-typograms",
@@ -422,7 +422,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/typograms/";
+            window.location.href = "/blog/2024/typograms/";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -433,7 +433,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/post-citation/";
+            window.location.href = "/blog/2024/post-citation/";
           
         },
       },{id: "post-a-post-with-pseudo-code",
@@ -444,7 +444,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/pseudocode/";
+            window.location.href = "/blog/2024/pseudocode/";
           
         },
       },{id: "post-predicting-resources-of-tasks-in-dynamic-workflows-with-bucketing-algorithms-at-ipdps-2024",
@@ -455,7 +455,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/predicting-resources-of-tasks-in-dynamic-workflows-with-bucketing-algorithms-at/";
+            window.location.href = "/blog/2024/predicting-resources-of-tasks-in-dynamic-workflows-with-bucketing-algorithms-at/";
           
         },
       },{id: "post-taskvine-at-the-hep-analysis-grand-challenge",
@@ -466,7 +466,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/taskvine-at-the-hep-analysis-grand-challenge/";
+            window.location.href = "/blog/2024/taskvine-at-the-hep-analysis-grand-challenge/";
           
         },
       },{id: "post-cctools-7-8-0-released",
@@ -477,7 +477,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/cctools-780-released/";
+            window.location.href = "/blog/2024/cctools-780-released/";
           
         },
       },{id: "post-untitled",
@@ -488,7 +488,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/untitled/";
+            window.location.href = "/blog/2024/untitled/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -499,7 +499,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/code-diff/";
+            window.location.href = "/blog/2024/code-diff/";
           
         },
       },{id: "post-a-post-with-advanced-image-components",
@@ -510,7 +510,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/advanced-images/";
+            window.location.href = "/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -521,7 +521,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/vega-lite/";
+            window.location.href = "/blog/2024/vega-lite/";
           
         },
       },{id: "post-a-post-with-geojson",
@@ -532,7 +532,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/geojson-map/";
+            window.location.href = "/blog/2024/geojson-map/";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -543,7 +543,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/echarts/";
+            window.location.href = "/blog/2024/echarts/";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -554,7 +554,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2024/chartjs/";
+            window.location.href = "/blog/2024/chartjs/";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -565,7 +565,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/tikzjax/";
+            window.location.href = "/blog/2023/tikzjax/";
           
         },
       },{id: "post-distant-futures-at-sc-2023",
@@ -576,7 +576,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/distant-futures-at-sc-2023/";
+            window.location.href = "/blog/2023/distant-futures-at-sc-2023/";
           
         },
       },{id: "post-maximizing-data-utility-at-hppss-sc-2023",
@@ -587,7 +587,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/maximizing-data-utility-at-hppsssc-2023/";
+            window.location.href = "/blog/2023/maximizing-data-utility-at-hppsssc-2023/";
           
         },
       },{id: "post-taskvine-paper-at-works-sc-2023",
@@ -598,7 +598,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/taskvine-paper-at-workssc-2023/";
+            window.location.href = "/blog/2023/taskvine-paper-at-workssc-2023/";
           
         },
       },{id: "post-cctools-7-7-0-released",
@@ -609,7 +609,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/cctools-770-released/";
+            window.location.href = "/blog/2023/cctools-770-released/";
           
         },
       },{id: "post-cctools-7-6-1-released",
@@ -620,7 +620,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/cctools-761-released/";
+            window.location.href = "/blog/2023/cctools-761-released/";
           
         },
       },{id: "post-a-post-with-bibliography",
@@ -631,7 +631,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/post-bibliography/";
+            window.location.href = "/blog/2023/post-bibliography/";
           
         },
       },{id: "post-cctools-7-6-0-released",
@@ -642,7 +642,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/cctools-760-released/";
+            window.location.href = "/blog/2023/cctools-760-released/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -653,7 +653,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/jupyter-notebook/";
+            window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -664,7 +664,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/custom-blockquotes/";
+            window.location.href = "/blog/2023/custom-blockquotes/";
           
         },
       },{id: "post-intro-to-taskvine-at-gcasr-2023",
@@ -675,7 +675,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/intro-to-taskvine-at-gcasr-2023/";
+            window.location.href = "/blog/2023/intro-to-taskvine-at-gcasr-2023/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -686,7 +686,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/sidebar-table-of-contents/";
+            window.location.href = "/blog/2023/sidebar-table-of-contents/";
           
         },
       },{id: "post-a-post-with-audios",
@@ -697,7 +697,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/audios/";
+            window.location.href = "/blog/2023/audios/";
           
         },
       },{id: "post-a-post-with-videos",
@@ -708,7 +708,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/videos/";
+            window.location.href = "/blog/2023/videos/";
           
         },
       },{id: "post-cctools-version-7-5-2-released",
@@ -719,7 +719,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/cctools-version-752-released/";
+            window.location.href = "/blog/2023/cctools-version-752-released/";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -730,7 +730,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/tables/";
+            window.location.href = "/blog/2023/tables/";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -741,7 +741,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/table-of-contents/";
+            window.location.href = "/blog/2023/table-of-contents/";
           
         },
       },{id: "post-taskvine-system-architecture",
@@ -752,7 +752,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/taskvine-system-architecture/";
+            window.location.href = "/blog/2023/taskvine-system-architecture/";
           
         },
       },{id: "post-a-preview-of-taskvine",
@@ -763,7 +763,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/a-preview-of-taskvine/";
+            window.location.href = "/blog/2023/a-preview-of-taskvine/";
           
         },
       },{id: "post-landlord-container-paper-in-tpds-2023",
@@ -774,7 +774,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2023/landlord-container-paper-in-tpds-2023/";
+            window.location.href = "/blog/2023/landlord-container-paper-in-tpds-2023/";
           
         },
       },{id: "post-a-post-with-giscus-comments",
@@ -785,7 +785,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/giscus-comments/";
+            window.location.href = "/blog/2022/giscus-comments/";
           
         },
       },{id: "post-mufasa-robust-meta-workflow-management-at-escience-2022",
@@ -796,7 +796,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/mufasa-robust-meta-workflow-management-at-escience-2022/";
+            window.location.href = "/blog/2022/mufasa-robust-meta-workflow-management-at-escience-2022/";
           
         },
       },{id: "post-pyhep-2022-automatic-resource-management-with-coffea-and-workqueue",
@@ -807,7 +807,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/pyhep-2022-automatic-resource-management-with-coffea-and-workqueue/";
+            window.location.href = "/blog/2022/pyhep-2022-automatic-resource-management-with-coffea-and-workqueue/";
           
         },
       },{id: "post-us-cms-pursue-internship-project-searching-for-extreme-events-in-multi-lepton-data-from-the-lhc",
@@ -818,7 +818,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/us-cms-pursue-internship-project-searching-for-extreme-events-in-multi-lepton-da/";
+            window.location.href = "/blog/2022/us-cms-pursue-internship-project-searching-for-extreme-events-in-multi-lepton-da/";
           
         },
       },{id: "post-demo-of-the-work-queue-executor-at-coffea-user-39-s-meeting",
@@ -829,7 +829,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/demo-of-the-work-queue-executor-at-coffea-users-meeting/";
+            window.location.href = "/blog/2022/demo-of-the-work-queue-executor-at-coffea-users-meeting/";
           
         },
       },{id: "post-isure-project-visualizing-and-right-sizing-work-queue-applications",
@@ -840,7 +840,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/isure-project-visualizing-and-right-sizing-work-queue-applications/";
+            window.location.href = "/blog/2022/isure-project-visualizing-and-right-sizing-work-queue-applications/";
           
         },
       },{id: "post-reu-project-topeft-performance-analysis-solving-bottlenecks-in-data-transfer-and-task-resource-management",
@@ -851,7 +851,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/reu-project-topeft-performance-analysis-solving-bottlenecks-in-data-transfer-and/";
+            window.location.href = "/blog/2022/reu-project-topeft-performance-analysis-solving-bottlenecks-in-data-transfer-and/";
           
         },
       },{id: "post-reu-project-integrating-serverless-and-task-computation-in-work-queue",
@@ -862,7 +862,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/reu-project-integrating-serverless-and-task-computation-in-work-queue/";
+            window.location.href = "/blog/2022/reu-project-integrating-serverless-and-task-computation-in-work-queue/";
           
         },
       },{id: "post-cctools-version-7-4-9-released",
@@ -873,7 +873,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/cctools-version-749-released/";
+            window.location.href = "/blog/2022/cctools-version-749-released/";
           
         },
       },{id: "post-how-many-eggs-can-you-fit-in-one-nest",
@@ -884,7 +884,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/how-many-eggs-can-you-fit-in-one-nest/";
+            window.location.href = "/blog/2022/how-many-eggs-can-you-fit-in-one-nest/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -906,7 +906,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/ipdps-paper-dynamic-task-shaping-in-high-energy-physics/";
+            window.location.href = "/blog/2022/ipdps-paper-dynamic-task-shaping-in-high-energy-physics/";
           
         },
       },{id: "post-continuous-integration-for-documentation",
@@ -917,7 +917,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/continuous-integration-for-documentation/";
+            window.location.href = "/blog/2022/continuous-integration-for-documentation/";
           
         },
       },{id: "post-scaling-up-julia-hidden-filesystem-stress",
@@ -928,7 +928,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2022/scaling-up-julia-hidden-filesystem-stress/";
+            window.location.href = "/blog/2022/scaling-up-julia-hidden-filesystem-stress/";
           
         },
       },{id: "post-a-post-with-redirect",
@@ -939,7 +939,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/assets/pdf/example_pdf.pdf";
+            window.location.href = "/assets/pdf/example_pdf.pdf";
           
         },
       },{id: "post-tuning-high-throughput-task-dispatch-in-coffea",
@@ -950,7 +950,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/tuning-high-throughput-task-dispatch-in-coffea/";
+            window.location.href = "/blog/2021/tuning-high-throughput-task-dispatch-in-coffea/";
           
         },
       },{id: "post-scalable-molecular-dynamics-with-work-queue-at-ut-austin",
@@ -961,7 +961,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/scalable-molecular-dynamics-with-work-queue-at-ut-austin/";
+            window.location.href = "/blog/2021/scalable-molecular-dynamics-with-work-queue-at-ut-austin/";
           
         },
       },{id: "post-jx-language-repl-tool-and-dot-operator",
@@ -972,7 +972,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/jx-language-repl-tool-and-dot-operator/";
+            window.location.href = "/blog/2021/jx-language-repl-tool-and-dot-operator/";
           
         },
       },{id: "post-poncho-toolkit-for-portable-python",
@@ -983,7 +983,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/poncho-toolkit-for-portable-python/";
+            window.location.href = "/blog/2021/poncho-toolkit-for-portable-python/";
           
         },
       },{id: "post-works-paper-adaptive-resource-allocation-for-heterogeneous-tasks-in-dynamic-workflows",
@@ -994,7 +994,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/works-paper-adaptive-resource-allocation-for-heterogeneous-tasks-in-dynamic-work/";
+            window.location.href = "/blog/2021/works-paper-adaptive-resource-allocation-for-heterogeneous-tasks-in-dynamic-work/";
           
         },
       },{id: "post-new-pythontask-interface-in-work-queue",
@@ -1005,7 +1005,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/new-pythontask-interface-in-work-queue/";
+            window.location.href = "/blog/2021/new-pythontask-interface-in-work-queue/";
           
         },
       },{id: "post-harnessing-hpc-at-user-level-for-high-energy-physics",
@@ -1016,7 +1016,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/harnessing-hpc-at-user-level-for-high-energy-physics/";
+            window.location.href = "/blog/2021/harnessing-hpc-at-user-level-for-high-energy-physics/";
           
         },
       },{id: "post-new-ccl-swag",
@@ -1027,7 +1027,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/new-ccl-swag/";
+            window.location.href = "/blog/2021/new-ccl-swag/";
           
         },
       },{id: "post-cctools-version-7-3-0-released",
@@ -1038,7 +1038,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/cctools-version-730-released/";
+            window.location.href = "/blog/2021/cctools-version-730-released/";
           
         },
       },{id: "post-a-post-with-diagrams",
@@ -1049,7 +1049,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/diagrams/";
+            window.location.href = "/blog/2021/diagrams/";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -1060,7 +1060,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/distill/";
+            window.location.href = "/blog/2021/distill/";
           
         },
       },{id: "post-lightweight-function-paper-at-ipdps",
@@ -1071,7 +1071,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/lightweight-function-paper-at-ipdps/";
+            window.location.href = "/blog/2021/lightweight-function-paper-at-ipdps/";
           
         },
       },{id: "post-ph-d-defense-nathaniel-kremer-herman",
@@ -1082,7 +1082,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/phd-defense-nathaniel-kremer-herman/";
+            window.location.href = "/blog/2021/phd-defense-nathaniel-kremer-herman/";
           
         },
       },{id: "post-cctools-7-2-0-released",
@@ -1093,7 +1093,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2021/cctools-720-released/";
+            window.location.href = "/blog/2021/cctools-720-released/";
           
         },
       },{id: "post-cctools-version-7-1-12-released",
@@ -1104,7 +1104,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/cctools-version-7112-released/";
+            window.location.href = "/blog/2020/cctools-version-7112-released/";
           
         },
       },{id: "post-opentopography-eemt-makeflow",
@@ -1115,7 +1115,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/opentopography-eemt-makeflow/";
+            window.location.href = "/blog/2020/opentopography-eemt-makeflow/";
           
         },
       },{id: "post-analyzing-agriculture-with-work-queue",
@@ -1126,7 +1126,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/analyzing-agriculture-with-work-queue/";
+            window.location.href = "/blog/2020/analyzing-agriculture-with-work-queue/";
           
         },
       },{id: "post-now-recruiting-students",
@@ -1137,7 +1137,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/now-recruiting-students/";
+            window.location.href = "/blog/2020/now-recruiting-students/";
           
         },
       },{id: "post-cctools-version-7-1-9-released",
@@ -1148,7 +1148,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/cctools-version-719-released/";
+            window.location.href = "/blog/2020/cctools-version-719-released/";
           
         },
       },{id: "post-a-post-with-twitter",
@@ -1159,7 +1159,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/twitter/";
+            window.location.href = "/blog/2020/twitter/";
           
         },
       },{id: "post-autoscaling-htc-at-cluster-2020",
@@ -1170,7 +1170,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/autoscaling-htc-at-cluster-2020/";
+            window.location.href = "/blog/2020/autoscaling-htc-at-cluster-2020/";
           
         },
       },{id: "post-cctools-version-7-1-7-released",
@@ -1181,7 +1181,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/cctools-version-717-released/";
+            window.location.href = "/blog/2020/cctools-version-717-released/";
           
         },
       },{id: "post-resource-usage-histograms-for-work-queue-using-python-39-s-pandas-matplotlib",
@@ -1192,7 +1192,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/resource-usage-histograms-for-work-queue-using-pythons-pandasmatplotlib/";
+            window.location.href = "/blog/2020/resource-usage-histograms-for-work-queue-using-pythons-pandasmatplotlib/";
           
         },
       },{id: "post-tim-shaffer-awarded-doe-fellowship",
@@ -1203,7 +1203,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/tim-shaffer-awarded-doe-fellowship/";
+            window.location.href = "/blog/2020/tim-shaffer-awarded-doe-fellowship/";
           
         },
       },{id: "post-wrench-simulation-of-work-queue",
@@ -1214,7 +1214,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/wrench-simulation-of-work-queue/";
+            window.location.href = "/blog/2020/wrench-simulation-of-work-queue/";
           
         },
       },{id: "post-coffea-work-queue-presentation-at-pyhep-2020",
@@ -1225,7 +1225,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/coffea-work-queue-presentation-at-pyhep-2020/";
+            window.location.href = "/blog/2020/coffea-work-queue-presentation-at-pyhep-2020/";
           
         },
       },{id: "post-troubleshooting-at-pearc-2020",
@@ -1236,7 +1236,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/troubleshooting-at-pearc-2020/";
+            window.location.href = "/blog/2020/troubleshooting-at-pearc-2020/";
           
         },
       },{id: "post-container-management-at-ipdps-2020",
@@ -1247,7 +1247,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/container-management-at-ipdps-2020/";
+            window.location.href = "/blog/2020/container-management-at-ipdps-2020/";
           
         },
       },{id: "post-bootstrapping-the-bootstrapper",
@@ -1258,7 +1258,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/bootstrapping-the-bootstrapper/";
+            window.location.href = "/blog/2020/bootstrapping-the-bootstrapper/";
           
         },
       },{id: "post-cctools-version-7-1-6-released",
@@ -1269,7 +1269,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/cctools-version-716-released/";
+            window.location.href = "/blog/2020/cctools-version-716-released/";
           
         },
       },{id: "post-reu-project-coffea-work-queue",
@@ -1280,7 +1280,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/reu-project-coffea-work-queue/";
+            window.location.href = "/blog/2020/reu-project-coffea-work-queue/";
           
         },
       },{id: "post-cctools-version-7-1-5-released",
@@ -1291,7 +1291,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/cctools-version-715-released/";
+            window.location.href = "/blog/2020/cctools-version-715-released/";
           
         },
       },{id: "post-cctools-version-7-1-2-released",
@@ -1302,7 +1302,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/cctools-version-712-released/";
+            window.location.href = "/blog/2020/cctools-version-712-released/";
           
         },
       },{id: "post-cctools-7-1-0-released",
@@ -1313,7 +1313,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/cctools-710-released/";
+            window.location.href = "/blog/2020/cctools-710-released/";
           
         },
       },{id: "post-announcement-cctools-version-7-0-22-released",
@@ -1324,7 +1324,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2020/announcement-cctools-version-7022-released/";
+            window.location.href = "/blog/2020/announcement-cctools-version-7022-released/";
           
         },
       },{id: "post-ph-d-defense-nick-hazekamp",
@@ -1335,7 +1335,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/phd-defense-nick-hazekamp/";
+            window.location.href = "/blog/2019/phd-defense-nick-hazekamp/";
           
         },
       },{id: "post-announcement-cctools-version-7-0-21-released",
@@ -1346,7 +1346,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/announcement-cctools-version-7021-released/";
+            window.location.href = "/blog/2019/announcement-cctools-version-7021-released/";
           
         },
       },{id: "post-acic-tutorial-on-makeflow-and-work-queue",
@@ -1357,7 +1357,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/acic-tutorial-on-makeflow-and-work-queue/";
+            window.location.href = "/blog/2019/acic-tutorial-on-makeflow-and-work-queue/";
           
         },
       },{id: "post-readthedocs-preview",
@@ -1368,7 +1368,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/readthedocs-preview/";
+            window.location.href = "/blog/2019/readthedocs-preview/";
           
         },
       },{id: "post-work-queue-parsl-preview",
@@ -1379,7 +1379,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/work-queue-parsl-preview/";
+            window.location.href = "/blog/2019/work-queue-parsl-preview/";
           
         },
       },{id: "post-announcement-cctools-7-0-17-released",
@@ -1390,7 +1390,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/announcement-cctools-7017-released/";
+            window.location.href = "/blog/2019/announcement-cctools-7017-released/";
           
         },
       },{id: "post-ph-d-defense-chao-quot-charles-quot-zheng",
@@ -1401,7 +1401,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/phd-defense-chao-charles-zheng/";
+            window.location.href = "/blog/2019/phd-defense-chao-charles-zheng/";
           
         },
       },{id: "post-summer-reu-projects",
@@ -1412,7 +1412,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/summer-reu-projects/";
+            window.location.href = "/blog/2019/summer-reu-projects/";
           
         },
       },{id: "post-phd-proposal-tim-shaffer",
@@ -1423,7 +1423,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/phd-proposal-tim-shaffer/";
+            window.location.href = "/blog/2019/phd-proposal-tim-shaffer/";
           
         },
       },{id: "post-shrinkwrap-containers-at-cern",
@@ -1434,7 +1434,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/shrinkwrap-containers-at-cern/";
+            window.location.href = "/blog/2019/shrinkwrap-containers-at-cern/";
           
         },
       },{id: "post-announcement-cctools-7-0-11-released",
@@ -1445,7 +1445,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/announcement-cctools-7011-released/";
+            window.location.href = "/blog/2019/announcement-cctools-7011-released/";
           
         },
       },{id: "post-ph-d-proposal-nate-kremer-herman",
@@ -1456,7 +1456,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2019/phd-proposal-nate-kremer-herman/";
+            window.location.href = "/blog/2019/phd-proposal-nate-kremer-herman/";
           
         },
       },{id: "post-parallel-application-capacity-paper-at-supercomputing-2018",
@@ -1467,7 +1467,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/parallel-application-capacity-paper-at-supercomputing-2018/";
+            window.location.href = "/blog/2018/parallel-application-capacity-paper-at-supercomputing-2018/";
           
         },
       },{id: "post-workflow-algebra-and-jx-language-at-e-science-2018",
@@ -1478,7 +1478,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/workflow-algebra-and-jx-language-at-e-science-2018/";
+            window.location.href = "/blog/2018/workflow-algebra-and-jx-language-at-e-science-2018/";
           
         },
       },{id: "post-work-queue-visual-status",
@@ -1489,7 +1489,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/work-queue-visual-status/";
+            window.location.href = "/blog/2018/work-queue-visual-status/";
           
         },
       },{id: "post-announcement-cctools-7-0-4-released",
@@ -1500,7 +1500,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/announcement-cctools-704-released/";
+            window.location.href = "/blog/2018/announcement-cctools-704-released/";
           
         },
       },{id: "post-disc-reu-videos-2018",
@@ -1511,7 +1511,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/disc-reu-videos-2018/";
+            window.location.href = "/blog/2018/disc-reu-videos-2018/";
           
         },
       },{id: "post-vc3-virtual-clusters-at-pearc-2018",
@@ -1522,7 +1522,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/vc3-virtual-clusters-at-pearc-2018/";
+            window.location.href = "/blog/2018/vc3-virtual-clusters-at-pearc-2018/";
           
         },
       },{id: "post-reproducibility-in-scientific-computing",
@@ -1533,7 +1533,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/reproducibility-in-scientific-computing/";
+            window.location.href = "/blog/2018/reproducibility-in-scientific-computing/";
           
         },
       },{id: "post-halfway-through-2018-summer-reu",
@@ -1544,7 +1544,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/halfway-through-2018-summer-reu/";
+            window.location.href = "/blog/2018/halfway-through-2018-summer-reu/";
           
         },
       },{id: "post-announcement-cctools-7-0-0-released",
@@ -1555,7 +1555,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/announcement-cctools-700-released/";
+            window.location.href = "/blog/2018/announcement-cctools-700-released/";
           
         },
       },{id: "post-papers-at-sciencecloud-workshop",
@@ -1566,7 +1566,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/papers-at-sciencecloud-workshop/";
+            window.location.href = "/blog/2018/papers-at-sciencecloud-workshop/";
           
         },
       },{id: "post-ccl-internships-at-cern-and-alibaba",
@@ -1577,7 +1577,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/ccl-internships-at-cern-and-alibaba/";
+            window.location.href = "/blog/2018/ccl-internships-at-cern-and-alibaba/";
           
         },
       },{id: "post-2018-disc-reu-kickoff",
@@ -1588,7 +1588,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/2018-disc-reu-kickoff/";
+            window.location.href = "/blog/2018/2018-disc-reu-kickoff/";
           
         },
       },{id: "post-vc3-project-limited-beta-opens",
@@ -1599,7 +1599,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/vc3-project-limited-beta-opens/";
+            window.location.href = "/blog/2018/vc3-project-limited-beta-opens/";
           
         },
       },{id: "post-graduation-2018",
@@ -1610,7 +1610,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/graduation-2018/";
+            window.location.href = "/blog/2018/graduation-2018/";
           
         },
       },{id: "post-vc3-builder-and-wq-maker-at-ic2e-2018",
@@ -1621,7 +1621,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/vc3-builder-and-wq-maker-at-ic2e-2018/";
+            window.location.href = "/blog/2018/vc3-builder-and-wq-maker-at-ic2e-2018/";
           
         },
       },{id: "post-ccl-at-cyverse-container-camp",
@@ -1632,7 +1632,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2018/ccl-at-cyverse-container-camp/";
+            window.location.href = "/blog/2018/ccl-at-cyverse-container-camp/";
           
         },
       },{id: "post-tpds-paper-storage-management-in-makeflow",
@@ -1643,7 +1643,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/tpds-paper-storage-management-in-makeflow/";
+            window.location.href = "/blog/2017/tpds-paper-storage-management-in-makeflow/";
           
         },
       },{id: "post-ccl-on-chameleon-cloud-with-acic",
@@ -1654,7 +1654,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/ccl-on-chameleon-cloud-with-acic/";
+            window.location.href = "/blog/2017/ccl-on-chameleon-cloud-with-acic/";
           
         },
       },{id: "post-ccl-at-supercomputing-2017",
@@ -1665,7 +1665,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/ccl-at-supercomputing-2017/";
+            window.location.href = "/blog/2017/ccl-at-supercomputing-2017/";
           
         },
       },{id: "post-tpds-paper-job-sizing",
@@ -1676,7 +1676,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/tpds-paper-job-sizing/";
+            window.location.href = "/blog/2017/tpds-paper-job-sizing/";
           
         },
       },{id: "post-makeflow-feature-jx-representation",
@@ -1687,7 +1687,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/makeflow-feature-jx-representation/";
+            window.location.href = "/blog/2017/makeflow-feature-jx-representation/";
           
         },
       },{id: "post-announcement-cctools-6-2-0-released",
@@ -1698,7 +1698,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/announcement-cctools-620-released/";
+            window.location.href = "/blog/2017/announcement-cctools-620-released/";
           
         },
       },{id: "post-2017-disc-summer-reu-conclusion",
@@ -1709,7 +1709,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/2017-disc-summer-reu-conclusion/";
+            window.location.href = "/blog/2017/2017-disc-summer-reu-conclusion/";
           
         },
       },{id: "post-announcement-cctools-6-1-6-released",
@@ -1720,7 +1720,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/announcement-cctools-616-released/";
+            window.location.href = "/blog/2017/announcement-cctools-616-released/";
           
         },
       },{id: "post-talk-at-sciencecloud-workshop",
@@ -1731,7 +1731,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/talk-at-sciencecloud-workshop/";
+            window.location.href = "/blog/2017/talk-at-sciencecloud-workshop/";
           
         },
       },{id: "post-congrads-to-ph-d-graduates",
@@ -1742,7 +1742,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/congrads-to-phd-graduates/";
+            window.location.href = "/blog/2017/congrads-to-phd-graduates/";
           
         },
       },{id: "post-announcement-cctools-6-1-0-released",
@@ -1753,7 +1753,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/announcement-cctools-610-released/";
+            window.location.href = "/blog/2017/announcement-cctools-610-released/";
           
         },
       },{id: "post-makeflow-and-mesos-paper-at-ccgrid-2017",
@@ -1764,7 +1764,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/makeflow-and-mesos-paper-at-ccgrid-2017/";
+            window.location.href = "/blog/2017/makeflow-and-mesos-paper-at-ccgrid-2017/";
           
         },
       },{id: "post-workflow-reproducibility-paper-at-iccs-2017",
@@ -1775,7 +1775,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/workflow-reproducibility-paper-at-iccs-2017/";
+            window.location.href = "/blog/2017/workflow-reproducibility-paper-at-iccs-2017/";
           
         },
       },{id: "post-ph-d-defense-haiyan-meng",
@@ -1786,7 +1786,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/phd-defense-haiyan-meng/";
+            window.location.href = "/blog/2017/phd-defense-haiyan-meng/";
           
         },
       },{id: "post-makeflow-examples-archive",
@@ -1797,7 +1797,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/makeflow-examples-archive/";
+            window.location.href = "/blog/2017/makeflow-examples-archive/";
           
         },
       },{id: "post-big-cms-data-analysis-at-notre-dame",
@@ -1808,7 +1808,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/big-cms-data-analysis-at-notre-dame/";
+            window.location.href = "/blog/2017/big-cms-data-analysis-at-notre-dame/";
           
         },
       },{id: "post-icecube-flies-with-parrot-and-cvmfs",
@@ -1819,7 +1819,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2017/icecube-flies-with-parrot-and-cvmfs/";
+            window.location.href = "/blog/2017/icecube-flies-with-parrot-and-cvmfs/";
           
         },
       },{id: "post-reproducibility-papers-at-escience-2016",
@@ -1830,7 +1830,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/reproducibility-papers-at-escience-2016/";
+            window.location.href = "/blog/2016/reproducibility-papers-at-escience-2016/";
           
         },
       },{id: "post-ccl-workshop-2016",
@@ -1841,7 +1841,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/ccl-workshop-2016/";
+            window.location.href = "/blog/2016/ccl-workshop-2016/";
           
         },
       },{id: "post-nsf-grant-to-support-cctools-development",
@@ -1852,7 +1852,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/nsf-grant-to-support-cctools-development/";
+            window.location.href = "/blog/2016/nsf-grant-to-support-cctools-development/";
           
         },
       },{id: "post-announcement-cctools-6-0-0-released",
@@ -1863,7 +1863,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/announcement-cctools-600-released/";
+            window.location.href = "/blog/2016/announcement-cctools-600-released/";
           
         },
       },{id: "post-summer-reu-projects-in-data-intensive-scientific-computing",
@@ -1874,7 +1874,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/summer-reu-projects-in-data-intensive-scientific-computing/";
+            window.location.href = "/blog/2016/summer-reu-projects-in-data-intensive-scientific-computing/";
           
         },
       },{id: "post-simulation-of-hp24stab-with-awe-and-work-queue",
@@ -1885,7 +1885,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/simulation-of-hp24stab-with-awe-and-work-queue/";
+            window.location.href = "/blog/2016/simulation-of-hp24stab-with-awe-and-work-queue/";
           
         },
       },{id: "post-nd-leads-doe-grant-on-virtual-clusters-for-scientific-computing",
@@ -1896,7 +1896,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/nd-leads-doe-grant-on-virtual-clusters-for-scientific-computing/";
+            window.location.href = "/blog/2016/nd-leads-doe-grant-on-virtual-clusters-for-scientific-computing/";
           
         },
       },{id: "post-2016-disc-summer-session-wraps-up",
@@ -1907,7 +1907,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/2016-disc-summer-session-wraps-up/";
+            window.location.href = "/blog/2016/2016-disc-summer-session-wraps-up/";
           
         },
       },{id: "post-new-work-queue-visualization",
@@ -1918,7 +1918,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/new-work-queue-visualization/";
+            window.location.href = "/blog/2016/new-work-queue-visualization/";
           
         },
       },{id: "post-work-queue-from-raspberry-pi-to-azure-at-spu",
@@ -1929,7 +1929,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/work-queue-from-raspberry-pi-to-azure-at-spu/";
+            window.location.href = "/blog/2016/work-queue-from-raspberry-pi-to-azure-at-spu/";
           
         },
       },{id: "post-lifemapper-analyzes-biodiversity-using-makeflow-and-work-queue",
@@ -1940,7 +1940,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/lifemapper-analyzes-biodiversity-using-makeflow-and-work-queue/";
+            window.location.href = "/blog/2016/lifemapper-analyzes-biodiversity-using-makeflow-and-work-queue/";
           
         },
       },{id: "post-condor-week-2016-presentation",
@@ -1951,7 +1951,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/condor-week-2016-presentation/";
+            window.location.href = "/blog/2016/condor-week-2016-presentation/";
           
         },
       },{id: "post-containers-workflows-and-reproducibility",
@@ -1962,7 +1962,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/containers-workflows-and-reproducibility/";
+            window.location.href = "/blog/2016/containers-workflows-and-reproducibility/";
           
         },
       },{id: "post-balancing-push-and-pull-in-confuga-an-active-storage-cluster-file-system-for-scientific-workflows",
@@ -1973,7 +1973,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/balancing-push-and-pull-in-confuga-an-active-storage-cluster-file-system-for-sci/";
+            window.location.href = "/blog/2016/balancing-push-and-pull-in-confuga-an-active-storage-cluster-file-system-for-sci/";
           
         },
       },{id: "post-interships-at-red-hat-and-cern",
@@ -1984,7 +1984,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/interships-at-red-hat-and-cern/";
+            window.location.href = "/blog/2016/interships-at-red-hat-and-cern/";
           
         },
       },{id: "post-ph-d-defense-patrick-donnelly",
@@ -1995,7 +1995,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/phd-defense-patrick-donnelly/";
+            window.location.href = "/blog/2016/phd-defense-patrick-donnelly/";
           
         },
       },{id: "post-searching-for-exo-planets-with-makeflow-and-work-queue",
@@ -2006,7 +2006,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/searching-for-exo-planets-with-makeflow-and-work-queue/";
+            window.location.href = "/blog/2016/searching-for-exo-planets-with-makeflow-and-work-queue/";
           
         },
       },{id: "post-parrot-talk-at-osg-all-hands-meeting-2016",
@@ -2017,7 +2017,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/parrot-talk-at-osg-all-hands-meeting-2016/";
+            window.location.href = "/blog/2016/parrot-talk-at-osg-all-hands-meeting-2016/";
           
         },
       },{id: "post-cctools-5-4-0-released",
@@ -2028,7 +2028,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/cctools-540-released/";
+            window.location.href = "/blog/2016/cctools-540-released/";
           
         },
       },{id: "post-preservation-talk-at-grid-5000",
@@ -2039,7 +2039,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/preservation-talk-at-grid-5000/";
+            window.location.href = "/blog/2016/preservation-talk-at-grid-5000/";
           
         },
       },{id: "post-summer-reu-in-disc-at-notre-dame",
@@ -2050,7 +2050,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2016/summer-reu-in-disc-at-notre-dame/";
+            window.location.href = "/blog/2016/summer-reu-in-disc-at-notre-dame/";
           
         },
       },{id: "post-cctools-5-3-0-released",
@@ -2061,7 +2061,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/cctools-530-released/";
+            window.location.href = "/blog/2015/cctools-530-released/";
           
         },
       },{id: "post-analyzing-lhc-data-on-10k-cores-with-lobster",
@@ -2072,7 +2072,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/analyzing-lhc-data-on-10k-cores-with-lobster/";
+            window.location.href = "/blog/2015/analyzing-lhc-data-on-10k-cores-with-lobster/";
           
         },
       },{id: "post-global-filesystems-paper-in-ieee-cise",
@@ -2083,7 +2083,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/global-filesystems-paper-in-ieee-cise/";
+            window.location.href = "/blog/2015/global-filesystems-paper-in-ieee-cise/";
           
         },
       },{id: "post-preservation-talk-at-ipres-2015",
@@ -2094,7 +2094,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/preservation-talk-at-ipres-2015/";
+            window.location.href = "/blog/2015/preservation-talk-at-ipres-2015/";
           
         },
       },{id: "post-cms-case-study-paper-at-chep",
@@ -2105,7 +2105,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/cms-case-study-paper-at-chep/";
+            window.location.href = "/blog/2015/cms-case-study-paper-at-chep/";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -2116,7 +2116,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/disqus-comments/";
+            window.location.href = "/blog/2015/disqus-comments/";
           
         },
       },{id: "post-a-post-with-math",
@@ -2127,7 +2127,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/math/";
+            window.location.href = "/blog/2015/math/";
           
         },
       },{id: "post-openmalaria-preservation-with-umbrella",
@@ -2138,7 +2138,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/openmalaria-preservation-with-umbrella/";
+            window.location.href = "/blog/2015/openmalaria-preservation-with-umbrella/";
           
         },
       },{id: "post-dagvz-paper-at-visual-performance-analysis-workshop",
@@ -2149,7 +2149,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/dagvz-paper-at-visual-performance-analysis-workshop/";
+            window.location.href = "/blog/2015/dagvz-paper-at-visual-performance-analysis-workshop/";
           
         },
       },{id: "post-virtual-wind-tunnel-in-ieee-cise",
@@ -2160,7 +2160,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/virtual-wind-tunnel-in-ieee-cise/";
+            window.location.href = "/blog/2015/virtual-wind-tunnel-in-ieee-cise/";
           
         },
       },{id: "post-three-papers-at-ieee-cluster-in-chicago",
@@ -2171,7 +2171,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/three-papers-at-ieee-cluster-in-chicago/";
+            window.location.href = "/blog/2015/three-papers-at-ieee-cluster-in-chicago/";
           
         },
       },{id: "post-cctools-5-2-0-released",
@@ -2182,7 +2182,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/cctools-520-released/";
+            window.location.href = "/blog/2015/cctools-520-released/";
           
         },
       },{id: "post-recent-ccl-grads-take-faculty-positions",
@@ -2193,7 +2193,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/recent-ccl-grads-take-faculty-positions/";
+            window.location.href = "/blog/2015/recent-ccl-grads-take-faculty-positions/";
           
         },
       },{id: "post-cms-analysis-on-10k-cores-using-lobster",
@@ -2204,7 +2204,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/cms-analysis-on-10k-cores-using-lobster/";
+            window.location.href = "/blog/2015/cms-analysis-on-10k-cores-using-lobster/";
           
         },
       },{id: "post-haipeng-cai-defends-ph-d",
@@ -2215,7 +2215,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/haipeng-cai-defends-phd/";
+            window.location.href = "/blog/2015/haipeng-cai-defends-phd/";
           
         },
       },{id: "post-cctools-5-1-0-released",
@@ -2226,7 +2226,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/cctools-510-released/";
+            window.location.href = "/blog/2015/cctools-510-released/";
           
         },
       },{id: "post-a-post-with-code",
@@ -2237,7 +2237,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/code/";
+            window.location.href = "/blog/2015/code/";
           
         },
       },{id: "post-cctools-5-0-0-released",
@@ -2248,7 +2248,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/cctools-500-released/";
+            window.location.href = "/blog/2015/cctools-500-released/";
           
         },
       },{id: "post-preservation-framework-for-computational-reproducibility-at-iccs-2015",
@@ -2259,7 +2259,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/preservation-framework-for-computational-reproducibility-at-iccs-2015/";
+            window.location.href = "/blog/2015/preservation-framework-for-computational-reproducibility-at-iccs-2015/";
           
         },
       },{id: "post-umbrella-and-containers-at-vtdc-2015",
@@ -2270,7 +2270,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/umbrella-and-containers-at-vtdc-2015/";
+            window.location.href = "/blog/2015/umbrella-and-containers-at-vtdc-2015/";
           
         },
       },{id: "post-lobster-talk-at-condor-week-2015",
@@ -2281,7 +2281,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/lobster-talk-at-condor-week-2015/";
+            window.location.href = "/blog/2015/lobster-talk-at-condor-week-2015/";
           
         },
       },{id: "post-a-case-study-in-preserving-a-cms-application-with-parrot",
@@ -2292,7 +2292,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/a-case-study-in-preserving-a-cms-application-with-parrot/";
+            window.location.href = "/blog/2015/a-case-study-in-preserving-a-cms-application-with-parrot/";
           
         },
       },{id: "post-parrot-and-lobster-at-chep-2015",
@@ -2303,7 +2303,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/parrot-and-lobster-at-chep-2015/";
+            window.location.href = "/blog/2015/parrot-and-lobster-at-chep-2015/";
           
         },
       },{id: "post-a-post-with-images",
@@ -2314,7 +2314,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/images/";
+            window.location.href = "/blog/2015/images/";
           
         },
       },{id: "post-peter-sempolinski-defends-ph-d",
@@ -2325,7 +2325,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/peter-sempolinski-defends-phd/";
+            window.location.href = "/blog/2015/peter-sempolinski-defends-phd/";
           
         },
       },{id: "post-cms-analysis-on-10k-cores-with-lobster",
@@ -2336,7 +2336,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/cms-analysis-on-10k-cores-with-lobster/";
+            window.location.href = "/blog/2015/cms-analysis-on-10k-cores-with-lobster/";
           
         },
       },{id: "post-dinesh-rajan-defends-ph-d",
@@ -2347,7 +2347,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/dinesh-rajan-defends-phd/";
+            window.location.href = "/blog/2015/dinesh-rajan-defends-phd/";
           
         },
       },{id: "post-confuga-scalable-data-intensive-computing-for-posix-workflows",
@@ -2358,7 +2358,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/confuga-scalable-data-intensive-computing-for-posix-workflows/";
+            window.location.href = "/blog/2015/confuga-scalable-data-intensive-computing-for-posix-workflows/";
           
         },
       },{id: "post-makeflow-visualization-with-cytoscape",
@@ -2369,7 +2369,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/makeflow-visualization-with-cytoscape/";
+            window.location.href = "/blog/2015/makeflow-visualization-with-cytoscape/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -2380,7 +2380,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2015/formatting-and-links/";
+            window.location.href = "/blog/2015/formatting-and-links/";
           
         },
       },{id: "post-creating-better-force-fields-on-distributed-gpus-with-work-queue",
@@ -2391,7 +2391,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/creating-better-force-fields-on-distributed-gpus-with-work-queue/";
+            window.location.href = "/blog/2014/creating-better-force-fields-on-distributed-gpus-with-work-queue/";
           
         },
       },{id: "post-cctools-4-3-released",
@@ -2402,7 +2402,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/cctools-43-released/";
+            window.location.href = "/blog/2014/cctools-43-released/";
           
         },
       },{id: "post-work-queue-powers-nanoreactor-simulations",
@@ -2413,7 +2413,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/work-queue-powers-nanoreactor-simulations/";
+            window.location.href = "/blog/2014/work-queue-powers-nanoreactor-simulations/";
           
         },
       },{id: "post-open-sourcing-civil-engineering-with-a-virtual-wind-tunnel",
@@ -2424,7 +2424,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/open-sourcing-civil-engineering-with-a-virtual-wind-tunnel/";
+            window.location.href = "/blog/2014/open-sourcing-civil-engineering-with-a-virtual-wind-tunnel/";
           
         },
       },{id: "post-deltadb-a-scalable-database-design-for-time-varying-schema-free-data",
@@ -2435,7 +2435,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/deltadb-a-scalable-database-design-for-time-varying-schema-free-data/";
+            window.location.href = "/blog/2014/deltadb-a-scalable-database-design-for-time-varying-schema-free-data/";
           
         },
       },{id: "post-recent-improvements-in-parrot",
@@ -2446,7 +2446,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/recent-improvements-in-parrot/";
+            window.location.href = "/blog/2014/recent-improvements-in-parrot/";
           
         },
       },{id: "post-packaging-applications-with-parrot-4-2-0",
@@ -2457,7 +2457,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/packaging-applications-with-parrot-420/";
+            window.location.href = "/blog/2014/packaging-applications-with-parrot-420/";
           
         },
       },{id: "post-cctools-4-2-0-released",
@@ -2468,7 +2468,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/cctools-420-released/";
+            window.location.href = "/blog/2014/cctools-420-released/";
           
         },
       },{id: "post-deltadb-at-ieee-bigdata-2014",
@@ -2479,7 +2479,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/deltadb-at-ieee-bigdata-2014/";
+            window.location.href = "/blog/2014/deltadb-at-ieee-bigdata-2014/";
           
         },
       },{id: "post-journal-paper-on-maker-and-work-queue",
@@ -2490,7 +2490,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/journal-paper-on-maker-and-work-queue/";
+            window.location.href = "/blog/2014/journal-paper-on-maker-and-work-queue/";
           
         },
       },{id: "post-ccl-papers-at-ccgrid-2014",
@@ -2501,7 +2501,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/ccl-papers-at-ccgrid-2014/";
+            window.location.href = "/blog/2014/ccl-papers-at-ccgrid-2014/";
           
         },
       },{id: "post-toward-a-common-model-of-highly-concurrent-programming",
@@ -2512,7 +2512,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/toward-a-common-model-of-highly-concurrent-programming/";
+            window.location.href = "/blog/2014/toward-a-common-model-of-highly-concurrent-programming/";
           
         },
       },{id: "post-visualizing-10-000-cores-in-condor",
@@ -2523,7 +2523,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2014/visualizing-10000-cores-in-condor/";
+            window.location.href = "/blog/2014/visualizing-10000-cores-in-condor/";
           
         },
       },{id: "post-ccl-papers-at-supercomputing-2013",
@@ -2534,7 +2534,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/ccl-papers-at-supercomputing-2013/";
+            window.location.href = "/blog/2013/ccl-papers-at-supercomputing-2013/";
           
         },
       },{id: "post-ccl-workshop-2013",
@@ -2545,7 +2545,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/ccl-workshop-2013/";
+            window.location.href = "/blog/2013/ccl-workshop-2013/";
           
         },
       },{id: "post-ccl-workshop-october-10-11-at-notre-dame",
@@ -2556,7 +2556,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/ccl-workshop-october-10-11-at-notre-dame/";
+            window.location.href = "/blog/2013/ccl-workshop-october-10-11-at-notre-dame/";
           
         },
       },{id: "post-new-work-queue-paper-at-ieee-cluster-2013",
@@ -2567,7 +2567,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/new-work-queue-paper-at-ieee-cluster-2013/";
+            window.location.href = "/blog/2013/new-work-queue-paper-at-ieee-cluster-2013/";
           
         },
       },{id: "post-cctools-4-0-released",
@@ -2578,7 +2578,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/cctools-40-released/";
+            window.location.href = "/blog/2013/cctools-40-released/";
           
         },
       },{id: "post-ph-d-defense-li-yu",
@@ -2589,7 +2589,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/phd-defense-li-yu/";
+            window.location.href = "/blog/2013/phd-defense-li-yu/";
           
         },
       },{id: "post-tutorial-on-building-scalable-scientific-applications-at-xsede13",
@@ -2600,7 +2600,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/tutorial-on-building-scalable-scientific-applications-at-xsede13/";
+            window.location.href = "/blog/2013/tutorial-on-building-scalable-scientific-applications-at-xsede13/";
           
         },
       },{id: "post-a-globally-scalable-filesystem-from-grow-to-cvmfs",
@@ -2611,7 +2611,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/a-globally-scalable-filesystem-from-grow-to-cvmfs/";
+            window.location.href = "/blog/2013/a-globally-scalable-filesystem-from-grow-to-cvmfs/";
           
         },
       },{id: "post-multi-slot-work-queue",
@@ -2622,7 +2622,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/multi-slot-work-queue/";
+            window.location.href = "/blog/2013/multi-slot-work-queue/";
           
         },
       },{id: "post-hierarchical-work-queue",
@@ -2633,7 +2633,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/hierarchical-work-queue/";
+            window.location.href = "/blog/2013/hierarchical-work-queue/";
           
         },
       },{id: "post-accelerating-protein-folding-with-adaptive-weighted-ensemble-and-work-queue",
@@ -2644,7 +2644,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/accelerating-protein-folding-with-adaptive-weighted-ensemble-and-work-queue/";
+            window.location.href = "/blog/2013/accelerating-protein-folding-with-adaptive-weighted-ensemble-and-work-queue/";
           
         },
       },{id: "post-dinesh-rajan-wins-best-talk-at-ccgrid-2013",
@@ -2655,7 +2655,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/dinesh-rajan-wins-best-talk-at-ccgrid-2013/";
+            window.location.href = "/blog/2013/dinesh-rajan-wins-best-talk-at-ccgrid-2013/";
           
         },
       },{id: "post-tutorial-on-makeflow-and-work-queue-at-ccgrid-2013",
@@ -2666,7 +2666,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/tutorial-on-makeflow-and-work-queue-at-ccgrid-2013/";
+            window.location.href = "/blog/2013/tutorial-on-makeflow-and-work-queue-at-ccgrid-2013/";
           
         },
       },{id: "post-elastic-apps-paper-at-ccgrid-2013",
@@ -2677,7 +2677,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/elastic-apps-paper-at-ccgrid-2013/";
+            window.location.href = "/blog/2013/elastic-apps-paper-at-ccgrid-2013/";
           
         },
       },{id: "post-genome-assembly-paper-in-ieee-tpds",
@@ -2688,7 +2688,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/genome-assembly-paper-in-ieee-tpds/";
+            window.location.href = "/blog/2013/genome-assembly-paper-in-ieee-tpds/";
           
         },
       },{id: "post-cctools-3-7-0-released",
@@ -2699,7 +2699,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/cctools-370-released/";
+            window.location.href = "/blog/2013/cctools-370-released/";
           
         },
       },{id: "post-cctools-3-6-2-released",
@@ -2710,7 +2710,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/cctools-362-released/";
+            window.location.href = "/blog/2013/cctools-362-released/";
           
         },
       },{id: "post-teaching-distributed-computing-with-work-queue",
@@ -2721,7 +2721,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/teaching-distributed-computing-with-work-queue/";
+            window.location.href = "/blog/2013/teaching-distributed-computing-with-work-queue/";
           
         },
       },{id: "post-scaling-up-comparative-genomics-with-makeflow",
@@ -2732,7 +2732,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2013/scaling-up-comparative-genomics-with-makeflow/";
+            window.location.href = "/blog/2013/scaling-up-comparative-genomics-with-makeflow/";
           
         },
       },{id: "post-cctools-3-6-1-released",
@@ -2743,7 +2743,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/cctools-361-released/";
+            window.location.href = "/blog/2012/cctools-361-released/";
           
         },
       },{id: "post-applied-cyber-infrastructure-class-at-u-arizona",
@@ -2754,7 +2754,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/applied-cyber-infrastructure-class-at-u-arizona/";
+            window.location.href = "/blog/2012/applied-cyber-infrastructure-class-at-u-arizona/";
           
         },
       },{id: "post-nsf-grant-data-and-software-preservation-for-open-science",
@@ -2765,7 +2765,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/nsf-grant-data-and-software-preservation-for-open-science/";
+            window.location.href = "/blog/2012/nsf-grant-data-and-software-preservation-for-open-science/";
           
         },
       },{id: "post-tutorial-on-scalable-programming-at-notre-dame",
@@ -2776,7 +2776,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/tutorial-on-scalable-programming-at-notre-dame/";
+            window.location.href = "/blog/2012/tutorial-on-scalable-programming-at-notre-dame/";
           
         },
       },{id: "post-global-access-to-high-energy-physics-software-with-parrot-and-cvmfs",
@@ -2787,7 +2787,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/global-access-to-high-energy-physics-software-with-parrot-and-cvmfs/";
+            window.location.href = "/blog/2012/global-access-to-high-energy-physics-software-with-parrot-and-cvmfs/";
           
         },
       },{id: "post-cctools-3-6-0-released",
@@ -2798,7 +2798,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/cctools-360-released/";
+            window.location.href = "/blog/2012/cctools-360-released/";
           
         },
       },{id: "post-papers-at-e-science-conference",
@@ -2809,7 +2809,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/papers-at-e-science-conference/";
+            window.location.href = "/blog/2012/papers-at-e-science-conference/";
           
         },
       },{id: "post-lecture-and-tutorial-univ-of-arizona",
@@ -2820,7 +2820,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/lecture-and-tutorial-univ-of-arizona/";
+            window.location.href = "/blog/2012/lecture-and-tutorial-univ-of-arizona/";
           
         },
       },{id: "post-rapid-processing-of-lidar-data-in-the-field-with-makeflow",
@@ -2831,7 +2831,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/rapid-processing-of-lidar-data-in-the-field-with-makeflow/";
+            window.location.href = "/blog/2012/rapid-processing-of-lidar-data-in-the-field-with-makeflow/";
           
         },
       },{id: "post-tutorial-at-cloud-summer-school",
@@ -2842,7 +2842,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/tutorial-at-cloud-summer-school/";
+            window.location.href = "/blog/2012/tutorial-at-cloud-summer-school/";
           
         },
       },{id: "post-talk-at-ice-workshop",
@@ -2853,7 +2853,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/talk-at-ice-workshop/";
+            window.location.href = "/blog/2012/talk-at-ice-workshop/";
           
         },
       },{id: "post-cctools-3-5-2-released",
@@ -2864,7 +2864,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/cctools-352-released/";
+            window.location.href = "/blog/2012/cctools-352-released/";
           
         },
       },{id: "post-cctools-3-5-1-released",
@@ -2875,7 +2875,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/cctools-351-released/";
+            window.location.href = "/blog/2012/cctools-351-released/";
           
         },
       },{id: "post-cctools-3-5-0-released",
@@ -2886,7 +2886,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/cctools-350-released/";
+            window.location.href = "/blog/2012/cctools-350-released/";
           
         },
       },{id: "post-ph-d-defense-peter-bui",
@@ -2897,7 +2897,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/phd-defense-peter-bui/";
+            window.location.href = "/blog/2012/phd-defense-peter-bui/";
           
         },
       },{id: "post-ph-d-defense-hoang-bui",
@@ -2908,7 +2908,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/phd-defense-hoang-bui/";
+            window.location.href = "/blog/2012/phd-defense-hoang-bui/";
           
         },
       },{id: "post-makeflow-paper-at-sweet",
@@ -2919,7 +2919,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/makeflow-paper-at-sweet/";
+            window.location.href = "/blog/2012/makeflow-paper-at-sweet/";
           
         },
       },{id: "post-chirp-paper-at-ccgrid",
@@ -2930,7 +2930,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/chirp-paper-at-ccgrid/";
+            window.location.href = "/blog/2012/chirp-paper-at-ccgrid/";
           
         },
       },{id: "post-cctools-3-4-3-released",
@@ -2941,7 +2941,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/cctools-343-released/";
+            window.location.href = "/blog/2012/cctools-343-released/";
           
         },
       },{id: "post-ccl-workshop-june-11-12",
@@ -2952,7 +2952,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/ccl-workshop-june-11-12/";
+            window.location.href = "/blog/2012/ccl-workshop-june-11-12/";
           
         },
       },{id: "post-cctools-3-4-2-released",
@@ -2963,7 +2963,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/cctools-342-released/";
+            window.location.href = "/blog/2012/cctools-342-released/";
           
         },
       },{id: "post-some-open-computer-science-problems-in-workflow-systems",
@@ -2974,7 +2974,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/some-open-computer-science-problems-in-workflow-systems/";
+            window.location.href = "/blog/2012/some-open-computer-science-problems-in-workflow-systems/";
           
         },
       },{id: "post-why-makeflow-works-for-new-users",
@@ -2985,7 +2985,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/why-makeflow-works-for-new-users/";
+            window.location.href = "/blog/2012/why-makeflow-works-for-new-users/";
           
         },
       },{id: "post-talk-cs-problems-in-distributed-computing",
@@ -2996,7 +2996,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2012/talk-cs-problems-in-distributed-computing/";
+            window.location.href = "/blog/2012/talk-cs-problems-in-distributed-computing/";
           
         },
       },{id: "post-cctools-3-4-1-released",
@@ -3007,7 +3007,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/cctools-341-released/";
+            window.location.href = "/blog/2011/cctools-341-released/";
           
         },
       },{id: "post-scientific-workflow-management-course",
@@ -3018,7 +3018,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/scientific-workflow-management-course/";
+            window.location.href = "/blog/2011/scientific-workflow-management-course/";
           
         },
       },{id: "post-paper-at-pyhpc-workshop",
@@ -3029,7 +3029,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/paper-at-pyhpc-workshop/";
+            window.location.href = "/blog/2011/paper-at-pyhpc-workshop/";
           
         },
       },{id: "post-talk-at-uab",
@@ -3040,7 +3040,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/talk-at-uab/";
+            window.location.href = "/blog/2011/talk-at-uab/";
           
         },
       },{id: "post-cctools-3-4-0-released",
@@ -3051,7 +3051,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/cctools-340-released/";
+            window.location.href = "/blog/2011/cctools-340-released/";
           
         },
       },{id: "post-paper-at-cloudcom-2011",
@@ -3062,7 +3062,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/paper-at-cloudcom-2011/";
+            window.location.href = "/blog/2011/paper-at-cloudcom-2011/";
           
         },
       },{id: "post-cctools-3-3-4-released",
@@ -3073,7 +3073,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/cctools-334-released/";
+            window.location.href = "/blog/2011/cctools-334-released/";
           
         },
       },{id: "post-analysis-of-atlas-high-energy-physics-data-with-chirp",
@@ -3084,7 +3084,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/analysis-of-atlas-high-energy-physics-data-with-chirp/";
+            window.location.href = "/blog/2011/analysis-of-atlas-high-energy-physics-data-with-chirp/";
           
         },
       },{id: "post-cctools-3-3-3-released",
@@ -3095,7 +3095,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/cctools-333-released/";
+            window.location.href = "/blog/2011/cctools-333-released/";
           
         },
       },{id: "post-posters-at-cca-11",
@@ -3106,7 +3106,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/posters-at-cca-11/";
+            window.location.href = "/blog/2011/posters-at-cca-11/";
           
         },
       },{id: "post-cctools-3-3-0-released",
@@ -3117,7 +3117,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/cctools-330-released/";
+            window.location.href = "/blog/2011/cctools-330-released/";
           
         },
       },{id: "post-talk-at-idga-cloud-computing",
@@ -3128,7 +3128,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/talk-at-idga-cloud-computing/";
+            window.location.href = "/blog/2011/talk-at-idga-cloud-computing/";
           
         },
       },{id: "post-scalable-assembler-released",
@@ -3139,7 +3139,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2011/scalable-assembler-released/";
+            window.location.href = "/blog/2011/scalable-assembler-released/";
           
         },
       },{id: "post-the-virtualization-theorem-ignored-for-three-decades",
@@ -3150,7 +3150,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/the-virtualization-theorem-ignored-for-three-decades/";
+            window.location.href = "/blog/2010/the-virtualization-theorem-ignored-for-three-decades/";
           
         },
       },{id: "post-cctools-3-1-2-released",
@@ -3161,7 +3161,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/cctools-312-released/";
+            window.location.href = "/blog/2010/cctools-312-released/";
           
         },
       },{id: "post-sometimes-it-all-comes-together",
@@ -3172,7 +3172,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/sometimes-it-all-comes-together/";
+            window.location.href = "/blog/2010/sometimes-it-all-comes-together/";
           
         },
       },{id: "post-paper-at-works-workshop",
@@ -3183,7 +3183,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/paper-at-works-workshop/";
+            window.location.href = "/blog/2010/paper-at-works-workshop/";
           
         },
       },{id: "post-compiling-workflows-with-weaver",
@@ -3194,7 +3194,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/compiling-workflows-with-weaver/";
+            window.location.href = "/blog/2010/compiling-workflows-with-weaver/";
           
         },
       },{id: "post-from-database-to-filesystem-and-back-again",
@@ -3205,7 +3205,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/from-database-to-filesystem-and-back-again/";
+            window.location.href = "/blog/2010/from-database-to-filesystem-and-back-again/";
           
         },
       },{id: "post-papers-at-cloudcom",
@@ -3216,7 +3216,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/papers-at-cloudcom/";
+            window.location.href = "/blog/2010/papers-at-cloudcom/";
           
         },
       },{id: "post-papers-at-hpdc-workshops",
@@ -3227,7 +3227,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/papers-at-hpdc-workshops/";
+            window.location.href = "/blog/2010/papers-at-hpdc-workshops/";
           
         },
       },{id: "post-summer-reu-toward-elastic-scientific-applications",
@@ -3238,7 +3238,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/summer-reu-toward-elastic-scientific-applications/";
+            window.location.href = "/blog/2010/summer-reu-toward-elastic-scientific-applications/";
           
         },
       },{id: "post-cctools-3-1-1-released",
@@ -3249,7 +3249,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/cctools-311-released/";
+            window.location.href = "/blog/2010/cctools-311-released/";
           
         },
       },{id: "post-nsf-grant-on-cloud-computing",
@@ -3260,7 +3260,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/nsf-grant-on-cloud-computing/";
+            window.location.href = "/blog/2010/nsf-grant-on-cloud-computing/";
           
         },
       },{id: "post-cctools-3-1-0-released",
@@ -3271,7 +3271,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/cctools-310-released/";
+            window.location.href = "/blog/2010/cctools-310-released/";
           
         },
       },{id: "post-tutorial-on-makeflow-and-work-queue",
@@ -3282,7 +3282,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/tutorial-on-makeflow-and-work-queue/";
+            window.location.href = "/blog/2010/tutorial-on-makeflow-and-work-queue/";
           
         },
       },{id: "post-posters-at-ci-days-workshop",
@@ -3293,7 +3293,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/posters-at-ci-days-workshop/";
+            window.location.href = "/blog/2010/posters-at-ci-days-workshop/";
           
         },
       },{id: "post-ph-d-defense-christopher-moretti",
@@ -3304,7 +3304,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/phd-defense-christopher-moretti/";
+            window.location.href = "/blog/2010/phd-defense-christopher-moretti/";
           
         },
       },{id: "post-talks-at-condor-week",
@@ -3315,7 +3315,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/talks-at-condor-week/";
+            window.location.href = "/blog/2010/talks-at-condor-week/";
           
         },
       },{id: "post-the-forty-tribes-of-linux",
@@ -3326,7 +3326,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/the-forty-tribes-of-linux/";
+            window.location.href = "/blog/2010/the-forty-tribes-of-linux/";
           
         },
       },{id: "post-cctools-3-0-0-released",
@@ -3337,7 +3337,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/cctools-300-released/";
+            window.location.href = "/blog/2010/cctools-300-released/";
           
         },
       },{id: "post-condor-log-analyzer-updated",
@@ -3348,7 +3348,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/condor-log-analyzer-updated/";
+            window.location.href = "/blog/2010/condor-log-analyzer-updated/";
           
         },
       },{id: "post-summer-reu-at-notre-dame",
@@ -3359,7 +3359,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/summer-reu-at-notre-dame/";
+            window.location.href = "/blog/2010/summer-reu-at-notre-dame/";
           
         },
       },{id: "post-job-openings-updated",
@@ -3370,7 +3370,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/job-openings-updated/";
+            window.location.href = "/blog/2010/job-openings-updated/";
           
         },
       },{id: "post-green-cloud-online",
@@ -3381,7 +3381,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2010/green-cloud-online/";
+            window.location.href = "/blog/2010/green-cloud-online/";
           
         },
       },{id: "post-cctools-2-6-0-released",
@@ -3392,7 +3392,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/cctools-260-released/";
+            window.location.href = "/blog/2009/cctools-260-released/";
           
         },
       },{id: "post-two-teaching-fellowships",
@@ -3403,7 +3403,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/two-teaching-fellowships/";
+            window.location.href = "/blog/2009/two-teaching-fellowships/";
           
         },
       },{id: "post-genome-assembly-at-mtags-2009",
@@ -3414,7 +3414,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/genome-assembly-at-mtags-2009/";
+            window.location.href = "/blog/2009/genome-assembly-at-mtags-2009/";
           
         },
       },{id: "post-cctools-2-5-5-released",
@@ -3425,7 +3425,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/cctools-255-released/";
+            window.location.href = "/blog/2009/cctools-255-released/";
           
         },
       },{id: "post-energy-management-at-ieee-grid",
@@ -3436,7 +3436,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/energy-management-at-ieee-grid/";
+            window.location.href = "/blog/2009/energy-management-at-ieee-grid/";
           
         },
       },{id: "post-on-programming-with-processes-part-ii",
@@ -3447,7 +3447,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/on-programming-with-processes-part-ii/";
+            window.location.href = "/blog/2009/on-programming-with-processes-part-ii/";
           
         },
       },{id: "post-partly-cloudy-with-a-chance-of-condor",
@@ -3458,7 +3458,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/partly-cloudy-with-a-chance-of-condor/";
+            window.location.href = "/blog/2009/partly-cloudy-with-a-chance-of-condor/";
           
         },
       },{id: "post-ph-d-defense-kyle-wheeler",
@@ -3469,7 +3469,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/phd-defense-kyle-wheeler/";
+            window.location.href = "/blog/2009/phd-defense-kyle-wheeler/";
           
         },
       },{id: "post-talk-at-clemson-university",
@@ -3480,7 +3480,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/talk-at-clemson-university/";
+            window.location.href = "/blog/2009/talk-at-clemson-university/";
           
         },
       },{id: "post-talk-at-geoclouds-workshop",
@@ -3491,7 +3491,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/talk-at-geoclouds-workshop/";
+            window.location.href = "/blog/2009/talk-at-geoclouds-workshop/";
           
         },
       },{id: "post-nsf-grant-to-support-open-source-engineering",
@@ -3502,7 +3502,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/nsf-grant-to-support-open-source-engineering/";
+            window.location.href = "/blog/2009/nsf-grant-to-support-open-source-engineering/";
           
         },
       },{id: "post-nsf-grant-to-build-collaborative-storage",
@@ -3513,7 +3513,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/nsf-grant-to-build-collaborative-storage/";
+            window.location.href = "/blog/2009/nsf-grant-to-build-collaborative-storage/";
           
         },
       },{id: "post-talk-at-hec-fsio",
@@ -3524,7 +3524,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/talk-at-hec-fsio/";
+            window.location.href = "/blog/2009/talk-at-hec-fsio/";
           
         },
       },{id: "post-reu-project-bxgrid",
@@ -3535,7 +3535,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/reu-project-bxgrid/";
+            window.location.href = "/blog/2009/reu-project-bxgrid/";
           
         },
       },{id: "post-ph-d-defense-jeffrey-hemmes",
@@ -3546,7 +3546,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/phd-defense-jeffrey-hemmes/";
+            window.location.href = "/blog/2009/phd-defense-jeffrey-hemmes/";
           
         },
       },{id: "post-reu-project-biocompute",
@@ -3557,7 +3557,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/reu-project-biocompute/";
+            window.location.href = "/blog/2009/reu-project-biocompute/";
           
         },
       },{id: "post-maj-hemmes-returns-home",
@@ -3568,7 +3568,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/maj-hemmes-returns-home/";
+            window.location.href = "/blog/2009/maj-hemmes-returns-home/";
           
         },
       },{id: "post-make-as-an-abstraction-for-distributed-computing",
@@ -3579,7 +3579,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/make-as-an-abstraction-for-distributed-computing/";
+            window.location.href = "/blog/2009/make-as-an-abstraction-for-distributed-computing/";
           
         },
       },{id: "post-cctools-2-5-3-released",
@@ -3590,7 +3590,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/cctools-253-released/";
+            window.location.href = "/blog/2009/cctools-253-released/";
           
         },
       },{id: "post-cctools-2-5-2-released",
@@ -3601,7 +3601,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/cctools-252-released/";
+            window.location.href = "/blog/2009/cctools-252-released/";
           
         },
       },{id: "post-talks-at-hpdc-2009",
@@ -3612,7 +3612,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/talks-at-hpdc-2009/";
+            window.location.href = "/blog/2009/talks-at-hpdc-2009/";
           
         },
       },{id: "post-grid-heating-wins-green-it-award",
@@ -3623,7 +3623,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/grid-heating-wins-green-it-award/";
+            window.location.href = "/blog/2009/grid-heating-wins-green-it-award/";
           
         },
       },{id: "post-cctools-2-5-0-released",
@@ -3634,7 +3634,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/cctools-250-released/";
+            window.location.href = "/blog/2009/cctools-250-released/";
           
         },
       },{id: "post-grid-heating-putting-data-center-heat-to-productive-use",
@@ -3645,7 +3645,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/grid-heating-putting-data-center-heat-to-productive-use/";
+            window.location.href = "/blog/2009/grid-heating-putting-data-center-heat-to-productive-use/";
           
         },
       },{id: "post-bxgrid-article-in-jcc",
@@ -3656,7 +3656,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/bxgrid-article-in-jcc/";
+            window.location.href = "/blog/2009/bxgrid-article-in-jcc/";
           
         },
       },{id: "post-dynamic-linking-and-distributed-computing-don-amp-39-t-mix",
@@ -3667,7 +3667,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/dynamic-linking-and-distributed-computing-don39t-mix/";
+            window.location.href = "/blog/2009/dynamic-linking-and-distributed-computing-don39t-mix/";
           
         },
       },{id: "post-parrot-flies-on-the-lhc-computing-grid",
@@ -3678,7 +3678,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/parrot-flies-on-the-lhc-computing-grid/";
+            window.location.href = "/blog/2009/parrot-flies-on-the-lhc-computing-grid/";
           
         },
       },{id: "post-honors-defense-patrick-braga-henebry",
@@ -3689,7 +3689,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/honors-defense-patrick-braga-henebry/";
+            window.location.href = "/blog/2009/honors-defense-patrick-braga-henebry/";
           
         },
       },{id: "post-presentations-at-condor-week-2009",
@@ -3700,7 +3700,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/presentations-at-condor-week-2009/";
+            window.location.href = "/blog/2009/presentations-at-condor-week-2009/";
           
         },
       },{id: "post-distributed-genome-assembly-on-1000-computers",
@@ -3711,7 +3711,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/distributed-genome-assembly-on-1000-computers/";
+            window.location.href = "/blog/2009/distributed-genome-assembly-on-1000-computers/";
           
         },
       },{id: "post-multicore-abstractions-at-hpdc-2009",
@@ -3722,7 +3722,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/multicore-abstractions-at-hpdc-2009/";
+            window.location.href = "/blog/2009/multicore-abstractions-at-hpdc-2009/";
           
         },
       },{id: "post-article-on-all-pairs-in-tpds",
@@ -3733,7 +3733,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/article-on-all-pairs-in-tpds/";
+            window.location.href = "/blog/2009/article-on-all-pairs-in-tpds/";
           
         },
       },{id: "post-on-parallel-programming-with-processes",
@@ -3744,7 +3744,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/on-parallel-programming-with-processes/";
+            window.location.href = "/blog/2009/on-parallel-programming-with-processes/";
           
         },
       },{id: "post-exponential-backoff-in-distributed-systems",
@@ -3755,7 +3755,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/exponential-backoff-in-distributed-systems/";
+            window.location.href = "/blog/2009/exponential-backoff-in-distributed-systems/";
           
         },
       },{id: "post-chirp-on-the-blue-gene-p-at-supercomputing",
@@ -3766,7 +3766,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/chirp-on-the-blue-genep-at-supercomputing/";
+            window.location.href = "/blog/2009/chirp-on-the-blue-genep-at-supercomputing/";
           
         },
       },{id: "post-bxgrid-featured-in-isgtw",
@@ -3777,7 +3777,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/bxgrid-featured-in-isgtw/";
+            window.location.href = "/blog/2009/bxgrid-featured-in-isgtw/";
           
         },
       },{id: "post-fail-fast-fail-often",
@@ -3788,7 +3788,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/fail-fast-fail-often/";
+            window.location.href = "/blog/2009/fail-fast-fail-often/";
           
         },
       },{id: "post-audit-trails-in-voting-machines",
@@ -3799,7 +3799,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/audit-trails-in-voting-machines/";
+            window.location.href = "/blog/2009/audit-trails-in-voting-machines/";
           
         },
       },{id: "post-bxgrid-at-ieee-e-science-2008",
@@ -3810,7 +3810,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/bxgrid-at-ieee-e-science-2008/";
+            window.location.href = "/blog/2009/bxgrid-at-ieee-e-science-2008/";
           
         },
       },{id: "post-ccl-in-the-indiana-diagrid",
@@ -3821,7 +3821,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2009/ccl-in-the-indiana-diagrid/";
+            window.location.href = "/blog/2009/ccl-in-the-indiana-diagrid/";
           
         },
       },{id: "post-bxgrid-the-biometrics-research-grid",
@@ -3832,7 +3832,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/bxgrid-the-biometrics-research-grid/";
+            window.location.href = "/blog/2008/bxgrid-the-biometrics-research-grid/";
           
         },
       },{id: "post-abstractions-grids-and-clouds-at-ieee-e-science-2008",
@@ -3843,7 +3843,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/abstractions-grids-and-clouds-at-ieee-e-science-2008/";
+            window.location.href = "/blog/2008/abstractions-grids-and-clouds-at-ieee-e-science-2008/";
           
         },
       },{id: "post-visualizing-clusters-in-real-time",
@@ -3854,7 +3854,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/visualizing-clusters-in-real-time/";
+            window.location.href = "/blog/2008/visualizing-clusters-in-real-time/";
           
         },
       },{id: "post-visualizing-a-large-distributed-system-with-enavis",
@@ -3865,7 +3865,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/visualizing-a-large-distributed-system-with-enavis/";
+            window.location.href = "/blog/2008/visualizing-a-large-distributed-system-with-enavis/";
           
         },
       },{id: "post-the-wavefront-abstraction",
@@ -3876,7 +3876,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/the-wavefront-abstraction/";
+            window.location.href = "/blog/2008/the-wavefront-abstraction/";
           
         },
       },{id: "post-an-abstraction-for-ensemble-classifiers",
@@ -3887,7 +3887,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/an-abstraction-for-ensemble-classifiers/";
+            window.location.href = "/blog/2008/an-abstraction-for-ensemble-classifiers/";
           
         },
       },{id: "post-cctools-release-2-4-6",
@@ -3898,7 +3898,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/cctools-release-246/";
+            window.location.href = "/blog/2008/cctools-release-246/";
           
         },
       },{id: "post-abstractions-at-cca08",
@@ -3909,7 +3909,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/abstractions-at-cca08/";
+            window.location.href = "/blog/2008/abstractions-at-cca08/";
           
         },
       },{id: "post-enavis-at-lisa-2008",
@@ -3920,7 +3920,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/enavis-at-lisa-2008/";
+            window.location.href = "/blog/2008/enavis-at-lisa-2008/";
           
         },
       },{id: "post-abstractions-for-distributed-computing",
@@ -3931,7 +3931,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/abstractions-for-distributed-computing/";
+            window.location.href = "/blog/2008/abstractions-for-distributed-computing/";
           
         },
       },{id: "post-abstractions-for-data-mining-at-icdm",
@@ -3942,7 +3942,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/abstractions-for-data-mining-at-icdm/";
+            window.location.href = "/blog/2008/abstractions-for-data-mining-at-icdm/";
           
         },
       },{id: "post-troubleshooting-distributed-systems-via-data-mining",
@@ -3953,7 +3953,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/troubleshooting-distributed-systems-via-data-mining/";
+            window.location.href = "/blog/2008/troubleshooting-distributed-systems-via-data-mining/";
           
         },
       },{id: "post-clusters-grids-and-clouds-it-amp-39-s-turtles-all-the-way-down",
@@ -3964,7 +3964,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/clusters-grids-and-cloudsit39s-turtles-all-the-way-down/";
+            window.location.href = "/blog/2008/clusters-grids-and-cloudsit39s-turtles-all-the-way-down/";
           
         },
       },{id: "post-cctools-2-4-4-released",
@@ -3975,7 +3975,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/cctools-244-released/";
+            window.location.href = "/blog/2008/cctools-244-released/";
           
         },
       },{id: "post-troubleshooting-at-grid-2008",
@@ -3986,7 +3986,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/troubleshooting-at-grid-2008/";
+            window.location.href = "/blog/2008/troubleshooting-at-grid-2008/";
           
         },
       },{id: "post-datalab-at-hpdc-2008",
@@ -3997,7 +3997,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/datalab-at-hpdc-2008/";
+            window.location.href = "/blog/2008/datalab-at-hpdc-2008/";
           
         },
       },{id: "post-cctools-2-4-3-released",
@@ -4008,7 +4008,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/cctools-243-released/";
+            window.location.href = "/blog/2008/cctools-243-released/";
           
         },
       },{id: "post-nsf-summer-reu-grant",
@@ -4019,7 +4019,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/nsf-summer-reu-grant/";
+            window.location.href = "/blog/2008/nsf-summer-reu-grant/";
           
         },
       },{id: "post-ccl-to-participate-in-google-ibm-cluster-pilot",
@@ -4030,7 +4030,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/ccl-to-participate-in-googleibm-cluster-pilot/";
+            window.location.href = "/blog/2008/ccl-to-participate-in-googleibm-cluster-pilot/";
           
         },
       },{id: "post-papers-at-ipdps-2008",
@@ -4041,7 +4041,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/papers-at-ipdps-2008/";
+            window.location.href = "/blog/2008/papers-at-ipdps-2008/";
           
         },
       },{id: "post-parrot-flies-at-fermilab",
@@ -4052,24 +4052,24 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/ccl-website/blog/2008/parrot-flies-at-fermilab/";
+            window.location.href = "/blog/2008/parrot-flies-at-fermilab/";
           
         },
       },{id: "alt-makeflow",
           title: 'Makeflow',
           description: "Makeflow is a workflow system for executing large complex workflows on clusters, clouds, and grids.",
           section: "Alt",handler: () => {
-              window.location.href = "/ccl-website/alt/makeflow/";
+              window.location.href = "/alt/makeflow/";
             },},{id: "alt-taskvine",
           title: 'TaskVine',
           description: "TaskVine is our third-generation workflow system for building scalable data intensive applications that run on HPC clusters, cloud services, and other clusters.",
           section: "Alt",handler: () => {
-              window.location.href = "/ccl-website/alt/taskvine/";
+              window.location.href = "/alt/taskvine/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/ccl-website/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -4077,7 +4077,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/ccl-website/news/announcement_2/";
+              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -4085,52 +4085,52 @@ ninja.data = [{
           title: 'NBFlow: From Notebook to Workflow and Back Again (CSSI Framework)',
           description: "NBFlow brings together interactive notebook technologies (Jupyter), reproducibility tools (SciUnit), and distributed workflows (TaskVine) to enable easy execution of large-scale notebook workflows on heterogeneous HPC clusters.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/nbflow/";
+              window.location.href = "/projects/nbflow/";
             },},{id: "projects-template-page",
           title: 'Template Page',
           description: "Expresses workflow I/O intentions using consistency contracts to enable efficient, cluster-wide storage and execution optimizations.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/pledge%20copy/";
+              window.location.href = "/projects/pledge%20copy/";
             },},{id: "projects-pledge-accelerating-data-intensive-scientific-workflows-with-consistency-contracts",
           title: 'Pledge: Accelerating Data Intensive Scientific Workflows with Consistency Contracts',
           description: "Expresses workflow I/O intentions using consistency contracts to enable efficient, cluster-wide storage and execution optimizations.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/pledge/";
+              window.location.href = "/projects/pledge/";
             },},{id: "projects-sade-a-safety-aware-ecosystem-of-reputable-suas",
           title: 'SADE: A Safety-Aware Ecosystem of Reputable sUAS',
           description: "The overall goal of the project is to develop technology for safety zones that permit only trusted drones to operate in congested or sensitive airspace.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/sade/";
+              window.location.href = "/projects/sade/";
             },},{id: "projects-taskvine-a-user-level-framework-for-data-intensive-scientific-applications-cssi-element",
           title: 'TaskVine: A User Level Framework for Data Intensive Scientific Applications (CSSI Element)',
           description: "TaskVine is open source software for building large scale data intensive dynamic workflows that run on HPC clusters, GPU clusters, and commercial clouds.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/taskvine/";
+              window.location.href = "/projects/taskvine/";
             },},{id: "projects-xgfabric-coupling-sensor-networks-and-hpc-facilities-with-advanced-wireless-networks-for-near-real-time-simulation-of-digital-agriculture-doe-ascr",
           title: 'XGFabric : Coupling Sensor Networks and HPC Facilities with Advanced Wireless Networks for...',
           description: "This project will explore the design of systems for connecting remote wireless sensor networks with high performance computing systems.",
           section: "Projects",handler: () => {
-              window.location.href = "/ccl-website/projects/xgfabric/";
+              window.location.href = "/projects/xgfabric/";
             },},{id: "softwares-floability",
           title: 'Floability',
           description: "Floability is an NSF funded research project to enable the rapid and portable deployment of notebooks expressing complex scientific workflows across a wide range of cyberinfrastructure.",
           section: "Softwares",handler: () => {
-              window.location.href = "/ccl-website/softwares/floability/";
+              window.location.href = "/softwares/floability/";
             },},{id: "softwares-makeflow",
           title: 'Makeflow',
           description: "Makeflow is a workflow system for executing large complex workflows on clusters, clouds, and grids.",
           section: "Softwares",handler: () => {
-              window.location.href = "/ccl-website/softwares/makeflow/";
+              window.location.href = "/softwares/makeflow/";
             },},{id: "softwares-taskvine",
           title: 'TaskVine',
           description: "TaskVine is our third-generation workflow system for building scalable data intensive applications that run on HPC clusters, cloud services, and other clusters.",
           section: "Softwares",handler: () => {
-              window.location.href = "/ccl-website/softwares/taskvine/";
+              window.location.href = "/softwares/taskvine/";
             },},{id: "softwares-work-queue",
           title: 'Work Queue',
           description: "Work Queue is an application framework for creating and managing dynamic manager-worker style programs that scale up to tens of thousands of machines on clusters, clouds, and grids.",
           section: "Softwares",handler: () => {
-              window.location.href = "/ccl-website/softwares/workqueue/";
+              window.location.href = "/softwares/workqueue/";
             },},{
         id: 'social-github',
         title: 'GitHub',
@@ -4157,6 +4157,6 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/ccl-website/feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },];
