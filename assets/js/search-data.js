@@ -535,17 +535,6 @@ ninja.data = [{
             window.location.href = "/blog/2023/landlord-container-paper-in-tpds-2023/";
           
         },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
       },{id: "post-mufasa-robust-meta-workflow-management-at-escience-2022",
         
           title: "Mufasa: Robust Meta-Workflow Management at eScience 2022",
