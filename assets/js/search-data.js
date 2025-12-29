@@ -56,7 +56,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/install/";
+                window.location.href = "https://cctools.readthedocs.io/en/latest/install/";
               },
             },{id: "dropdown-repositories",
               title: "Repositories",
@@ -85,6 +85,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/highlights/";
+              },
+            },{id: "dropdown-submit-a-highlight",
+              title: "Submit a Highlight",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://docs.google.com/forms/d/1S7PqBEb_rC9e4GQHp0136YkuN7GjwsoWjTInSJB6Vco/";
               },
             },{id: "dropdown-for-developers",
               title: "For Developers",
@@ -3697,11 +3704,6 @@ ninja.data = [{
           description: "Makeflow is a workflow system for executing large complex workflows on clusters, clouds, and grids.",
           section: "Alt",handler: () => {
               window.location.href = "/alt/makeflow/";
-            },},{id: "alt-taskvine",
-          title: 'TaskVine',
-          description: "TaskVine is our third-generation workflow system for building scalable data intensive applications that run on HPC clusters, cloud services, and other clusters.",
-          section: "Alt",handler: () => {
-              window.location.href = "/alt/taskvine/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
@@ -3718,16 +3720,46 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-nbflow-from-notebook-to-workflow-and-back-again-cssi-framework",
+          section: "News",},{id: "projects-data-intensive-grid-computing-on-active-storage-clusters",
+          title: 'Data Intensive Grid Computing on Active Storage Clusters',
+          description: "Description goes here.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/career/";
+            },},{id: "projects-completed-project-daspos-data-and-software-preservation-for-open-science",
+          title: 'Completed Project: DASPOS: Data and Software Preservation for Open Science',
+          description: "The DASPOS project developed techniques and tools to enable the preservation and re-use of data intensive scientific analyses over long time periods.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/daspos/";
+            },},{id: "projects-debugging-grids-with-machine-learning-techniques",
+          title: 'Debugging Grids with Machine Learning Techniques',
+          description: "Description goes here.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/debug-grids/";
+            },},{id: "projects-filesystems-for-grid-computing",
+          title: 'Filesystems for Grid Computing',
+          description: "Description goes here.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gridfs/";
+            },},{id: "projects-pose-phase-i-harmony-harmonizing-the-high-performance-python-workflow-ecosystem",
+          title: 'POSE Phase I: HARMONY: Harmonizing the High Performance Python Workflow Ecosystem',
+          description: "This Pathways to Open-Source Ecosystems (POSE) project seeks to &#39;harmonize&#39; Python programming language based workflow management, build sustainability, and better support complex computational workflows, both in research and commercial environments.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/harmony/";
+            },},{id: "projects-data-intensive-abstractions-for-high-end-biometric-applications",
+          title: 'Data Intensive Abstractions for High End Biometric Applications',
+          description: "Description goes here.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hecura/";
+            },},{id: "projects-scalable-data-analysis-applications-for-high-energy-physics",
+          title: 'Scalable Data Analysis Applications for High Energy Physics',
+          description: "Expresses workflow I/O intentions using consistency contracts to enable efficient, cluster-wide storage and execution optimizations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hep/";
+            },},{id: "projects-nbflow-from-notebook-to-workflow-and-back-again-cssi-framework",
           title: 'NBFlow: From Notebook to Workflow and Back Again (CSSI Framework)',
           description: "NBFlow brings together interactive notebook technologies (Jupyter), reproducibility tools (SciUnit), and distributed workflows (TaskVine) to enable easy execution of large-scale notebook workflows on heterogeneous HPC clusters.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nbflow/";
-            },},{id: "projects-template-page",
-          title: 'Template Page',
-          description: "Expresses workflow I/O intentions using consistency contracts to enable efficient, cluster-wide storage and execution optimizations.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/pledge%20copy/";
             },},{id: "projects-pledge-accelerating-data-intensive-scientific-workflows-with-consistency-contracts",
           title: 'Pledge: Accelerating Data Intensive Scientific Workflows with Consistency Contracts',
           description: "Expresses workflow I/O intentions using consistency contracts to enable efficient, cluster-wide storage and execution optimizations.",
@@ -3738,31 +3770,111 @@ ninja.data = [{
           description: "The overall goal of the project is to develop technology for safety zones that permit only trusted drones to operate in congested or sensitive airspace.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sade/";
+            },},{id: "projects-sub-identities-practical-containment-for-distributed-systems",
+          title: 'Sub Identities: Practical Containment for Distributed Systems',
+          description: "Description goes here.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/subid/";
             },},{id: "projects-taskvine-a-user-level-framework-for-data-intensive-scientific-applications-cssi-element",
           title: 'TaskVine: A User Level Framework for Data Intensive Scientific Applications (CSSI Element)',
           description: "TaskVine is open source software for building large scale data intensive dynamic workflows that run on HPC clusters, GPU clusters, and commercial clouds.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/taskvine/";
+            },},{id: "projects-completed-project-vc3-virtual-clusters-for-community-computation-2016-2019",
+          title: 'Completed Project: VC3: Virtual Clusters for Community Computation (2016-2019)',
+          description: "VC3 made it possible for researchers to easily aggregate and share resources, install custom software environments, and deploy clustering frameworks across multiple HPC facilities through the concept of “virtual clusters”.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vc3/";
             },},{id: "projects-xgfabric-coupling-sensor-networks-and-hpc-facilities-with-advanced-wireless-networks-for-near-real-time-simulation-of-digital-agriculture-doe-ascr",
           title: 'XGFabric : Coupling Sensor Networks and HPC Facilities with Advanced Wireless Networks for...',
           description: "This project will explore the design of systems for connecting remote wireless sensor networks with high performance computing systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/xgfabric/";
+            },},{id: "softwares-allocfs-a-filesystem-with-allocations",
+          title: 'AllocFS: A Filesystem With Allocations',
+          description: "AllocFS is a filesystem that allows users to make guaranteed space allocations within an existing directory structure.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/allocfs/";
+            },},{id: "softwares-all-pairs-abstraction",
+          title: 'All-Pairs Abstraction',
+          description: "The All-Pairs abstraction computes the Cartesian product of two sets, generating a matrix where each cell M[i,j] contains the output of the function F on objects A[i] and B[j].",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/allpairs/";
+            },},{id: "softwares-awe-accelerated-weighted-ensemble",
+          title: 'AWE - Accelerated Weighted Ensemble',
+          description: "Accelerated Weighted Ensemble or AWE package provides a Python library for adaptive sampling of molecular dynamics.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/awe/";
+            },},{id: "softwares-chirp-filesystem",
+          title: 'Chirp Filesystem',
+          description: "Chirp is a personal user-level distributed filesystem that can be used to export existing data into distributed systems. Chirp enables unprivileged users to share space securely, efficiently, and conveniently. When combined with Parrot, Chirp allows users to create custom wide-area distributed filesystems that span high performance computing clusters.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/chirp/";
+            },},{id: "softwares-the-confuga-cluster-file-system",
+          title: 'The Confuga Cluster File System',
+          description: "Description goes here.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/confuga/";
             },},{id: "softwares-floability",
           title: 'Floability',
           description: "Floability is an NSF funded research project to enable the rapid and portable deployment of notebooks expressing complex scientific workflows across a wide range of cyberinfrastructure.",
           section: "Softwares",handler: () => {
               window.location.href = "/softwares/floability/";
+            },},{id: "softwares-ftsh-the-fault-tolerant-shell",
+          title: 'ftsh - The Fault Tolerant Shell',
+          description: "Description goes here.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/ftsh/";
+            },},{id: "softwares-jx",
+          title: 'JX',
+          description: "JX (JSON Expressions) is an expression language for unstructured data. Adding to the standard JSON data description language, it provides operators, variables, functions, list comprehensions, and other conveniences to generate and query complex documents. JX is used throughout the CCTools to describe and query data.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/jx/";
             },},{id: "softwares-makeflow",
           title: 'Makeflow',
           description: "Makeflow is a workflow system for executing large complex workflows on clusters, clouds, and grids.",
           section: "Softwares",handler: () => {
               window.location.href = "/softwares/makeflow/";
+            },},{id: "softwares-parrot",
+          title: 'Parrot',
+          description: "Parrot is a transparent user-level virtual filesystem that allows any ordinary program to be attached to many different remote storage services. Parrot captures the system calls (open, read, write, stat, etc) of an application through the ptrace interface, and redirects them to remote services such as HDFS, iRODS, Chirp, and FTP. This allows one to construct custom distributed filesystems on clusters without requiring special privileges.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/parrot/";
+            },},{id: "softwares-prune-the-preserving-run-environment",
+          title: 'PRUNE: The Preserving Run Environment',
+          description: "The Preserving Run Environment for reproducible computing.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/prune/";
+            },},{id: "softwares-resource-monitor",
+          title: 'Resource_monitor',
+          description: "The Resource Monitor (RM) is used to accurately capture the resource consumption (CPU, RAM, I/O, Disk, GPU, etc) of applications running in distributed systems. Production applications are typically not single processes, but complex assemblies of scripts, libraries, and processes written in multiple languages. The resource monitor tracks all components accurately and provides the enforcement needed to execute applications reliable at scale.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/resource_monitor/";
+            },},{id: "softwares-sand-scalable-assembly-at-notre-dame",
+          title: 'SAND - Scalable Assembly at Notre Dame',
+          description: "SAND - Scalable Assembly at Notre Dame",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/sand/";
+            },},{id: "softwares-subid-sub-identity-toolkit",
+          title: 'Subid: Sub-Identity Toolkit',
+          description: "The Cooperative Computing Laboratory Sub-Identity Toolkit is a set of utilities and a Pluggable Authentication Module that provides users with the ability to create sub-users of themselves.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/subid/";
             },},{id: "softwares-taskvine",
           title: 'TaskVine',
           description: "TaskVine is our third-generation workflow system for building scalable data intensive applications that run on HPC clusters, cloud services, and other clusters.",
           section: "Softwares",handler: () => {
               window.location.href = "/softwares/taskvine/";
+            },},{id: "softwares-umbrella-software-environment-specification",
+          title: 'Umbrella Software Environment Specification',
+          description: "Umbrella is a tool for specifying and materializing comprehensive execution environments, from the hardware all the way up to software and data.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/umbrella/";
+            },},{id: "softwares-the-wavefront-abstraction",
+          title: 'The Wavefront Abstraction',
+          description: "The Wavefront abstraction is used to express computations on a two-dimensional grid where each cell depends on its neighboring cells.",
+          section: "Softwares",handler: () => {
+              window.location.href = "/softwares/wavefront/";
             },},{id: "softwares-work-queue",
           title: 'Work Queue',
           description: "Work Queue is an application framework for creating and managing dynamic manager-worker style programs that scale up to tens of thousands of machines on clusters, clouds, and grids.",
