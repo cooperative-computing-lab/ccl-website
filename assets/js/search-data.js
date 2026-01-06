@@ -100,13 +100,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "http://condor.cse.nd.edu/condor_matrix.cgi";
               },
-            },{id: "dropdown-condor-pool",
-              title: "Condor Pool",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/condor/";
-              },
             },{id: "dropdown-condor-log-analyzer",
               title: "Condor Log Analyzer",
               description: "",
