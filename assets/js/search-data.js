@@ -128,7 +128,62 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-scaling-sade-safety-aware-drone-ecosystem-a-hybrid-uav-simulation-system-for-high-fidelity-research",
+        },{id: "post-ccl-launches-redesigned-website",
+        
+          title: "CCL Launches Redesigned Website",
+        
+        description: "The Cooperative Computing Lab unveils a redesigned website with unified blog, improved navigation, and powerful search capabilities.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ccl-launches-redesigned-website/";
+          
+        },
+      },{id: "post-accelerating-coffea-workflows-with-persistent-preprocessing-cache",
+        
+          title: "Accelerating Coffea Workflows with Persistent Preprocessing Cache",
+        
+        description: "High-energy physics analysis at scale depends on efficient data processing pipelines. When working with ROOT files in distributed computing environments, even small inefficiencies compound quickly, es",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/accelerating-coffea-workflows-with-persistent-preprocessing-cache/";
+          
+        },
+      },{id: "post-exploring-execution-strategies-and-compositional-trade-offs-in-the-context-of-large-scale-hep-workflows",
+        
+          title: "Exploring Execution Strategies and Compositional Trade-Offs in the Context of Large-Scale HEP Workflows...",
+        
+        description: "The European Organization for Nuclear Research (CERN) has four main High Energy Physics experiments, the Compact Muon Solenoid (CMS) being one of them. These experiments are already approaching the Ex",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/exploring-execution-strategies-and-compositional-trade-offs-in-the-context-of-large-scale-hep-workflows/";
+          
+        },
+      },{id: "post-taskvine-insights-storage-management-depth-aware-pruning",
+        
+          title: "TaskVine Insights - Storage Management: Depth-Aware Pruning",
+        
+        description: "Modern scientific workflows often span tens or hundreds of thousands of tasks, forming deep DAGs (directed acyclic graphs) that handle large volumes of intermediate data. The large number of tasks pri",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/taskvine-insights-storage-management-depth-aware-pruning/";
+          
+        },
+      },{id: "post-your-first-distributed-workflow-on-access-ci-a-grad-student-s-checklist-with-taskvine",
+        
+          title: "Your First Distributed Workflow on ACCESS CI: A Grad Student’s Checklist with TaskVine...",
+        
+        description: "Most students start with Discover or Explore, and approvals usually take only a few days.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/your-first-distributed-workflow-on-access-ci-a-grad-students-checklist-with-taskvine/";
+          
+        },
+      },{id: "post-scaling-sade-safety-aware-drone-ecosystem-a-hybrid-uav-simulation-system-for-high-fidelity-research",
         
           title: "Scaling SADE (Safety Aware Drone Ecosystem): A Hybrid UAV Simulation System for High-Fidelity...",
         
