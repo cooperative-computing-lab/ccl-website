@@ -86,13 +86,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/highlights/";
               },
-            },{id: "dropdown-submit-a-highlight",
-              title: "Submit a Highlight",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://docs.google.com/forms/d/1S7PqBEb_rC9e4GQHp0136YkuN7GjwsoWjTInSJB6Vco/";
-              },
             },{id: "dropdown-for-developers",
               title: "For Developers",
               description: "",
