@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "dropdown-publications",
-              title: "Publications",
+  },{id: "dropdown-papers",
+              title: "Papers",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/publications/";
+                window.location.href = "/papers/";
               },
             },{id: "dropdown-projects",
               title: "Projects",
@@ -42,7 +42,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/softwares/";
+                window.location.href = "/software/";
               },
             },{id: "dropdown-manuals",
               title: "Manuals",
@@ -113,6 +113,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "https://github.com/cooperative-computing-lab/ccl-internal-docs/blob/master/docs/index.md";
+              },
+            },{id: "dropdown-catalog-server",
+              title: "Catalog Server",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://catalog.cse.nd.edu/";
               },
             },{id: "nav-blog",
           title: "Blog",
