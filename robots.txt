@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ccl-dev.cse.nd.edu/sitemap.xml
+Sitemap: https://ccl.cse.nd.edu/sitemap.xml
