@@ -121,6 +121,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://catalog.cse.nd.edu/";
               },
+            },{id: "dropdown-taskvine-status",
+              title: "TaskVine Status",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/software/taskvine/status/";
+              },
             },{id: "nav-blog",
           title: "Blog",
           description: "",
