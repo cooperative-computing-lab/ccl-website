@@ -135,7 +135,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-ccl-launches-redesigned-website",
+        },{id: "post-graduate-students-share-research-and-systems-insights-at-sc25",
+        
+          title: "Graduate Students Share Research and Systems Insights at SC25",
+        
+        description: "Two of our graduate students participated in SC25, presenting work on inference services at NERSC and edge-to-HPC workflows.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/graduate-students-share-research-and-systems-insights-at-sc25/";
+          
+        },
+      },{id: "post-ccl-launches-redesigned-website",
         
           title: "CCL Launches Redesigned Website",
         
