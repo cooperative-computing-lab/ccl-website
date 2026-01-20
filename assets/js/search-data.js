@@ -135,7 +135,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-graduate-students-share-research-and-systems-insights-at-sc25",
+        },{id: "post-taskvine-insights-example-workflow-logs",
+        
+          title: "TaskVine Insights - Example Workflow Logs",
+        
+        description: "TaskVine users can explore these example logs and gain insights into how workflows are executed, what information TaskVine provides for developers, and which visualization tools are available.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/taskvine-insights-example-logs/";
+          
+        },
+      },{id: "post-graduate-students-share-research-and-systems-insights-at-sc25",
         
           title: "Graduate Students Share Research and Systems Insights at SC25",
         
