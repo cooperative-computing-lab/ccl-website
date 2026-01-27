@@ -135,7 +135,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-taskvine-insights-example-workflow-logs",
+        },{id: "post-taskvine-insights-intermediate-data-model",
+        
+          title: "TaskVine Insights - Intermediate Data Model",
+        
+        description: "Large DAGs often bottleneck on intermediate data. Here&#39;s how TaskVine&#39;s temp files keep intermediates on workers and cut manager-side transfers.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/taskvine-insights-intermediate-data-model/";
+          
+        },
+      },{id: "post-taskvine-insights-example-workflow-logs",
         
           title: "TaskVine Insights - Example Workflow Logs",
         
