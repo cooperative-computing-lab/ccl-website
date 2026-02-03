@@ -135,7 +135,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-taskvine-insights-intermediate-data-model",
+        },{id: "post-floability-winter-research-retreat-2026",
+        
+          title: "Floability Winter Research Retreat 2026",
+        
+        description: "Snow kept falling as we hosted our Floability winter retreat at Notre Dame, catching up with friends from UIUC, DePaul, and Missouri and hashing out some tough workflow problems together.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/floability-winter-research-retreat-2026/";
+          
+        },
+      },{id: "post-taskvine-insights-intermediate-data-model",
         
           title: "TaskVine Insights - Intermediate Data Model",
         
