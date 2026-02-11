@@ -135,7 +135,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-floability-winter-research-retreat-2026",
+        },{id: "post-taskvine-insights-picking-the-right-task-surface-in-python-task-pythontask-functioncall",
+        
+          title: "TaskVine Insights: Picking the Right Task Surface in Python (Task, PythonTask, FunctionCall)",
+        
+        description: "In the TaskVine API, Task, PythonTask, and FunctionCall are three ways to describe work. This post explains how each one expresses dependencies with File objects, and why libraries help avoid Python cold starts and reuse imports and global state.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/taskvine-insights-picking-the-right-task-surface-in-python/";
+          
+        },
+      },{id: "post-floability-winter-research-retreat-2026",
         
           title: "Floability Winter Research Retreat 2026",
         
