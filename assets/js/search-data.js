@@ -135,7 +135,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-taskvine-insights-picking-the-right-task-surface-in-python-task-pythontask-functioncall",
+        },{id: "post-pledge-development-updates",
+        
+          title: "Pledge Development Updates",
+        
+        description: "Our Pledge project continues to evolve, uncovering hidden dependencies in HPC scripts and making scalable workflows increasingly within reach.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/pledge-development-updates/";
+          
+        },
+      },{id: "post-taskvine-insights-picking-the-right-task-surface-in-python-task-pythontask-functioncall",
         
           title: "TaskVine Insights: Picking the Right Task Surface in Python (Task, PythonTask, FunctionCall)",
         
