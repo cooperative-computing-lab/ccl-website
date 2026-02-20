@@ -3911,96 +3911,96 @@ ninja.data = [{
           description: "This project will explore the design of systems for connecting remote wireless sensor networks with high performance computing systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/xgfabric/";
-            },},{id: "softwares-allocfs-a-filesystem-with-allocations",
+            },},{id: "software-allocfs-a-filesystem-with-allocations",
           title: 'AllocFS: A Filesystem With Allocations',
           description: "AllocFS is a filesystem that allows users to make guaranteed space allocations within an existing directory structure.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/allocfs/";
-            },},{id: "softwares-all-pairs-abstraction",
+          section: "Software",handler: () => {
+              window.location.href = "/software/allocfs/";
+            },},{id: "software-all-pairs-abstraction",
           title: 'All-Pairs Abstraction',
           description: "The All-Pairs abstraction computes the Cartesian product of two sets, generating a matrix where each cell M[i,j] contains the output of the function F on objects A[i] and B[j].",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/allpairs/";
-            },},{id: "softwares-awe-accelerated-weighted-ensemble",
+          section: "Software",handler: () => {
+              window.location.href = "/software/allpairs/";
+            },},{id: "software-awe-accelerated-weighted-ensemble",
           title: 'AWE - Accelerated Weighted Ensemble',
           description: "Accelerated Weighted Ensemble or AWE package provides a Python library for adaptive sampling of molecular dynamics.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/awe/";
-            },},{id: "softwares-chirp-filesystem",
+          section: "Software",handler: () => {
+              window.location.href = "/software/awe/";
+            },},{id: "software-chirp-filesystem",
           title: 'Chirp Filesystem',
           description: "Chirp is a personal user-level distributed filesystem that can be used to export existing data into distributed systems. Chirp enables unprivileged users to share space securely, efficiently, and conveniently. When combined with Parrot, Chirp allows users to create custom wide-area distributed filesystems that span high performance computing clusters.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/chirp/";
-            },},{id: "softwares-the-confuga-cluster-file-system",
+          section: "Software",handler: () => {
+              window.location.href = "/software/chirp/";
+            },},{id: "software-the-confuga-cluster-file-system",
           title: 'The Confuga Cluster File System',
           description: "Description goes here.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/confuga/";
-            },},{id: "softwares-floability",
+          section: "Software",handler: () => {
+              window.location.href = "/software/confuga/";
+            },},{id: "software-floability",
           title: 'Floability',
           description: "Floability is an NSF funded research project to enable the rapid and portable deployment of notebooks expressing complex scientific workflows across a wide range of cyberinfrastructure.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/floability/";
-            },},{id: "softwares-ftsh-the-fault-tolerant-shell",
+          section: "Software",handler: () => {
+              window.location.href = "/software/floability/";
+            },},{id: "software-ftsh-the-fault-tolerant-shell",
           title: 'ftsh - The Fault Tolerant Shell',
           description: "Description goes here.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/ftsh/";
-            },},{id: "softwares-jx",
+          section: "Software",handler: () => {
+              window.location.href = "/software/ftsh/";
+            },},{id: "software-jx",
           title: 'JX',
           description: "JX (JSON Expressions) is an expression language for unstructured data. Adding to the standard JSON data description language, it provides operators, variables, functions, list comprehensions, and other conveniences to generate and query complex documents. JX is used throughout the CCTools to describe and query data.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/jx/";
-            },},{id: "softwares-makeflow",
+          section: "Software",handler: () => {
+              window.location.href = "/software/jx/";
+            },},{id: "software-makeflow",
           title: 'Makeflow',
           description: "Makeflow is a workflow system for executing large complex workflows on clusters, clouds, and grids.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/makeflow/";
-            },},{id: "softwares-parrot",
+          section: "Software",handler: () => {
+              window.location.href = "/software/makeflow/";
+            },},{id: "software-parrot",
           title: 'Parrot',
           description: "Parrot is a transparent user-level virtual filesystem that allows any ordinary program to be attached to many different remote storage services. Parrot captures the system calls (open, read, write, stat, etc) of an application through the ptrace interface, and redirects them to remote services such as HDFS, iRODS, Chirp, and FTP. This allows one to construct custom distributed filesystems on clusters without requiring special privileges.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/parrot/";
-            },},{id: "softwares-prune-the-preserving-run-environment",
+          section: "Software",handler: () => {
+              window.location.href = "/software/parrot/";
+            },},{id: "software-prune-the-preserving-run-environment",
           title: 'PRUNE: The Preserving Run Environment',
           description: "The Preserving Run Environment for reproducible computing.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/prune/";
-            },},{id: "softwares-resource-monitor",
+          section: "Software",handler: () => {
+              window.location.href = "/software/prune/";
+            },},{id: "software-resource-monitor",
           title: 'Resource_monitor',
           description: "The Resource Monitor (RM) is used to accurately capture the resource consumption (CPU, RAM, I/O, Disk, GPU, etc) of applications running in distributed systems. Production applications are typically not single processes, but complex assemblies of scripts, libraries, and processes written in multiple languages. The resource monitor tracks all components accurately and provides the enforcement needed to execute applications reliable at scale.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/resource_monitor/";
-            },},{id: "softwares-sand-scalable-assembly-at-notre-dame",
+          section: "Software",handler: () => {
+              window.location.href = "/software/resource_monitor/";
+            },},{id: "software-sand-scalable-assembly-at-notre-dame",
           title: 'SAND - Scalable Assembly at Notre Dame',
           description: "SAND - Scalable Assembly at Notre Dame",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/sand/";
-            },},{id: "softwares-subid-sub-identity-toolkit",
+          section: "Software",handler: () => {
+              window.location.href = "/software/sand/";
+            },},{id: "software-subid-sub-identity-toolkit",
           title: 'Subid: Sub-Identity Toolkit',
           description: "The Cooperative Computing Laboratory Sub-Identity Toolkit is a set of utilities and a Pluggable Authentication Module that provides users with the ability to create sub-users of themselves.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/subid/";
-            },},{id: "softwares-taskvine",
+          section: "Software",handler: () => {
+              window.location.href = "/software/subid/";
+            },},{id: "software-taskvine",
           title: 'TaskVine',
           description: "TaskVine is our third-generation workflow system for building scalable data intensive applications that run on HPC clusters, cloud services, and other clusters.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/taskvine/";
-            },},{id: "softwares-umbrella-software-environment-specification",
+          section: "Software",handler: () => {
+              window.location.href = "/software/taskvine/";
+            },},{id: "software-umbrella-software-environment-specification",
           title: 'Umbrella Software Environment Specification',
           description: "Umbrella is a tool for specifying and materializing comprehensive execution environments, from the hardware all the way up to software and data.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/umbrella/";
-            },},{id: "softwares-the-wavefront-abstraction",
+          section: "Software",handler: () => {
+              window.location.href = "/software/umbrella/";
+            },},{id: "software-the-wavefront-abstraction",
           title: 'The Wavefront Abstraction',
           description: "The Wavefront abstraction is used to express computations on a two-dimensional grid where each cell depends on its neighboring cells.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/wavefront/";
-            },},{id: "softwares-work-queue",
+          section: "Software",handler: () => {
+              window.location.href = "/software/wavefront/";
+            },},{id: "software-work-queue",
           title: 'Work Queue',
           description: "Work Queue is an application framework for creating and managing dynamic manager-worker style programs that scale up to tens of thousands of machines on clusters, clouds, and grids.",
-          section: "Softwares",handler: () => {
-              window.location.href = "/softwares/workqueue/";
+          section: "Software",handler: () => {
+              window.location.href = "/software/workqueue/";
             },},{
         id: 'social-github',
         title: 'GitHub',
