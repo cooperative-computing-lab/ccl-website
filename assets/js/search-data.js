@@ -3820,12 +3820,7 @@ ninja.data = [{
             window.location.href = "/blog/2008/parrot-flies-at-fermilab/";
           
         },
-      },{id: "alt-makeflow",
-          title: 'Makeflow',
-          description: "Makeflow is a workflow system for executing large complex workflows on clusters, clouds, and grids.",
-          section: "Alt",handler: () => {
-              window.location.href = "/alt/makeflow/";
-            },},{id: "books-the-godfather",
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
