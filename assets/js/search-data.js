@@ -128,6 +128,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/software/taskvine/status/";
               },
+            },{id: "dropdown-work-queue-status",
+              title: "Work Queue Status",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/software/workqueue/status/";
+              },
             },{id: "nav-blog",
           title: "Blog",
           description: "",
