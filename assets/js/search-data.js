@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-pledge-development-updates",
+        },{id: "post-taskvine-insights-daskvine-executor-for-practical-scientific-graphs",
+        
+          title: "TaskVine Insights: DaskVine Executor for Practical Scientific Graphs",
+        
+        description: "In the TaskVine world, workflows can be built task by task or as full graphs. This post focuses on DaskVine and shows how to run Dask graphs on TaskVine with practical guidance on execution modes, data movement, and scheduling options.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/taskvine-insights-daskvine-executor/";
+          
+        },
+      },{id: "post-pledge-development-updates",
         
           title: "Pledge Development Updates",
         
