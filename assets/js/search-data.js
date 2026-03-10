@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-taskvine-insights-daskvine-executor-for-practical-scientific-graphs",
+        },{id: "post-ccl-participated-in-the-18th-nd-cse-annual-poster-session",
+        
+          title: "CCL Participated in the 18th ND CSE Annual Poster Session",
+        
+        description: "CCL team members presented eight research posters at the 18th ND CSE Annual Poster Session on February 26, 2026, spanning HEP workflows, DAG execution, reproducibility, digital agriculture, and LLM inference.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ccl-participated-in-the-18th-nd-cse-annual-poster-session/";
+          
+        },
+      },{id: "post-taskvine-insights-daskvine-executor-for-practical-scientific-graphs",
         
           title: "TaskVine Insights: DaskVine Executor for Practical Scientific Graphs",
         
