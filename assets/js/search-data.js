@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-ccl-participated-in-the-18th-nd-cse-annual-poster-session",
+        },{id: "post-taskvine-insights-a-beginner-39-s-map-to-the-cctools-codebase-and-a-first-task-dispatch-patch",
+        
+          title: "TaskVine Insights: A Beginner&#39;s Map to the CCTools Codebase and a First Task...",
+        
+        description: "CCTools can look intimidating at first glance. This post gives beginners a practical map of the repository, explains how TaskVine fits into the larger system, and walks through a small but real source change that prints which task was committed to which worker.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/taskvine-insights-a-beginners-map-to-the-cctools-codebase/";
+          
+        },
+      },{id: "post-ccl-participated-in-the-18th-nd-cse-annual-poster-session",
         
           title: "CCL Participated in the 18th ND CSE Annual Poster Session",
         
