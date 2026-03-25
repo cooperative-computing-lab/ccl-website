@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-taskvine-insights-a-beginner-39-s-map-to-the-cctools-codebase-and-a-first-task-dispatch-patch",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-03-24-cursor-rules-in-research-computing/";
+          
+        },
+      },{id: "post-taskvine-insights-a-beginner-39-s-map-to-the-cctools-codebase-and-a-first-task-dispatch-patch",
         
           title: "TaskVine Insights: A Beginner&#39;s Map to the CCTools Codebase and a First Task...",
         
