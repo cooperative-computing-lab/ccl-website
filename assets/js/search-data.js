@@ -142,15 +142,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-",
+        },{id: "post-cursor-rules-in-research-computing",
         
-          title: "",
+          title: "Cursor Rules in Research Computing",
         
-        description: "",
+        description: "One of our lab researchers shares practical experience with Cursor rules and AGENTS.md-style project context: how they help AI assistants stay aligned with style, layout, and how we run tests in research computing workflows.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-03-24-cursor-rules-in-research-computing/";
+            window.location.href = "/blog/2026/cursor-rules-in-research-computing/";
           
         },
       },{id: "post-taskvine-insights-a-beginner-39-s-map-to-the-cctools-codebase-and-a-first-task-dispatch-patch",
