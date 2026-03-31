@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-cursor-rules-in-research-computing",
+        },{id: "post-taskvine-insights-how-to-propose-a-pull-request-to-the-ccl-team",
+        
+          title: "TaskVine Insights: How to Propose a Pull Request to the CCL Team",
+        
+        description: "Contributions help TaskVine and CCTools move forward. This post welcomes discussion, pull requests, and patches, then describes the workflow from issue to merge and how to build, test, and submit against the official repository.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/taskvine-insights-how-to-propose-a-pull-request-to-the-ccl-team/";
+          
+        },
+      },{id: "post-cursor-rules-in-research-computing",
         
           title: "Cursor Rules in Research Computing",
         
