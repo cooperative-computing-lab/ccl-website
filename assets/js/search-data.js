@@ -186,6 +186,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/ccl-participated-in-the-18th-nd-cse-annual-poster-session/";
           
         },
+      },{id: "post-hep-development-at-the-ccl",
+        
+          title: "HEP Development at the CCL",
+        
+        description: "CCL has long collaborated with NDCMS on high-energy physics workflows. A look at how we evolved from Coffea 0.7 executors through DaskVine and VineReduce to power production apps like RsTriPhoton and TopEFT.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hep-development-at-the-ccl/";
+          
+        },
       },{id: "post-taskvine-insights-daskvine-executor-for-practical-scientific-graphs",
         
           title: "TaskVine Insights: DaskVine Executor for Practical Scientific Graphs",
