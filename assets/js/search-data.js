@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-taskvine-insights-how-to-propose-a-pull-request-to-the-ccl-team",
+        },{id: "post-introducing-x-bucket",
+        
+          title: "Introducing X-Bucket",
+        
+        description: "In cluster-backed dynamic workflows, the allocator must reserve cores, memory, and related resources before each task runs, but its real footprint only shows up afterward. Dynamic workflows make that puzzle even messier. X-Bucket turns streaming measurements into bucketed predictions that stay general, free of priors, and online. Read on for how it stacks up.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/introducing-x-bucket/";
+          
+        },
+      },{id: "post-taskvine-insights-how-to-propose-a-pull-request-to-the-ccl-team",
         
           title: "TaskVine Insights: How to Propose a Pull Request to the CCL Team",
         
