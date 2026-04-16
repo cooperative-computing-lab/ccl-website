@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-introducing-x-bucket",
+        },{id: "post-congratulations-to-thanh-son-phung-on-passing-his-doctoral-defense",
+        
+          title: "Congratulations to Thanh Son Phung on Passing His Doctoral Defense",
+        
+        description: "Thanh Son Phung successfully defended his Ph.D. dissertation in April 2026. He joined the lab in 2020 and worked on distributed systems for large-scale scientific computing.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/congratulations-to-thanh-on-passing-his-doctoral-defense/";
+          
+        },
+      },{id: "post-introducing-x-bucket",
         
           title: "Introducing X-Bucket",
         
