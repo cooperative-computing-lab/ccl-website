@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-congratulations-to-thanh-son-phung-on-passing-his-doctoral-defense",
+        },{id: "post-congratulations-to-colin-thomas-on-passing-his-candidacy-exam",
+        
+          title: "Congratulations to Colin Thomas on Passing His Candidacy Exam",
+        
+        description: "Congratulations to Colin Thomas on his Ph.D. candidacy in April 2026.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/congratulations-to-colin-on-passing-his-candidacy-exam/";
+          
+        },
+      },{id: "post-congratulations-to-thanh-son-phung-on-passing-his-doctoral-defense",
         
           title: "Congratulations to Thanh Son Phung on Passing His Doctoral Defense",
         
