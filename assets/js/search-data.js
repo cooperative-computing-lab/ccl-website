@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-congratulations-to-colin-thomas-on-passing-his-candidacy-exam",
+        },{id: "post-taskvine-insights-submitting-workers-to-a-cluster",
+        
+          title: "TaskVine Insights: Submitting Workers to a Cluster",
+        
+        description: "TaskVine workers can be submitted directly to batch systems or managed dynamically with vine_factory, with HTCondor details for worker resources, environment packaging, cleanup, and debugging.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/taskvine-insights-submitting-workers-to-a-cluster/";
+          
+        },
+      },{id: "post-congratulations-to-colin-thomas-on-passing-his-candidacy-exam",
         
           title: "Congratulations to Colin Thomas on Passing His Candidacy Exam",
         
