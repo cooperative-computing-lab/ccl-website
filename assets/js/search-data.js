@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-taskvine-insights-submitting-workers-to-a-cluster",
+        },{id: "post-taskvine-insights-shipping-worker-builds-to-remote-nodes-and-debugging-there",
+        
+          title: "TaskVine Insights: Shipping Worker Builds to Remote Nodes and Debugging There",
+        
+        description: "On HTCondor, workers keep running the vine_worker binary that got staged at submit time, not the one you just installed into $PATH. Here is how to get a fresh build onto the nodes and how to point -d all output somewhere you can actually read.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/taskvine-insights-shipping-worker-builds-to-remote-nodes/";
+          
+        },
+      },{id: "post-taskvine-insights-submitting-workers-to-a-cluster",
         
           title: "TaskVine Insights: Submitting Workers to a Cluster",
         
