@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-taskvine-insights-shipping-worker-builds-to-remote-nodes-and-debugging-there",
+        },{id: "post-ccl-team-at-gcasr-2026",
+        
+          title: "CCL Team at GCASR 2026",
+        
+        description: "The CCL traveled to Chicago for the Greater Chicago Area Systems Research Workshop (GCASR). Students presented posters, caught invited talks, and connected with the local systems community.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/gcasr/";
+          
+        },
+      },{id: "post-taskvine-insights-shipping-worker-builds-to-remote-nodes-and-debugging-there",
         
           title: "TaskVine Insights: Shipping Worker Builds to Remote Nodes and Debugging There",
         
