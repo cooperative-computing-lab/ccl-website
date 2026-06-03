@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-ccl-team-at-gcasr-2026",
+        },{id: "post-sciwind-at-ipdps-2026",
+        
+          title: "SciWIND at IPDPS 2026",
+        
+        description: "CCL third-year PhD student Jin Zhou traveled to IPDPS 2026 in New Orleans to present SciWIND on node-local storage for data-intensive high-energy physics workflows.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ipdps2026-highlights/";
+          
+        },
+      },{id: "post-ccl-team-at-gcasr-2026",
         
           title: "CCL Team at GCASR 2026",
         
