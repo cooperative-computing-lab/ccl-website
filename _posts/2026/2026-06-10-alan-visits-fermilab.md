@@ -23,7 +23,7 @@ This event brought together experts from 10 different experiments to align on sh
  * Request, provenance & validation: Exploring unified standards for workflow interfaces.
  * AI in operations: Leveraging AI assistance in complex distributed systems.
 
-The conversation is just getting started. If you're interested in the evolution of Workflow/Workload Management and community standards, we'd love for you to join us! Connect via our Mattermost channel: https://mattermost.web.cern.ch/signup_user_complete/?id=1qzfshcjbbr4z81w6yrr4qbtic&md=link&sbr=su
+The conversation is just getting started. If you're interested in the evolution of Workflow/Workload Management and community standards, we'd love for you to join us! Connect via our [Mattermost channel](https://mattermost.web.cern.ch/signup_user_complete/?id=1qzfshcjbbr4z81w6yrr4qbtic&md=link&sbr=su)
 
 
 <div class="row justify-content-sm-center">
