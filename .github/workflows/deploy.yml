@@ -97,6 +97,7 @@ jobs:
       - name: Generate legacy PDF paths
         run: |
           mkdir -p _site/assets/pdf
+          mkdir -p _site/research/papers/
           cp assets/paper/pdf/*.pdf _site/assets/pdf/
           cp assets/paper/pdf/*.pdf _site/research/papers/
       - name: Purge unused CSS 🧹
