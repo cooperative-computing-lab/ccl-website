@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-sciwind-at-ipdps-2026",
+        },{id: "post-alan-visits-fermilab",
+        
+          title: "Alan Visits Fermilab",
+        
+        description: "At the Scientific Workflow Management Cross-Experiment Retreat at Fermilab, Alan Rodrigues joined experts from 10 experiments to tackle shared workflow management challenges and define future priorities in resource optimization, data-aware scheduling, workflow standards, and AI-assisted operations.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/alan-visits-fermilab/";
+          
+        },
+      },{id: "post-sciwind-at-ipdps-2026",
         
           title: "SciWIND at IPDPS 2026",
         
