@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-alan-visits-fermilab",
+        },{id: "post-htc26-experience",
+        
+          title: "HTC26 Experience",
+        
+        description: "One of our graduate students attended HTC26 for the first time, here is what he learned.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/htc26-experience/";
+          
+        },
+      },{id: "post-alan-visits-fermilab",
         
           title: "Alan Visits Fermilab",
         
