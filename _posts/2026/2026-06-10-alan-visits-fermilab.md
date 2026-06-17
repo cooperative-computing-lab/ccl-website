@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Alan Visits Fermilab"
-date: 2026-06-03T12:00:00-05:00
+date: 2026-06-10T12:00:00-05:00
 author: Cooperative Computing Lab
 image: /assets/blog/2026/alan-visits-fermilab/20260514-_DSC1302.jpg
 categories:
