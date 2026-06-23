@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-htc26-experience",
+        },{id: "post-work-queue-insights-practical-debugging-on-hpc-systems",
+        
+          title: "Work Queue Insights: Practical Debugging on HPC Systems",
+        
+        description: "A segfault in task_min_resources taught us a few things about staying sane while debugging on HPC systems. Here are the habits that keep you from burning hours waiting on a large workflow when a three-task smoke test would have told you the same thing.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/work-queue-insights-practical-debugging-on-hpc-systems/";
+          
+        },
+      },{id: "post-htc26-experience",
         
           title: "HTC26 Experience",
         
