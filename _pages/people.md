@@ -13,9 +13,6 @@ people:
   - name: Benjamin Tovar
     image: assets/img/people/btovar.jpg
     designation: Research Software Engineer
-  - name: Thanh Son Phung
-    image: assets/img/people/tphung.jpg
-    designation: Ph.D. Student
   - name: Barry Sly Delgado
     image: assets/img/people/bslydelg.jpg
     designation: Ph.D. Student
@@ -28,9 +25,6 @@ people:
   - name: Md Saiful Islam
     image: assets/img/people/mislam5.jpg
     designation: Ph.D. Student
-  - name: Alan Malta Rodriguez
-    image: assets/img/people/amaltar2.jpg
-    designation: M.S. Student
   - name: Ryan Hartung
     image: assets/img/people/rhartung.jpg
     designation: Ph.D. Student
@@ -52,6 +46,7 @@ team_photos:
 
 ## Ph.D. Graduates
 
+- Dr. Thanh Son Phung, Ph.D. 2026 — Software Engineer at Google
 - Dr. Tim Shaffer, Ph.D. 2022 — Engineer at Seagate
 - Dr. Nathaniel Kremer-Herman, Ph.D. 2021 — Faculty at Hanover College
 - Dr. Nick Hazekamp, Ph.D. 2019 — Engineer at Atomic Object
@@ -72,6 +67,7 @@ team_photos:
 
 ## Past Undergraduates
 
+- Alan Malta Rodrigues (M.S. 2026) - Lead and developed Monte Carlo and data reprocessing experiments with WMCore and CMS.
 - Ian Setia - Implemented a persistent cache for the Coffea preprocessor to eliminate redundant recomputation.
 - Eamon Tracey - Developed techniques for extracting LLM-ready inputs from uncommon code bases.
 - Eliot Kim - Characterizing performance as part of continuous integration.
