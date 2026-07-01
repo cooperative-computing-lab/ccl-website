@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-work-queue-insights-practical-debugging-on-hpc-systems",
+        },{id: "post-getting-started-with-slurm",
+        
+          title: "Getting Started with SLURM",
+        
+        description: "SLURM is the job scheduler running on most HPC clusters today. Here are the commands and habits that get you productive quickly as an end-user, without having to read the entire manual first.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/getting-started-with-slurm/";
+          
+        },
+      },{id: "post-work-queue-insights-practical-debugging-on-hpc-systems",
         
           title: "Work Queue Insights: Practical Debugging on HPC Systems",
         
