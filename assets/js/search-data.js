@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-getting-started-with-slurm",
+        },{id: "post-conda-modules-and-containers-how-to-manage-your-software-without-breaking-the-cluster",
+        
+          title: "Conda, Modules, and Containers: How to Manage Your Software Without Breaking the Cluster...",
+        
+        description: "Managing software on a shared supercomputer is completely different from your personal laptop. Here is how to use Modules, Conda, and Containers effectively without exhausting your storage or crashing the cluster.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/containers-on-clusters/";
+          
+        },
+      },{id: "post-getting-started-with-slurm",
         
           title: "Getting Started with SLURM",
         
