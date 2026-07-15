@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-conda-modules-and-containers-how-to-manage-your-software-without-breaking-the-cluster",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-07-15-fse-2026-highlights/";
+          
+        },
+      },{id: "post-conda-modules-and-containers-how-to-manage-your-software-without-breaking-the-cluster",
         
           title: "Conda, Modules, and Containers: How to Manage Your Software Without Breaking the Cluster...",
         
