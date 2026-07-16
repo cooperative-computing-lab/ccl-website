@@ -142,15 +142,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-",
+        },{id: "post-sade-sim-at-fse-2026",
         
-          title: "",
+          title: "SADE-SIM at FSE 2026",
         
-        description: "",
+        description: "CCL fist-year PhD student Lax traveled to FSE 2026 in Montreal, Canada to present his work, &quot;SADE-SIM: A Scalable Simulation Platform for Validating City-Scale Multi-sUAS Missions.&quot;",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-07-15-fse-2026-highlights/";
+            window.location.href = "/blog/2026/fse-2026-highlights/";
           
         },
       },{id: "post-conda-modules-and-containers-how-to-manage-your-software-without-breaking-the-cluster",
