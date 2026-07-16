@@ -9,7 +9,7 @@ categories:
 tags:
   - news
   - conference
-description: CCL fist-year PhD student Lax traveled to FSE 2026 in Montreal, Canada to present his work, "SADE-SIM: A Scalable Simulation Platform for Validating City-Scale Multi-sUAS Missions."
+description: "CCL fist-year PhD student Lax traveled to FSE 2026 in Montreal, Canada to present his work, \"SADE-SIM: A Scalable Simulation Platform for Validating City-Scale Multi-sUAS Missions.\""
 toc: false
 related_posts: false
 ---
