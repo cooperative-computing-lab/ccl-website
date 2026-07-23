@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-sade-sim-at-fse-2026",
+        },{id: "post-interactive-computing-jupyter-notebooks-and-vs-code-on-compute-nodes",
+        
+          title: "Interactive Computing: Jupyter Notebooks and VS Code on Compute Nodes",
+        
+        description: "Bridge the gap between local, GUI-based development and remote cluster compute without crashing login nodes or violating HPC policies.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/interactive-computing/";
+          
+        },
+      },{id: "post-sade-sim-at-fse-2026",
         
           title: "SADE-SIM at FSE 2026",
         
