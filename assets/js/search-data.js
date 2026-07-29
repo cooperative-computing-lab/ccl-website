@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-interactive-computing-jupyter-notebooks-and-vs-code-on-compute-nodes",
+        },{id: "post-how-to-read-hpc-error-logs-and-what-common-failures-actually-mean",
+        
+          title: "How to Read HPC Error Logs (And What Common Failures Actually Mean)",
+        
+        description: "Don&#39;t panic when your batch job crashes. Here is how to locate log files, decode exit codes, and debug failures across SLURM, Univa Grid Engine (UGE), and HTCondor.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/how-to-read-hpc-error-logs.md/";
+          
+        },
+      },{id: "post-interactive-computing-jupyter-notebooks-and-vs-code-on-compute-nodes",
         
           title: "Interactive Computing: Jupyter Notebooks and VS Code on Compute Nodes",
         
