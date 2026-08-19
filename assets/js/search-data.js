@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-how-to-read-hpc-error-logs-and-what-common-failures-actually-mean",
+        },{id: "post-shell-survival-skills-terminal-tools-every-hpc-user-needs",
+        
+          title: "Shell Survival Skills: Terminal Tools Every HPC User Needs",
+        
+        description: "Keep your remote sessions alive across laptop disconnects, search massive log directories instantly, and save hours with custom shell shortcuts.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/shell-survival-skills/";
+          
+        },
+      },{id: "post-how-to-read-hpc-error-logs-and-what-common-failures-actually-mean",
         
           title: "How to Read HPC Error Logs (And What Common Failures Actually Mean)",
         
@@ -150,7 +161,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/how-to-read-hpc-error-logs.md/";
+            window.location.href = "/blog/2026/how-to-read-hpc-error-logs/";
           
         },
       },{id: "post-interactive-computing-jupyter-notebooks-and-vs-code-on-compute-nodes",
