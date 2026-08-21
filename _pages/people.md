@@ -33,6 +33,9 @@ people:
     image: assets/img/people/lvadnala.jpg
     website: https://laxminarayanav7416.github.io/
     designation: Ph.D. Student
+  - name: Andrés Iglesias
+    image: assets/img/people/aiglesi3.jpg
+    designation: Ph.D. Student
 team_photos:
   - name: assets/img/team/ccl-fall-2023.jpg
     caption: CCL Team, Fall 2023
