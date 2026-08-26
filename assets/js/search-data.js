@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-shell-survival-skills-terminal-tools-every-hpc-user-needs",
+        },{id: "post-kicking-off-the-new-semester-welcome-andrés-and-lab-updates",
+        
+          title: "Kicking Off the New Semester: Welcome Andrés and Lab Updates",
+        
+        description: "Welcoming Andrés Iglesias back to the Cooperative Computing Lab as we kick off the new academic semester.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/fall-2026-kickoff/";
+          
+        },
+      },{id: "post-shell-survival-skills-terminal-tools-every-hpc-user-needs",
         
           title: "Shell Survival Skills: Terminal Tools Every HPC User Needs",
         
@@ -4151,7 +4162,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/vc3/";
             },},{id: "projects-xgfabric-coupling-sensor-networks-and-hpc-facilities-with-advanced-wireless-networks-for-near-real-time-simulation-of-digital-agriculture-doe-ascr",
-          title: 'XGFabric : Coupling Sensor Networks and HPC Facilities with Advanced Wireless Networks for...',
+          title: 'xGFabric : Coupling Sensor Networks and HPC Facilities with Advanced Wireless Networks for...',
           description: "This project will explore the design of systems for connecting remote wireless sensor networks with high performance computing systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/xgfabric/";
