@@ -84,7 +84,7 @@ tags: [new-semester, lab-updates]
    <li>
     <p>
      <strong>
-      DOE XGFabric
+      DOE xGFabric
      </strong>
      (Ryan, Thanh): capture the full software stack; port to multiple ACCESS sites and troubleshoot issues as they appear; evaluate scale, responsiveness, and resource use; develop solutions for HPC batch queue delays.
     </p>
@@ -94,7 +94,7 @@ tags: [new-semester, lab-updates]
      <strong>
       NSF HARMONY
      </strong>
-     : run a fall workshop on workflow collaboration with the eScience conference; capture examples across Parsl-TaskVine (astro), DaskVine (HEP), and RADICAL (xgfabric).
+     : run a fall workshop on workflow collaboration with the eScience conference; capture examples across Parsl-TaskVine (astro), DaskVine (HEP), and RADICAL (xGFabric).
     </p>
    </li>
    <li>
