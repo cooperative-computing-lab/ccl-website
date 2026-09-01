@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-kicking-off-the-new-semester-welcome-andrés-and-lab-updates",
+        },{id: "post-demystifying-cluster-storage-cephfs-scratch-and-i-o-bottlenecks",
+        
+          title: "Demystifying Cluster Storage: CephFS, Scratch, and I/O Bottlenecks",
+        
+        description: "Understand shared parallel filesystems vs. local storage, why small files crash metadata servers, and how to optimize your job&#39;s I/O performance.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/cluster-storage/";
+          
+        },
+      },{id: "post-kicking-off-the-new-semester-welcome-andrés-and-lab-updates",
         
           title: "Kicking Off the New Semester: Welcome Andrés and Lab Updates",
         
