@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-demystifying-cluster-storage-cephfs-scratch-and-i-o-bottlenecks",
+        },{id: "post-the-vine-cms-analysis-stack-use-case-at-notre-dame",
+        
+          title: "The Vine CMS Analysis Stack: Use Case at Notre Dame",
+        
+        description: "Ben presented his work on the Vine CMS analysis stack this week.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/uscms_af_vine-stack/";
+          
+        },
+      },{id: "post-demystifying-cluster-storage-cephfs-scratch-and-i-o-bottlenecks",
         
           title: "Demystifying Cluster Storage: CephFS, Scratch, and I/O Bottlenecks",
         
