@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-the-vine-cms-analysis-stack-use-case-at-notre-dame",
+        },{id: "post-floability-at-apex-summit",
+        
+          title: "Floability at APeX Summit",
+        
+        description: "This week, Saiful and Ryan traveled to the APeX Summit 2026 (previously ParslFest) conference at The University of Chicago.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/apex-summit-26/";
+          
+        },
+      },{id: "post-the-vine-cms-analysis-stack-use-case-at-notre-dame",
         
           title: "The Vine CMS Analysis Stack: Use Case at Notre Dame",
         
