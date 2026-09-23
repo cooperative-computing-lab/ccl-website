@@ -186,6 +186,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - venv
+  - .venv
   - _pages/cv.md
   - _pages/teaching.md
   - _pages/dropdown.md

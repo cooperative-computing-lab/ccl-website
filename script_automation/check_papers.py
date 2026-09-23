@@ -17,9 +17,9 @@ from typing import List, Dict, Optional, Tuple
 from html.parser import HTMLParser
 
 try:
-    import fitz  # PyMuPDF
+    import pymupdf  # PyMuPDF
 except Exception:
-    fitz = None
+    pymupdf = None
 
 
 class BibEntry:
@@ -212,13 +212,13 @@ def download_pdf(url: str, dest: Path) -> None:
 
 def generate_thumbnail(pdf_path: Path, thumb_path: Path) -> None:
     """Generate PNG thumbnail from first page of PDF."""
-    if fitz is None:
+    if pymupdf is None:
         raise Exception("PyMuPDF not installed")
 
     thumb_path.parent.mkdir(parents=True, exist_ok=True)
-    doc = fitz.open(pdf_path)
+    doc = pymupdf.open(pdf_path)
     page = doc.load_page(0)
-    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
+    pix = page.get_pixmap(matrix=pymupdf.Matrix(2, 2))
     thumb_path.write_bytes(pix.tobytes("png"))
 
 
