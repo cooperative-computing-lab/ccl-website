@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-floability-at-apex-summit",
+        },{id: "post-sade-drone-simulation-at-nasa-uli",
+        
+          title: "SADE Drone Simulation at NASA ULI",
+        
+        description: "The Safety-Aware Drone Ecosystem (SADE) team recently presented their realistic simulation platform at a NASA ULI event, showcasing how complex virtual testing environments advance safe and trustworthy low-altitude drone operations.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/nasa-uli/";
+          
+        },
+      },{id: "post-floability-at-apex-summit",
         
           title: "Floability at APeX Summit",
         
