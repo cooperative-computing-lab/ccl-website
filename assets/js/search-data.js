@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-sade-drone-simulation-at-nasa-uli",
+        },{id: "post-ccl-at-escience-39-26",
+        
+          title: "CCL at eScience&#39;26",
+        
+        description: "This week, Alan, Barry, and Dr. Thain are attending the eScience&#39;26 conference in Naples, Italy.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/escience-26/";
+          
+        },
+      },{id: "post-sade-drone-simulation-at-nasa-uli",
         
           title: "SADE Drone Simulation at NASA ULI",
         
