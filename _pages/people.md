@@ -45,6 +45,24 @@ team_photos:
     caption: CCL Team, May 2018
   - name: assets/img/team/ccl-may-2015.jpg
     caption: CCL Team, May 2015
+  - name: assets/img/team/ccl-june2013.jpg
+    caption: CCL Team, June 2013
+  - name: assets/img/team/ccl-mar2012.jpg
+    caption: CCL Team, March 2012
+  - name: assets/img/team/ccl-july2010.jpg
+    caption: CCL Team, July 2010
+  - name: assets/img/team/ccl-july2009.jpg
+    caption: CCL Team, July 2009
+  - name: assets/img/team/ccl-jan2009.jpg
+    caption: CCL Team, January 2009
+  - name: assets/img/team/ccl-july2008.jpg
+    caption: CCL Team, July 2008
+  - name: assets/img/team/ccl-june2007.jpg
+    caption: CCL Team, June 2007
+
+
+
+
 ---
 
 ## Ph.D. Graduates
@@ -70,7 +88,7 @@ team_photos:
 
 ## Past Undergraduates
 
-- Alan Malta Rodrigues (M.S. 2026) - Lead and developed Monte Carlo and data reprocessing experiments with WMCore and CMS.
+- Alan Malta Rodrigues (M.S. 2026) - Developed Monte Carlo and data reprocessing experiments with WMCore and CMS.
 - Ian Setia - Implemented a persistent cache for the Coffea preprocessor to eliminate redundant recomputation.
 - Eamon Tracey - Developed techniques for extracting LLM-ready inputs from uncommon code bases.
 - Eliot Kim - Characterizing performance as part of continuous integration.
