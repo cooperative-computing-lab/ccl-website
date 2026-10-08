@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-ccl-at-escience-39-26",
+        },{id: "post-declare-resolve-reuse-portable-data-handling-for-notebook-workflows-in-floability",
+        
+          title: "Declare, Resolve, Reuse: Portable Data Handling for Notebook Workflows in Floability",
+        
+        description: "Introducing a portable data layer for Floability that eliminates hard-coded paths and enables reproducible notebook execution across heterogeneous HPC clusters.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/floability-escience/";
+          
+        },
+      },{id: "post-ccl-at-escience-39-26",
         
           title: "CCL at eScience&#39;26",
         
