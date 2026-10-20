@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-declare-resolve-reuse-portable-data-handling-for-notebook-workflows-in-floability",
+        },{id: "post-reshaping-and-fusing-hidden-task-graphs-optimizing-distributed-hep-workflows-in-dask-vine",
+        
+          title: "Reshaping and Fusing Hidden Task Graphs: Optimizing Distributed HEP Workflows in Dask Vine...",
+        
+        description: "Introducing automatic task graph fusion and reshaping in Dask Vine using algebraic annotations to reduce end-to-end execution latency in HEP workflows by over 30%.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/reshaping-escience/";
+          
+        },
+      },{id: "post-declare-resolve-reuse-portable-data-handling-for-notebook-workflows-in-floability",
         
           title: "Declare, Resolve, Reuse: Portable Data Handling for Notebook Workflows in Floability",
         
