@@ -201,7 +201,11 @@
       {{ periodical | strip }}
     </div>
     <div class="periodical">
-      {{ entry.note | strip }}
+      {% if entry.note contains 'doi:' and entry.doi %}
+        <a href="https://doi.org/{{ entry.doi }}">{{ entry.note | strip }}</a>
+      {% else %}
+        {{ entry.note | strip }}
+      {% endif %}
     </div>
 
     <!-- Links/Buttons -->
