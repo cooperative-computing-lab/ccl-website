@@ -33,9 +33,9 @@ It is a classic high-performance computing friction point: feeling overwhelmed b
 
 When running non-interactive batch jobs, system output streams split into separate files depending on your workload manager:
 
-* **Standard Output (`.out` / stdout):** Reserved for standard runtime logs, progress bars, `print()` statements, and calculation results.
-* **Standard Error (`.err` / stderr):** Reserved for system warnings, thrown exceptions, segmentation faults, and library errors.
-* **Workflow Event Log (`.log`):** Unique to schedulers like **HTCondor**, this file records lifecycle events managed by the scheduler itself (e.g., job submission, node assignment, resource tracking, and hold reasons).
+- **Standard Output (`.out` / stdout):** Reserved for standard runtime logs, progress bars, `print()` statements, and calculation results.
+- **Standard Error (`.err` / stderr):** Reserved for system warnings, thrown exceptions, segmentation faults, and library errors.
+- **Workflow Event Log (`.log`):** Unique to schedulers like **HTCondor**, this file records lifecycle events managed by the scheduler itself (e.g., job submission, node assignment, resource tracking, and hold reasons).
 
 Here is how you define these log files across the three major schedulers:
 
@@ -46,7 +46,7 @@ Here is how you define these log files across the three major schedulers:
 #SBATCH --error=my_job_%j.err
 ```
 
-*(Where `%j` inserts the unique SLURM Job ID).*
+_(Where `%j` inserts the unique SLURM Job ID)._
 
 ### Univa Grid Engine / SGE (`.sub` / `.sh`)
 
@@ -55,7 +55,7 @@ Here is how you define these log files across the three major schedulers:
 #$ -e my_job_$JOB_ID.err
 ```
 
-*(Where `$JOB_ID` inserts the unique Grid Engine Job ID).*
+_(Where `$JOB_ID` inserts the unique Grid Engine Job ID)._
 
 ### HTCondor (`.submit`)
 
@@ -65,7 +65,7 @@ error  = my_job_$(Cluster).err
 log    = my_job_$(Cluster).log
 ```
 
-*(Where `$(Cluster)` represents the HTCondor Cluster/Job ID).*
+_(Where `$(Cluster)` represents the HTCondor Cluster/Job ID)._
 
 When a job fails, **always inspect the `.err` file first** (and check the `.log` file if you are using HTCondor).
 
@@ -77,19 +77,19 @@ Reading an error log sequentially from line 1 to line 200 is often a waste of ti
 
 Python prints error traces chronologically, meaning the actual fatal exception is always printed at the **very bottom** of the trace.
 
-* **The Strategy:** Scroll directly to the final line of the `.err` file to identify the exact error type (e.g., `KeyError`, `IndexError`, `ModuleNotFoundError`). Once you know *what* failed, scan upward to find the line pointing to your script rather than an internal library package.
+- **The Strategy:** Scroll directly to the final line of the `.err` file to identify the exact error type (e.g., `KeyError`, `IndexError`, `ModuleNotFoundError`). Once you know _what_ failed, scan upward to find the line pointing to your script rather than an internal library package.
 
 ### C/C++ and Fortran: Read Top-to-Bottom
 
 Compiled languages and build tools log errors chronologically as they are encountered during compilation or execution.
 
-* **The Strategy:** Start at the **very top** of the error log. The first error printed is almost always the true root cause; the hundreds of lines following it are usually cascading failures triggered by that initial crash.
+- **The Strategy:** Start at the **very top** of the error log. The first error printed is almost always the true root cause; the hundreds of lines following it are usually cascading failures triggered by that initial crash.
 
 ### Bash / Shell Scripts: Read Where It Stops
 
 By default, Bash scripts continue executing subsequent commands even if an earlier line fails (unless `set -e` is enabled).
 
-* **The Strategy:** Search for the specific command line that failed by scanning upward from where output stopped matching your expected workflow.
+- **The Strategy:** Search for the specific command line that failed by scanning upward from where output stopped matching your expected workflow.
 
 ## Decoding the Usual Suspects: Classic HPC Failures
 
@@ -97,25 +97,22 @@ Most cluster job crashes stem from three recurring issues. Recognizing how each 
 
 ### 1. Out Of Memory (OOM) / Exit Code 137 / Job Holds
 
-* **The Cause:** Your program tried to consume more RAM than requested. To prevent your job from crashing neighboring processes on a shared node, the system kernel or scheduler terminated your process.
-* **How Schedulers Report It:**
-* **SLURM:** Your `.err` file or `sacct -j <job_id>` reports exit code **`137`** (128 + Signal 9 `SIGKILL`), often accompanied by `slurmstepd: error: Detected allocation failure. OOM Killer invoked.`
-* **UGE / SGE:** The job fails with exit code `137`. Running `qacct -j <job_id>` or `qstat -j <job_id>` shows `failed: 100 : Assumed OS problem` or reveals that the job exceeded its specified `maxvmem` ceiling.
-* **HTCondor:** Rather than exiting outright, HTCondor usually places the job in a **`HOLD`** state (`H`). Running `condor_q -hold` or checking the `.log` file explicitly states: `Job used more memory than requested`.
+- **The Cause:** Your program tried to consume more RAM than requested. To prevent your job from crashing neighboring processes on a shared node, the system kernel or scheduler terminated your process.
+- **How Schedulers Report It:**
+- **SLURM:** Your `.err` file or `sacct -j <job_id>` reports exit code **`137`** (128 + Signal 9 `SIGKILL`), often accompanied by `slurmstepd: error: Detected allocation failure. OOM Killer invoked.`
+- **UGE / SGE:** The job fails with exit code `137`. Running `qacct -j <job_id>` or `qstat -j <job_id>` shows `failed: 100 : Assumed OS problem` or reveals that the job exceeded its specified `maxvmem` ceiling.
+- **HTCondor:** Rather than exiting outright, HTCondor usually places the job in a **`HOLD`** state (`H`). Running `condor_q -hold` or checking the `.log` file explicitly states: `Job used more memory than requested`.
 
-
-* **The Fix:** Increase the requested memory in your submission script:
-* **SLURM:** `#SBATCH --mem=32G` (or `#SBATCH --mem-per-cpu=8G`)
-* **UGE:** `#$ -l h_vmem=32G`
-* **HTCondor:** `request_memory = 32GB`
-
-
+- **The Fix:** Increase the requested memory in your submission script:
+- **SLURM:** `#SBATCH --mem=32G` (or `#SBATCH --mem-per-cpu=8G`)
+- **UGE:** `#$ -l h_vmem=32G`
+- **HTCondor:** `request_memory = 32GB`
 
 ### 2. "No Space Left on Device" or Quota Exceeded
 
-* **The Symptom:** `IOError: [Errno 28] No space left on device` or `write error: disk quota exceeded`.
-* **What it means:** Your script ran out of disk space. This rarely happens on large global storage filesystems (`/scratch` or `/project`), but frequently occurs when temporary files auto-write to small localized `/tmp` partitions or constrained home directories (`/home/username`).
-* **The Fix:** Redirect temporary directory environment variables to high-capacity scratch space directly inside your job script before running code:
+- **The Symptom:** `IOError: [Errno 28] No space left on device` or `write error: disk quota exceeded`.
+- **What it means:** Your script ran out of disk space. This rarely happens on large global storage filesystems (`/scratch` or `/project`), but frequently occurs when temporary files auto-write to small localized `/tmp` partitions or constrained home directories (`/home/username`).
+- **The Fix:** Redirect temporary directory environment variables to high-capacity scratch space directly inside your job script before running code:
 
 ```sh
 export TMPDIR=/scratch/username/tmp
@@ -123,13 +120,13 @@ export PIP_CACHE_DIR=/scratch/username/pip_cache
 mkdir -p $TMPDIR $PIP_CACHE_DIR
 ```
 
-*(In HTCondor, you can also request dedicated local scratch disk space via `request_disk = 50GB` in your submit file).*
+_(In HTCondor, you can also request dedicated local scratch disk space via `request_disk = 50GB` in your submit file)._
 
 ### 3. "Command Not Found" or "ModuleNotFoundError"
 
-* **The Symptom:** `bash: line 14: gfortran: command not found` or `ModuleNotFoundError: No module named 'torch'`.
-* **What it means:** Compute nodes start in a clean, isolated environment. They **do not** automatically inherit loaded modules, exported `$PATH` variables, or active Conda environments from your login session terminal.
-* **The Fix:** Explicitly load system modules and activate virtual environments directly inside your execution script:
+- **The Symptom:** `bash: line 14: gfortran: command not found` or `ModuleNotFoundError: No module named 'torch'`.
+- **What it means:** Compute nodes start in a clean, isolated environment. They **do not** automatically inherit loaded modules, exported `$PATH` variables, or active Conda environments from your login session terminal.
+- **The Fix:** Explicitly load system modules and activate virtual environments directly inside your execution script:
 
 ```sh
 # Load system modules
@@ -146,11 +143,11 @@ python3 my_script.py
 
 When a job finishes or fails unexpectedly, use these diagnostic commands to query job metadata and exit status:
 
-| Scheduler | Query Live / Held Jobs | Query Finished / Failed Job History |
-| --- | --- | --- |
-| **SLURM** | `squeue -u $USER` | `sacct -j <job_id> --format=JobID,State,ExitCode,MaxRSS` |
-| **UGE / SGE** | `qstat -j <job_id>` | `qacct -j <job_id>` |
-| **HTCondor** | `condor_q -hold` | `condor_history <job_id>` |
+| Scheduler     | Query Live / Held Jobs | Query Finished / Failed Job History                      |
+| ------------- | ---------------------- | -------------------------------------------------------- |
+| **SLURM**     | `squeue -u $USER`      | `sacct -j <job_id> --format=JobID,State,ExitCode,MaxRSS` |
+| **UGE / SGE** | `qstat -j <job_id>`    | `qacct -j <job_id>`                                      |
+| **HTCondor**  | `condor_q -hold`       | `condor_history <job_id>`                                |
 
 ---
 

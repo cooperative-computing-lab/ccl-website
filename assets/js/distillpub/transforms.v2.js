@@ -2228,12 +2228,10 @@
                         }
                         var topToken = this.stack.pop();
                         var name = topToken.text;
-                        if (
-                          !(
-                            name.charAt(0) === "\\" &&
-                            this.macros.hasOwnProperty(name)
-                          )
-                        ) {
+                        if (!(
+                          name.charAt(0) === "\\" &&
+                          this.macros.hasOwnProperty(name)
+                        )) {
                           return topToken;
                         }
                         var tok = void 0;
@@ -13771,9 +13769,9 @@
                * Parses an expression using a Parser, then returns the parsed result.
                */
               var parseTree = function parseTree(toParse, settings) {
-                if (
-                  !(typeof toParse === "string" || toParse instanceof String)
-                ) {
+                if (!(
+                  typeof toParse === "string" || toParse instanceof String
+                )) {
                   throw new TypeError(
                     "KaTeX can only parse string typed expression",
                   );

@@ -9,7 +9,7 @@ categories:
 tags:
   - news
   - conference
-description: "CCL fist-year PhD student Lax traveled to FSE 2026 in Montreal, Canada to present his work, \"SADE-SIM: A Scalable Simulation Platform for Validating City-Scale Multi-sUAS Missions.\""
+description: 'CCL fist-year PhD student Lax traveled to FSE 2026 in Montreal, Canada to present his work, "SADE-SIM: A Scalable Simulation Platform for Validating City-Scale Multi-sUAS Missions."'
 toc: false
 related_posts: false
 ---
@@ -29,7 +29,7 @@ This July, CCL lab member **Lax** traveled to Montreal, Canada for **[FSE 2026](
 </div>
 
 SADE-SIM is a hybrid simulation framework that pairs physical accuracy with photorealistic visualization to support large multi-sUAS deployments at city scale. It's built to close a gap in existing tools, which typically handle only a handful of concurrent vehicles and fall short on the fidelity needed to evaluate vision-based navigation, sensor degradation in urban environments, and compliance with evolving airspace regulations. The platform brings together web-based mission planning, real-time control compatible with standard protocols, live video stream visualization, and archival review of flight data.
- 
+
 To show what the system can do, Lax presented a case study built around a 32-sUAS heterogeneous fleet flying diverse mission profiles through a restricted airspace zone, where vehicles dynamically request entry and the system evaluates mission-critical safety parameters before granting access.
 
 Between sessions, Lax followed the **[conference program](https://conf.researchr.org/program/fse-2026/program-fse-2026/)**, catching keynotes, technical tracks, and plenty of hallway conversations along the way. FSE still has that familiar, vibrant mix of software engineering foundations, automated testing, and cyber-physical systems validation. Testing and validating autonomous systems was clearly a hot topic this year, coming up again and again across sessions and informal chats about deployment safety at scale.
