@@ -37,8 +37,8 @@ The most common mistake new cluster users make is running `jupyter notebook` or 
 
 ### Why this breaks the cluster:
 
-* **VS Code Server (`.vscode-server`)** spins up background Node.js processes, language servers, file watchers, and extension host daemons that constantly index workspace directories.
-* **Jupyter Notebooks** execute heavy data manipulation, model training, and plotting live inside the server process.
+- **VS Code Server (`.vscode-server`)** spins up background Node.js processes, language servers, file watchers, and extension host daemons that constantly index workspace directories.
+- **Jupyter Notebooks** execute heavy data manipulation, model training, and plotting live inside the server process.
 
 Login nodes are shared simultaneously by hundreds of users. When an interactive server process starts hogging gigabytes of RAM and maxing out CPU cores, the entire command-line interface bogs down for everyone else. To prevent system crashes, administrators install automated automated watcher scripts that will abruptly **kill any long-running or high-memory user process on a login node.**
 

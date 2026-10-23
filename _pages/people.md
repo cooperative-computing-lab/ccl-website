@@ -59,10 +59,6 @@ team_photos:
     caption: CCL Team, July 2008
   - name: assets/img/team/ccl-june2007.jpg
     caption: CCL Team, June 2007
-
-
-
-
 ---
 
 ## Ph.D. Graduates

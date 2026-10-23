@@ -40,8 +40,8 @@ They perform poorly, however, when handling **small file I/O operations**.
 
 Every file creation, directory listing, read, write, and deletion request requires a communication step with the filesystem's **Metadata Server (MDS)**. The MDS tracks file ownership, directory trees, permissions, and physical storage locations (inodes).
 
-* Writing **one 10GB binary file** requires **1 metadata request** to allocate space, followed by continuous high-speed data streaming.
-* Writing **100,000 tiny 100KB log files** requires **100,000 individual metadata requests**, forcing the MDS server to handle constant network handshakes and lock updates.
+- Writing **one 10GB binary file** requires **1 metadata request** to allocate space, followed by continuous high-speed data streaming.
+- Writing **100,000 tiny 100KB log files** requires **100,000 individual metadata requests**, forcing the MDS server to handle constant network handshakes and lock updates.
 
 When a batch job generates thousands of tiny intermediate files or reads an uncompressed dataset of tiny images directly from shared storage, the metadata server becomes overloaded. This creates massive I/O latency, causing job execution to stall and slowing down directory navigation cluster-wide.
 

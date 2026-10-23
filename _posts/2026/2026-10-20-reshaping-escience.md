@@ -16,7 +16,6 @@ tags:
 description: Introducing automatic task graph fusion and reshaping in Dask Vine using algebraic annotations to reduce end-to-end execution latency in HEP workflows by over 30%.
 toc: false
 related_posts: false
-
 ---
 
 <div class="row justify-content-sm-center">
@@ -33,9 +32,9 @@ In the paper, **[Fusion and Reshaping of Hidden Task Graphs for High Energy Phys
 
 In High Energy Physics (HEP), frameworks like Coffea generate execution task graphs (Directed Acyclic Graphs, or DAGs) behind the scenes using high-level abstractions like Dask. While convenient, these automatically constructed task graphs are often invisible to the user and subject to major performance bottlenecks:
 
-* **Task Granularity & Scheduling Overhead:** Fine-grained tasks create severe serialization, scheduling, and network communication overhead.
-* **Massive Fan-In Bottlenecks:** Standard reductions often execute as flat operations, forcing a single merge task to stage gigabytes or terabytes of intermediate data. This creates extreme disk pressure, memory contention, and resource imbalance.
-* **Fragile Fault Tolerance:** On opportunistic cluster resources (such as HTCondor), worker evictions during a large flat reduction can force massive recomputations from original inputs.
+- **Task Granularity & Scheduling Overhead:** Fine-grained tasks create severe serialization, scheduling, and network communication overhead.
+- **Massive Fan-In Bottlenecks:** Standard reductions often execute as flat operations, forcing a single merge task to stage gigabytes or terabytes of intermediate data. This creates extreme disk pressure, memory contention, and resource imbalance.
+- **Fragile Fault Tolerance:** On opportunistic cluster resources (such as HTCondor), worker evictions during a large flat reduction can force massive recomputations from original inputs.
 
 Because algebraic properties of reduction functions (such as variable arity, commutativity, and associativity) are not visible at the graph level, traditional workflow engines struggle to safely optimize these graph structures automatically.
 
@@ -66,9 +65,9 @@ The authors evaluated the framework across three real-world CMS High Energy Phys
 
 **Key Findings:**
 
-* **End-to-End Latency Reduction:** Combining task fusion and reduction reshaping reduced total workflow execution time by **over 30%** across all applications.
-* **Data Movement Optimization:** Vertical and horizontal fusion significantly reduced unique intermediate data generation and network transfers by retaining intermediate results directly in memory.
-* **Improved Fault Tolerance:** Under a simulated worker eviction regime (losing a worker node every minute on HTCondor), hierarchical reductions maintained steady task execution and recovered quickly, whereas flat reductions suffered massive recovery spikes and extended execution delays.
+- **End-to-End Latency Reduction:** Combining task fusion and reduction reshaping reduced total workflow execution time by **over 30%** across all applications.
+- **Data Movement Optimization:** Vertical and horizontal fusion significantly reduced unique intermediate data generation and network transfers by retaining intermediate results directly in memory.
+- **Improved Fault Tolerance:** Under a simulated worker eviction regime (losing a worker node every minute on HTCondor), hierarchical reductions maintained steady task execution and recovered quickly, whereas flat reductions suffered massive recovery spikes and extended execution delays.
 
 By introducing semantic labels to expose hidden function properties, Barry's work enables runtime graph optimization that converts rigid, fine-grained DAGs into highly efficient, resilient distributed executions.
 
@@ -76,4 +75,4 @@ By introducing semantic labels to expose hidden function properties, Barry's wor
 
 ### Resources
 
-* **Paper PDF:** [Fusion and Reshaping of Hidden Task Graphs for High Energy Physics Applications](/assets/paper/pdf/reshaping-escience-2026.pdf)
+- **Paper PDF:** [Fusion and Reshaping of Hidden Task Graphs for High Energy Physics Applications](/assets/paper/pdf/reshaping-escience-2026.pdf)

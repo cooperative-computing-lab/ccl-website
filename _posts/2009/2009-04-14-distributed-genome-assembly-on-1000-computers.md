@@ -29,6 +29,7 @@ Except that it isn't that simple. The chemical process of extracting the sequenc
     <span style="font-family: courier new;">
 3.  CGATCGATAATCGATCCTAG
 </span>
+
 Now, you have to examine all of the reads, and figure out which ones overlap. In principle, you want to compare all of them to each other with the All-Pairs framework, but that would be computationally infeasible. Instead, there are a number of heuristics that can be used to generate candidate pairs, which then can be matched in detail and then assembled. For example, the three reads from before overlap like this:
 <span style="font-family: courier new;">
 AGTCGATCGATCGATAATCGATCCTAGCTAGCTACGA

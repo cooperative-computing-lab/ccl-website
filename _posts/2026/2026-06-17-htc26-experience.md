@@ -12,6 +12,7 @@ description: One of our graduate students attended HTC26 for the first time, her
 toc: false
 related_posts: false
 ---
+
 One of the graduate students from our lab, Lax, attended [HTC26](https://agenda.hep.wisc.edu/event/2432/) for the first time. While there, he had the chance to connect with researchers from universities, industry, and national laboratories across the HPC community. Here are his thoughts on the experience:
 
 <div class="row justify-content-sm-center">
@@ -22,7 +23,7 @@ One of the graduate students from our lab, Lax, attended [HTC26](https://agenda.
 
 Last week, I had the opportunity to attend **Throughput Computing Week 2026** in Madison, Wisconsin, organized by the Center for High Throughput Computing (CHTC). I participated in the conference on Wednesday and Thursday and came away with a deeper appreciation for the diverse ways high-throughput computing is impacting research across disciplines.
 
-One of the highlights of the event was attending my advisor **Dr. Douglas Thain's** talk on Thursday, *"Wrangling Massive Task Graphs with VineReduce."* The presentation showcased new approaches for managing large-scale computational workflows and demonstrated the continued evolution of distributed computing systems.
+One of the highlights of the event was attending my advisor **Dr. Douglas Thain's** talk on Thursday, _"Wrangling Massive Task Graphs with VineReduce."_ The presentation showcased new approaches for managing large-scale computational workflows and demonstrated the continued evolution of distributed computing systems.
 
 Beyond the technical sessions, one of the most rewarding aspects of the conference was meeting researchers from a wide range of scientific domains. I spoke with teams working in space research who use HTCondor to process massive amounts of satellite-generated terrain data. Other researchers shared how high-throughput computing is accelerating genome analysis in biology and enabling large-scale weather modeling that helps civil engineers design more efficient roads and buildings.
 

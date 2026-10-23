@@ -34,33 +34,33 @@ A **terminal multiplexer** like `tmux` (or GNU `screen`) creates a persistent se
 
 ### Essential `tmux` Commands:
 
-* **Start a new named session:**
+- **Start a new named session:**
+
 ```sh
 tmux new -s workflow
 ```
 
+- **Detach from a session (leaves it running in the background):**
+  Press `Ctrl+b`, release, then press `d`.
+- **List all active sessions:**
 
-* **Detach from a session (leaves it running in the background):**
-Press `Ctrl+b`, release, then press `d`.
-* **List all active sessions:**
 ```sh
 tmux ls
 ```
 
+- **Reattach to a running session:**
 
-* **Reattach to a running session:**
 ```sh
 tmux attach -t workflow
 ```
 
+- **Kill a finished session:**
 
-* **Kill a finished session:**
 ```sh
 tmux kill-session -t workflow
 ```
 
-
-> **Pro Tip:** Always launch `tmux` on a login node *before* requesting an interactive compute session (`srun` or `qsub`). If your Wi-Fi drops mid-job, your interactive compute node allocation stays alive!
+> **Pro Tip:** Always launch `tmux` on a login node _before_ requesting an interactive compute session (`srun` or `qsub`). If your Wi-Fi drops mid-job, your interactive compute node allocation stays alive!
 
 ## 2. Searching Fast with `find` and `grep`
 

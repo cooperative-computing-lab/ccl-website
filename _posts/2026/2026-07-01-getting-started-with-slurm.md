@@ -62,11 +62,10 @@ The special `#SBATCH` lines at the top tell SLURM exactly what resources your co
 
 ### What do these headers mean?
 
-* `--job-name`: A friendly nickname for your job so you can spot it easily in the queue.
-* `--output` and `--error`: Where your program's text output and error messages should be saved. The `%j` is a variable that automatically fills in your unique Job ID, preventing different runs from overwriting each other's logs.
-* `--time`: The maximum runtime allowed (Hours:Minutes:Seconds). If your job exceeds this, SLURM will stop it automatically.
-* `--cpus-per-task` and `--mem`: The requested number of CPU cores and total RAM (8 Gigabytes in this case).
-
+- `--job-name`: A friendly nickname for your job so you can spot it easily in the queue.
+- `--output` and `--error`: Where your program's text output and error messages should be saved. The `%j` is a variable that automatically fills in your unique Job ID, preventing different runs from overwriting each other's logs.
+- `--time`: The maximum runtime allowed (Hours:Minutes:Seconds). If your job exceeds this, SLURM will stop it automatically.
+- `--cpus-per-task` and `--mem`: The requested number of CPU cores and total RAM (8 Gigabytes in this case).
 
 ## Passing Arguments: Header vs. Command Line
 
@@ -101,10 +100,10 @@ JOBID    PARTITION  NAME        USER     ST   TIME   NODES  NODELIST(REASON)
 
 The **ST (State)** column tells you what your job is currently doing:
 
-* **`R` (Running):** Your job is actively executing on a compute node.
-* **`PD` (Pending):** Your job is waiting in line.
+- **`R` (Running):** Your job is actively executing on a compute node.
+- **`PD` (Pending):** Your job is waiting in line.
 
-The **`NODELIST(REASON)`** column explains *why* a pending job hasn't started yet. `(Resources)` means the cluster is currently full and waiting for other users' jobs to finish. `(Priority)` means your job is sitting behind higher-priority work in the queue.
+The **`NODELIST(REASON)`** column explains _why_ a pending job hasn't started yet. `(Resources)` means the cluster is currently full and waiting for other users' jobs to finish. `(Priority)` means your job is sitting behind higher-priority work in the queue.
 
 If you want to check when SLURM expects your job to start, add the `--start` flag:
 
@@ -112,7 +111,7 @@ If you want to check when SLURM expects your job to start, add the `--start` fla
 squeue -u $USER --start
 ```
 
-*Note: SLURM’s start-time estimates are notoriously optimistic, as they assume every running job will use its maximum requested time. Treat these numbers as rough ballparks rather than guarantees.*
+_Note: SLURM’s start-time estimates are notoriously optimistic, as they assume every running job will use its maximum requested time. Treat these numbers as rough ballparks rather than guarantees._
 
 ## Cancelling a Job
 
@@ -151,10 +150,10 @@ debug      up     0-01:00:00  2      idle    node[013-014]
 
 Pay attention to the **STATE** column:
 
-* **`idle`:** The nodes are completely free and ready for work.
-* **`mix`:** Some CPU cores on these nodes are busy, but others are still available.
-* **`alloc`:** The nodes are completely full.
-* **`drain`:** The nodes have been taken offline by administrators for maintenance.
+- **`idle`:** The nodes are completely free and ready for work.
+- **`mix`:** Some CPU cores on these nodes are busy, but others are still available.
+- **`alloc`:** The nodes are completely full.
+- **`drain`:** The nodes have been taken offline by administrators for maintenance.
 
 ## Inspecting a Live or Stuck Job
 
@@ -166,7 +165,7 @@ scontrol show job 847312
 
 The output is quite long, but look closely for `JobState`, `Reason`, and `TRES` (the exact resource request). If a job has been pending for days, the `Reason` field will often reveal if it is blocked by an administrative hold, an impossible resource request, or standard queue traffic.
 
-## Checking What Completed Jobs *Actually* Used
+## Checking What Completed Jobs _Actually_ Used
 
 One of the biggest mistakes beginners make is overestimating how much memory or time their code needs. Requesting too many resources forces your job to wait in line much longer than necessary.
 
@@ -182,7 +181,7 @@ The **`MaxRSS`** field shows the peak amount of RAM your job actually consumed d
 
 SLURM enforces local cluster rules strictly, and it often does so silently. Keep these four items in mind as you review your institution's specific user guide:
 
-* **Partition Time Caps:** Most cluster queues have hard maximum runtimes (e.g., a 24-hour limit). If you ask for 48 hours on a 24-hour queue, SLURM will reject your job the second you attempt to submit it.
-* **Account Flags:** Many institutions require you to specify a billing project or account via `--account=my_lab_group`. If you omit this, your job may fail instantly or be assigned to a lowest-priority pool.
-* **Silent Memory Defaults:** If you don't specify a `--mem` flag, SLURM will assign you a default value per core. On some clusters, this default can be incredibly small (like 1GB), causing your program to crash unexpectedly with an `OUT_OF_MEMORY` error. Always declare your memory explicitly.
-* **Job Arrays for Repetitive Work:** If you need to run the exact same analysis script over 50 different data files, do not run `sbatch` 50 separate times. Instead, look into **Job Arrays** using `sbatch --array=1-50`. It allows the scheduler to handle your workload as a single cohesive unit, saving your sanity and keeping the cluster running smoothly.
+- **Partition Time Caps:** Most cluster queues have hard maximum runtimes (e.g., a 24-hour limit). If you ask for 48 hours on a 24-hour queue, SLURM will reject your job the second you attempt to submit it.
+- **Account Flags:** Many institutions require you to specify a billing project or account via `--account=my_lab_group`. If you omit this, your job may fail instantly or be assigned to a lowest-priority pool.
+- **Silent Memory Defaults:** If you don't specify a `--mem` flag, SLURM will assign you a default value per core. On some clusters, this default can be incredibly small (like 1GB), causing your program to crash unexpectedly with an `OUT_OF_MEMORY` error. Always declare your memory explicitly.
+- **Job Arrays for Repetitive Work:** If you need to run the exact same analysis script over 50 different data files, do not run `sbatch` 50 separate times. Instead, look into **Job Arrays** using `sbatch --array=1-50`. It allows the scheduler to handle your workload as a single cohesive unit, saving your sanity and keeping the cluster running smoothly.

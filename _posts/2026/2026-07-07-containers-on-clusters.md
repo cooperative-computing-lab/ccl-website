@@ -25,7 +25,7 @@ related_posts: false
 
 If you are transitioning from running code on your personal laptop to using a high-performance computing (HPC) cluster, you are about to encounter a major cultural shock: **you do not have `sudo` privileges.** On your own machine, installing a new tool is as simple as running `sudo apt-get install`, `brew install`, or clicking an installer. On a shared cluster, these commands will reward you with a blunt `Permission denied`. This restriction isn't just bureaucratic cruelty; it is a fundamental safety measure. In a shared environment with hundreds of users, giving everyone root access would lead to broken configurations, security breaches, and software chaos.
 
-So, how do you install the specific libraries, languages, and tools your research requires? 
+So, how do you install the specific libraries, languages, and tools your research requires?
 
 HPC systems use three primary tools for software management: **Environment Modules**, **Conda**, and **Containers**. Each has its own strengths, and using them correctly will save you days of troubleshooting—and keep you from accidentally drawing the ire of the cluster administrators.
 
@@ -37,26 +37,29 @@ Because different researchers need different versions of the same software (e.g.
 
 ### Key Commands to Know:
 
-* **`module avail`**: Displays a massive list of all software packages pre-compiled on the cluster. You can filter this by adding a keyword, such as `module avail python` or `module avail gcc`.
-* **`module load <package>`**: Injects the chosen software into your current terminal session. For example, running `module load python/3.10.8` updates your environment so that typing `python` points directly to that specific version.
-* **`module list`**: Shows you which modules are currently active in your session.
-* **`module purge`**: Clears out all loaded modules, giving you a clean slate. This is incredibly useful if two software packages are conflicting with one another.
+- **`module avail`**: Displays a massive list of all software packages pre-compiled on the cluster. You can filter this by adding a keyword, such as `module avail python` or `module avail gcc`.
+- **`module load <package>`**: Injects the chosen software into your current terminal session. For example, running `module load python/3.10.8` updates your environment so that typing `python` points directly to that specific version.
+- **`module list`**: Shows you which modules are currently active in your session.
+- **`module purge`**: Clears out all loaded modules, giving you a clean slate. This is incredibly useful if two software packages are conflicting with one another.
 
 ### Why you should use them:
+
 Modules are pre-compiled specifically for the cluster’s underlying hardware. This means they are often optimized to run significantly faster than a generic version you download off the internet. Best of all, they take up exactly zero bytes of your personal storage quota. **Always check `module avail` first.**
 
 ## Level 2: Conda / Miniconda (The User-Space Way)
 
-What happens when you need a Python library or a niche scientific package that isn’t in the module list? For most data scientists and researchers, the immediate answer is **Conda**. 
+What happens when you need a Python library or a niche scientific package that isn’t in the module list? For most data scientists and researchers, the immediate answer is **Conda**.
 
 Conda allows you to create completely isolated "sandboxes" (environments) where you can install any package version you want entirely within your user account. However, Conda comes with two massive pitfalls that frequently break beginners' workflows.
 
 ### Pitfall #1: The Home Directory Trap
-By default, when you run `conda create` or `conda install`, Conda downloads and extracts files into a hidden folder in your home directory (`~/.conda` or `~/.cache`). 
+
+By default, when you run `conda create` or `conda install`, Conda downloads and extracts files into a hidden folder in your home directory (`~/.conda` or `~/.cache`).
 
 On almost all HPC clusters, your home directory (`/home/username`) has a **strict, tiny storage quota** (often between 10GB and 50GB) intended only for configuration files and source code. Because modern data science environments (especially those involving PyTorch or TensorFlow) can easily balloon to 10GB+ per environment, running a few installations can completely max out your storage quota. When this happens, you won't even be able to log in or run basic commands.
 
 #### The Fix: Redirect Conda to Storage or Scratch
+
 Before installing anything with Conda, tell it to store its environments and package caches in your lab's high-capacity group folder or a fast scratch directory. You can do this by creating or editing a configuration file named `.condarc` in your home directory:
 
 ```yaml
@@ -102,26 +105,25 @@ Instead of dealing with background daemons, Apptainer compresses an entire conta
 ### Key Commands to Know:
 
 1. **Download and Convert a Docker Image:**
-You can pull almost any public image directly from Docker Hub, and Apptainer will automatically translate it into an HPC-safe `.sif` file:
+   You can pull almost any public image directly from Docker Hub, and Apptainer will automatically translate it into an HPC-safe `.sif` file:
+
 ```sh
 apptainer pull ubuntu_python.sif docker://python:3.11-slim
 ```
 
-
 2. **Execute a Command Inside the Container:**
-To run your code using the software isolated inside that container image, use `exec`:
+   To run your code using the software isolated inside that container image, use `exec`:
+
 ```sh
 apptainer exec ubuntu_python.sif python3 my_script.py
 ```
 
-
 3. **Run an Interactive Shell Inside the Container:**
-If you want to look around inside your containerized operating system environment:
+   If you want to look around inside your containerized operating system environment:
+
 ```sh
 apptainer shell ubuntu_python.sif
 ```
-
-
 
 ### Why you should use them:
 
@@ -136,4 +138,3 @@ To keep your account active and the cluster running smoothly, run through this m
 3. **Configure your `.condarc` file.** Never leave Conda on its default settings; always point your environment and package directories to a high-capacity scratch or group folder.
 4. **Never install software on a login node.** Use `srun` to spin up an interactive compute session before compiling or running extensive installers.
 5. **Use Apptainer for complex pipelines.** If a workflow requires intricate system dependencies or absolute reproducibility, skip the installation headaches entirely and look for a container image.
-
