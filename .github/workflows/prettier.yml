@@ -23,28 +23,25 @@ jobs:
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
       - name: Prettier Check 🔎
         id: prettier
-        continue-on-error: true
         run: npx prettier . --check
-
       - name: Create diff 📝
-        if: ${{ steps.prettier.outcome == 'failure' }}
+        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
+        if: ${{ failure() }}
         run: |
           npx prettier . --write
           git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
           npm install -g diff2html-cli
           diff2html -i file -s side -F diff.html -- diff.txt
-
       - name: Upload html diff ⬆️
         id: artifact-upload
-        if: ${{ steps.prettier.outcome == 'failure' }}
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
         uses: actions/upload-artifact@v4
         with:
           name: HTML Diff
           path: diff.html
           retention-days: 7
-
       - name: Dispatch information to repository 🗣️
-        if: ${{ steps.prettier.outcome == 'failure' && github.event_name == 'pull_request' }}
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'pull_request' }}
         uses: peter-evans/repository-dispatch@v2
         with:
           event-type: prettier-failed-on-pr
