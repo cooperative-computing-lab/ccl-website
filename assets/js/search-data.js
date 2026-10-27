@@ -142,7 +142,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-reshaping-and-fusing-hidden-task-graphs-optimizing-distributed-hep-workflows-in-dask-vine",
+        },{id: "post-hybrid-workflow-composition-for-extreme-scale-data-processing-on-the-hl-lhc",
+        
+          title: "Hybrid Workflow Composition for Extreme-Scale Data Processing on the HL-LHC",
+        
+        description: "Introducing a policy-driven hybrid workflow composition framework and simulator for HL-LHC data processing that increases throughput by up to 3.8x while reducing network overhead by 14.9x.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/hl-lhc-escience/";
+          
+        },
+      },{id: "post-reshaping-and-fusing-hidden-task-graphs-optimizing-distributed-hep-workflows-in-dask-vine",
         
           title: "Reshaping and Fusing Hidden Task Graphs: Optimizing Distributed HEP Workflows in Dask Vine...",
         
