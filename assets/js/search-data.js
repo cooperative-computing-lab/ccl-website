@@ -79,6 +79,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/workshops/";
               },
+            },{id: "dropdown-tutorials",
+              title: "Tutorials",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/tutorials/";
+              },
             },{id: "dropdown-highlights",
               title: "Highlights",
               description: "",
@@ -142,7 +149,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-hybrid-workflow-composition-for-extreme-scale-data-processing-on-the-hl-lhc",
+        },{id: "post-vine-cms-analysis-stack-tutorial-amp-hackathon",
+        
+          title: "Vine CMS Analysis Stack: Tutorial &amp; Hackathon",
+        
+        description: "Join the Cooperative Computing Lab on Nov 12–13 for a hands-on tutorial and hackathon to scale your CMS data analysis codes across thousands of cluster nodes.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/vine-cms-tutorial/";
+          
+        },
+      },{id: "post-hybrid-workflow-composition-for-extreme-scale-data-processing-on-the-hl-lhc",
         
           title: "Hybrid Workflow Composition for Extreme-Scale Data Processing on the HL-LHC",
         
