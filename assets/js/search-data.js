@@ -149,7 +149,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-vine-cms-analysis-stack-tutorial-amp-hackathon",
+        },{id: "post-growflow-low-latency-computational-fluid-dynamics-at-the-edge-for-real-time-digital-agriculture",
+        
+          title: "GROWFLOW: Low-Latency Computational Fluid Dynamics at the Edge for Real-Time Digital Agriculture",
+        
+        description: "Introducing GROWFLOW, an asynchronous online/offline IoT system that decouples sub-second edge inference from remote HPC fluid dynamics simulations for real-time agricultural decision support.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/growflow-scsetech/";
+          
+        },
+      },{id: "post-vine-cms-analysis-stack-tutorial-amp-hackathon",
         
           title: "Vine CMS Analysis Stack: Tutorial &amp; Hackathon",
         
